@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Coffe.Domain.Models
 {
-    class OrderList : Entity
+    public class OrderList : Entity
     {
         public string Name { get; set; }
         public DateTime CreationTime { get; set; }

@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Coffe.Domain.Models
 {
-    class User : Entity
+    public class User : Entity
     {
         public string Username { get; set; }
         public string Email { get; set; }

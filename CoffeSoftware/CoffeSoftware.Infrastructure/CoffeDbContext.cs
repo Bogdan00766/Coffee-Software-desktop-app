@@ -8,6 +8,6 @@ namespace Coffe.Infrastructure
 {
     class CoffeDbContext : DbContext
     {
-       
+         
     }
 }

@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Coffe.Domain.Models
 {
-    class Shop : Entity
+    public class Shop : Entity
     {
         public string Name { get; set; }
         public string ImagePath { get; set; }

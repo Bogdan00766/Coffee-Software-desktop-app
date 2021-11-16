@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Coffe.Domain.Models
 {
-    class Address : Entity
+    public class Address : Entity
     {
         public string Street { get; set; }
         public string City { get; set; }

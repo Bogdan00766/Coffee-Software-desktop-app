@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Coffe.Domain.SeedWork
 {
-    class Entity
+    public class Entity
     {
         public int Id { get; set; }
     }
