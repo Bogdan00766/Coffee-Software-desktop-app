@@ -6,7 +6,7 @@ namespace Coffe.Console
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            
         }
     }
 }
