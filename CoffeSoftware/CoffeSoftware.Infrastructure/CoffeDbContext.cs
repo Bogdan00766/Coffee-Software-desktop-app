@@ -14,5 +14,12 @@ namespace Coffe.Infrastructure
         public DbSet<Product> Product { get; set; }
         public DbSet<Shop> Shop { get; set; }
         public DbSet<User> User { get; set; }
+
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+            optionsBuilder.UseSqlite("Data Source=shoppinglist.db");
+        }
+
+        //OnModelCreating Have to add properties like .IsRequired to Name etc.
     }
 }
