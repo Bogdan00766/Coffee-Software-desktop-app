@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace CoffeSoftware.Console
+namespace Coffe.Console
 {
     class Program
     {

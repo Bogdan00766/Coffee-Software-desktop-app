@@ -15,9 +15,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\IPB\\AD\\Project\\CoffeSoftware\\CoffeSoftware.Infrastructure\\CoffeSoftware.Infrastructure.csproj",
-      "projectName": "CoffeSoftware.Infrastructure",
-      "projectPath": "D:\\IPB\\AD\\Project\\CoffeSoftware\\CoffeSoftware.Infrastructure\\CoffeSoftware.Infrastructure.csproj",
+      "projectUniqueName": "D:\\IPB\\AD\\Project\\CoffeSoftware\\CoffeSoftware.Infrastructure\\Coffe.Infrastructure.csproj",
+      "projectName": "Coffe.Infrastructure",
+      "projectPath": "D:\\IPB\\AD\\Project\\CoffeSoftware\\CoffeSoftware.Infrastructure\\Coffe.Infrastructure.csproj",
       "packagesPath": "C:\\Users\\pchud\\.nuget\\packages\\",
       "outputPath": "D:\\IPB\\AD\\Project\\CoffeSoftware\\CoffeSoftware.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",

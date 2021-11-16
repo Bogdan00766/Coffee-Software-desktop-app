@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace CoffeSoftware.Infrastructure
+namespace Coffe.Infrastructure
 {
     public class Class1
     {

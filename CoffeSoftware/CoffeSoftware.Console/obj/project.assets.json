@@ -15,9 +15,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\IPB\\AD\\Project\\CoffeSoftware\\CoffeSoftware.Console\\CoffeSoftware.Console.csproj",
-      "projectName": "CoffeSoftware.Console",
-      "projectPath": "D:\\IPB\\AD\\Project\\CoffeSoftware\\CoffeSoftware.Console\\CoffeSoftware.Console.csproj",
+      "projectUniqueName": "D:\\IPB\\AD\\Project\\CoffeSoftware\\CoffeSoftware.Console\\Coffe.Console.csproj",
+      "projectName": "Coffe.Console",
+      "projectPath": "D:\\IPB\\AD\\Project\\CoffeSoftware\\CoffeSoftware.Console\\Coffe.Console.csproj",
       "packagesPath": "C:\\Users\\pchud\\.nuget\\packages\\",
       "outputPath": "D:\\IPB\\AD\\Project\\CoffeSoftware\\CoffeSoftware.Console\\obj\\",
       "projectStyle": "PackageReference",
