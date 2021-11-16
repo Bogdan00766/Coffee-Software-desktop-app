@@ -6,6 +6,6 @@ namespace Coffe.Domain.SeedWork
 {
     class Entity
     {
-
+        public int Id { get; set; }
     }
 }
