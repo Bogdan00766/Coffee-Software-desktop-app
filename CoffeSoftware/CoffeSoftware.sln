@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Coffe.Console", "CoffeSoftw
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Coffe.Infrastructure", "CoffeSoftware.Infrastructure\Coffe.Infrastructure.csproj", "{783A0611-0614-4A46-86C3-890D75C25989}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Coffe.Domain", "Coffe.Domain\Coffe.Domain.csproj", "{DD96B82F-0E68-40AB-8EFD-BD5145B311CB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{783A0611-0614-4A46-86C3-890D75C25989}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{783A0611-0614-4A46-86C3-890D75C25989}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{783A0611-0614-4A46-86C3-890D75C25989}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD96B82F-0E68-40AB-8EFD-BD5145B311CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD96B82F-0E68-40AB-8EFD-BD5145B311CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD96B82F-0E68-40AB-8EFD-BD5145B311CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD96B82F-0E68-40AB-8EFD-BD5145B311CB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
