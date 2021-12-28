@@ -20,6 +20,6 @@ namespace Coffe.Infrastructure
             optionsBuilder.UseSqlite("Data Source=shoppinglist.db");
         }
 
-        //OnModelCreating Have to add properties like .IsRequired to Name etc.
+        //TODO OnModelCreating Have to add properties like .IsRequired to Name etc.
     }
 }

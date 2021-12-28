@@ -12,5 +12,6 @@ namespace Coffe.Domain.Models
         public string State { get; set; }
         public int PostalCode { get; set; }
         public string Country { get; set; }
+        public List<User> Users { get; set; }
     }
 }
