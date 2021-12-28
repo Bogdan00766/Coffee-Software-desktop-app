@@ -10,7 +10,7 @@ namespace Coffe.Domain.Models
         public string Name { get; set; }
         public DateTime CreationTime { get; set; }
         public User User { get; set; }
-        public List<Product> Products { get; set; }
+        public List<OrderListProduct> OrderListProducts { get; set; }
 
     }
 }

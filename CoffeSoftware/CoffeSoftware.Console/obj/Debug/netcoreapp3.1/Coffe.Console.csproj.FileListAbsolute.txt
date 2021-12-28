@@ -53,3 +53,4 @@ D:\IPB\AD\Project\CoffeSoftware\CoffeSoftware.Console\bin\Debug\netcoreapp3.1\Co
 D:\IPB\AD\Project\CoffeSoftware\CoffeSoftware.Console\bin\Debug\netcoreapp3.1\Coffe.Infrastructure.dll
 D:\IPB\AD\Project\CoffeSoftware\CoffeSoftware.Console\bin\Debug\netcoreapp3.1\Coffe.Infrastructure.pdb
 D:\IPB\AD\Project\CoffeSoftware\CoffeSoftware.Console\bin\Debug\netcoreapp3.1\Coffe.Domain.pdb
+D:\IPB\AD\Project\CoffeSoftware\CoffeSoftware.Console\obj\Debug\netcoreapp3.1\Coffe.Console.csproj.CopyComplete

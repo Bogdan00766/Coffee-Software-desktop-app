@@ -8,6 +8,5 @@ D:\IPB\AD\Project\CoffeSoftware\CoffeSoftware.Infrastructure\obj\Debug\netstanda
 D:\IPB\AD\Project\CoffeSoftware\CoffeSoftware.Infrastructure\obj\Debug\netstandard2.1\Coffe.Infrastructure.AssemblyInfoInputs.cache
 D:\IPB\AD\Project\CoffeSoftware\CoffeSoftware.Infrastructure\obj\Debug\netstandard2.1\Coffe.Infrastructure.AssemblyInfo.cs
 D:\IPB\AD\Project\CoffeSoftware\CoffeSoftware.Infrastructure\obj\Debug\netstandard2.1\Coffe.Infrastructure.csproj.CoreCompileInputs.cache
-D:\IPB\AD\Project\CoffeSoftware\CoffeSoftware.Infrastructure\obj\Debug\netstandard2.1\Coffe.Infrastructure.csproj.CopyComplete
 D:\IPB\AD\Project\CoffeSoftware\CoffeSoftware.Infrastructure\obj\Debug\netstandard2.1\Coffe.Infrastructure.dll
 D:\IPB\AD\Project\CoffeSoftware\CoffeSoftware.Infrastructure\obj\Debug\netstandard2.1\Coffe.Infrastructure.pdb
