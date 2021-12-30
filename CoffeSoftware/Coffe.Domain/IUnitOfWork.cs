@@ -8,9 +8,13 @@ namespace Coffe.Domain
 {
     public interface IUnitOfWork : IDisposable
     {
-        //ICategoryRepository CategoryRepository { get; }
-        //IProductRepository ProductRepository { get; }
-
+        IAddressRepository AddressRepository { get; }
+        ICategoryRepository CategoryRepository { get; }
+        IOrderListRepository OrderListRepository { get; }
+        IProductRepository ProductRepository { get; }
+        IShopRepository ShopRepository { get; }
+        IUserRepository UserRepository { get; }   
+      
         Task SaveAsync();
     }
 }
