@@ -6,7 +6,7 @@ using System.Text;
 
 namespace Coffe.Domain.Repositories
 {
-    interface IUserRepository : IRepository<User>
+    public interface IUserRepository : IRepository<User>
     {
     }
 }
