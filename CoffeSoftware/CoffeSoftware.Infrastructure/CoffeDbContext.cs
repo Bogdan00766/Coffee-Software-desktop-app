@@ -6,7 +6,7 @@ using System.Text;
 
 namespace Coffe.Infrastructure
 {
-    class CoffeDbContext : DbContext
+    public class CoffeDbContext : DbContext
     {
         public DbSet<Address> Address { get; set; }
         public DbSet<Category> Category { get; set; }
