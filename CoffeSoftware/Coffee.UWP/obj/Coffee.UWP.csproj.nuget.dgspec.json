@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\1\\C#\\ad-ei-project-group-04\\CoffeSoftware\\Coffe.Domain\\Coffe.Domain.csproj": {}
+    "E:\\1\\C#\\ad-ei-project-group-04\\CoffeSoftware\\Coffee.UWP\\Coffee.UWP.csproj": {}
   },
   "projects": {
-    "E:\\1\\C#\\ad-ei-project-group-04\\CoffeSoftware\\Coffe.Domain\\Coffe.Domain.csproj": {
+    "E:\\1\\C#\\ad-ei-project-group-04\\CoffeSoftware\\Coffee.UWP\\Coffee.UWP.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\1\\C#\\ad-ei-project-group-04\\CoffeSoftware\\Coffe.Domain\\Coffe.Domain.csproj",
-        "projectName": "Coffe.Domain",
-        "projectPath": "E:\\1\\C#\\ad-ei-project-group-04\\CoffeSoftware\\Coffe.Domain\\Coffe.Domain.csproj",
+        "projectUniqueName": "E:\\1\\C#\\ad-ei-project-group-04\\CoffeSoftware\\Coffee.UWP\\Coffee.UWP.csproj",
+        "projectName": "Coffee.UWP",
+        "projectPath": "E:\\1\\C#\\ad-ei-project-group-04\\CoffeSoftware\\Coffee.UWP\\Coffee.UWP.csproj",
         "packagesPath": "C:\\Users\\DiankaUser\\.nuget\\packages\\",
-        "outputPath": "E:\\1\\C#\\ad-ei-project-group-04\\CoffeSoftware\\Coffe.Domain\\obj\\",
+        "outputPath": "E:\\1\\C#\\ad-ei-project-group-04\\CoffeSoftware\\Coffee.UWP\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\DiankaUser\\AppData\\Roaming\\NuGet\\NuGet.Config",
