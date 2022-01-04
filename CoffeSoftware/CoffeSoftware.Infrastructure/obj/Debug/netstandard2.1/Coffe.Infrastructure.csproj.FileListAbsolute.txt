@@ -11,3 +11,16 @@ D:\IPB\AD\Project\CoffeSoftware\CoffeSoftware.Infrastructure\obj\Debug\netstanda
 D:\IPB\AD\Project\CoffeSoftware\CoffeSoftware.Infrastructure\obj\Debug\netstandard2.1\Coffe.Infrastructure.dll
 D:\IPB\AD\Project\CoffeSoftware\CoffeSoftware.Infrastructure\obj\Debug\netstandard2.1\Coffe.Infrastructure.pdb
 D:\IPB\AD\Project\CoffeSoftware\CoffeSoftware.Infrastructure\obj\Debug\netstandard2.1\Coffe.Infrastructure.csproj.CopyComplete
+E:\1\C#\ad-ei-project-group-04\CoffeSoftware\CoffeSoftware.Infrastructure\bin\Debug\netstandard2.1\Coffe.Infrastructure.deps.json
+E:\1\C#\ad-ei-project-group-04\CoffeSoftware\CoffeSoftware.Infrastructure\bin\Debug\netstandard2.1\Coffe.Infrastructure.dll
+E:\1\C#\ad-ei-project-group-04\CoffeSoftware\CoffeSoftware.Infrastructure\bin\Debug\netstandard2.1\Coffe.Infrastructure.pdb
+E:\1\C#\ad-ei-project-group-04\CoffeSoftware\CoffeSoftware.Infrastructure\bin\Debug\netstandard2.1\Coffe.Domain.dll
+E:\1\C#\ad-ei-project-group-04\CoffeSoftware\CoffeSoftware.Infrastructure\bin\Debug\netstandard2.1\Coffe.Domain.pdb
+E:\1\C#\ad-ei-project-group-04\CoffeSoftware\CoffeSoftware.Infrastructure\obj\Debug\netstandard2.1\Coffe.Infrastructure.csproj.AssemblyReference.cache
+E:\1\C#\ad-ei-project-group-04\CoffeSoftware\CoffeSoftware.Infrastructure\obj\Debug\netstandard2.1\Coffe.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+E:\1\C#\ad-ei-project-group-04\CoffeSoftware\CoffeSoftware.Infrastructure\obj\Debug\netstandard2.1\Coffe.Infrastructure.AssemblyInfoInputs.cache
+E:\1\C#\ad-ei-project-group-04\CoffeSoftware\CoffeSoftware.Infrastructure\obj\Debug\netstandard2.1\Coffe.Infrastructure.AssemblyInfo.cs
+E:\1\C#\ad-ei-project-group-04\CoffeSoftware\CoffeSoftware.Infrastructure\obj\Debug\netstandard2.1\Coffe.Infrastructure.csproj.CoreCompileInputs.cache
+E:\1\C#\ad-ei-project-group-04\CoffeSoftware\CoffeSoftware.Infrastructure\obj\Debug\netstandard2.1\Coffe.Infrastructure.csproj.CopyComplete
+E:\1\C#\ad-ei-project-group-04\CoffeSoftware\CoffeSoftware.Infrastructure\obj\Debug\netstandard2.1\Coffe.Infrastructure.dll
+E:\1\C#\ad-ei-project-group-04\CoffeSoftware\CoffeSoftware.Infrastructure\obj\Debug\netstandard2.1\Coffe.Infrastructure.pdb

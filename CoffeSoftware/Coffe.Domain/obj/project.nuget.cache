@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "uhv187U+SunwvcnRpNsdJ2dCEoCUO5WS0rcHIvj1KkUR5101i1periBfnGTNIIMf/Y2x2qYXIBsqjvFyB/Q2Xw==",
+  "dgSpecHash": "Z5nf5YIpWjkusH7uwFOn9M61eYekvoyQpjqS6MdApbAxIH8qHIA+/7NIdQpoZgGWq8mxlsa7DvmiaSqrklmp2g==",
   "success": true,
   "projectFilePath": "E:\\1\\C#\\ad-ei-project-group-04\\CoffeSoftware\\Coffe.Domain\\Coffe.Domain.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\DiankaUser\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\DiankaUser\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
   "logs": []
 }
