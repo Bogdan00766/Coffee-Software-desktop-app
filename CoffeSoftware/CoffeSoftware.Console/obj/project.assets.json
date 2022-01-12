@@ -4055,25 +4055,28 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\DiankaUser\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\pchud\\.nuget\\packages\\": {},
+    "D:\\Aplikacje\\VisualStudio\\VisualStudioNarzedzia\\NuGetPackages": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\1\\C#\\ad-ei-project-group-04\\CoffeSoftware\\CoffeSoftware.Console\\Coffe.Console.csproj",
+      "projectUniqueName": "D:\\IPB\\AD\\Project\\CoffeSoftware\\CoffeSoftware.Console\\Coffe.Console.csproj",
       "projectName": "Coffe.Console",
-      "projectPath": "E:\\1\\C#\\ad-ei-project-group-04\\CoffeSoftware\\CoffeSoftware.Console\\Coffe.Console.csproj",
-      "packagesPath": "C:\\Users\\DiankaUser\\.nuget\\packages\\",
-      "outputPath": "E:\\1\\C#\\ad-ei-project-group-04\\CoffeSoftware\\CoffeSoftware.Console\\obj\\",
+      "projectPath": "D:\\IPB\\AD\\Project\\CoffeSoftware\\CoffeSoftware.Console\\Coffe.Console.csproj",
+      "packagesPath": "C:\\Users\\pchud\\.nuget\\packages\\",
+      "outputPath": "D:\\IPB\\AD\\Project\\CoffeSoftware\\CoffeSoftware.Console\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        "D:\\Aplikacje\\VisualStudio\\VisualStudioNarzedzia\\NuGetPackages",
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\DiankaUser\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\pchud\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -4086,8 +4089,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "E:\\1\\C#\\ad-ei-project-group-04\\CoffeSoftware\\CoffeSoftware.Infrastructure\\Coffe.Infrastructure.csproj": {
-              "projectPath": "E:\\1\\C#\\ad-ei-project-group-04\\CoffeSoftware\\CoffeSoftware.Infrastructure\\Coffe.Infrastructure.csproj"
+            "D:\\IPB\\AD\\Project\\CoffeSoftware\\CoffeSoftware.Infrastructure\\Coffe.Infrastructure.csproj": {
+              "projectPath": "D:\\IPB\\AD\\Project\\CoffeSoftware\\CoffeSoftware.Infrastructure\\Coffe.Infrastructure.csproj"
             }
           }
         }
@@ -4122,7 +4125,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
       }
     }
   }

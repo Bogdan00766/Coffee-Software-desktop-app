@@ -1,3 +1,8 @@
 is_global = true
+<<<<<<< HEAD:CoffeSoftware/Coffe.Domain/obj/Release/netstandard2.0/Coffe.Domain.GeneratedMSBuildEditorConfig.editorconfig
 build_property.RootNamespace = Coffe.Domain
 build_property.ProjectDir = E:\1\C#\ad-ei-project-group-04\CoffeSoftware\Coffe.Domain\
+=======
+build_property.RootNamespace = Coffee.Uwp
+build_property.ProjectDir = D:\IPB\AD\Project\CoffeSoftware\Coffee.Uwp\
+>>>>>>> 63d7433fb7faef6119c62d9dcd7825cd670596c9:CoffeSoftware/Coffee.UWP/obj/Debug/netstandard2.1/Coffee.UWP.GeneratedMSBuildEditorConfig.editorconfig
