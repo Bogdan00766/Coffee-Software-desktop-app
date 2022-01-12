@@ -9,6 +9,20 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
+        <NavigationView x:ConnectionId='2'                                          PaneDisplayMode="Left">
+            <NavigationView.MenuItems>
+                <NavigationViewItem Icon="Home" Content="Home" Tag="home"/>
+                <NavigationViewItem Icon="AllApps" Content="Menu" Tag="menu"/>
+                <NavigationViewItem Icon="Like" Content="Saved" Tag="saved"/>
+                <NavigationViewItem Icon="OpenPane" Content="Payment" Tag="payment"/>
+                <NavigationViewItem Icon="Shop" Content="Cart" Tag="cart"/>
+                <NavigationViewItem Icon="Setting" Content="Settings" Tag="settings"/>
+            </NavigationView.MenuItems>
+        </NavigationView>
+
+
+        <Frame x:ConnectionId='3' x:Name="frame" Margin="322,0,0,0"/>
+        
 
     </Grid>
 </Page>

@@ -12,8 +12,15 @@ using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
+using Coffee.Uwp.Views.Cart;
+using Coffee.Uwp.Views.Payment;
+using Coffee.Uwp.Views.Settings;
+using Coffee.Uwp.Views.Home;
+using Coffee.Uwp.Views.Menu;
+using Coffee.Uwp.Views.Saved;
 
-// The Blank Page item template is documented at https://go.microsoft.com/fwlink/?LinkId=402352&clcid=0x409
+
+
 
 namespace Coffee.Uwp
 {
@@ -25,6 +32,33 @@ namespace Coffee.Uwp
         public MainPage()
         {
             this.InitializeComponent();
+        }
+
+
+        private void NavigationView_ItemInvoked(NavigationView sender, NavigationViewItemInvokedEventArgs args)
+        {
+            NavigationViewItem nvi = (NavigationViewItem)args.InvokedItemContainer;
+            if (nvi != null)
+            {
+                switch (nvi.Tag.ToString())
+                {
+                    case "home":
+                        frame.Navigate(typeof(Home));
+                        break;
+                    case "menu":
+                        frame.Navigate(typeof(Menu));
+                        break;
+                    case "payment":
+                        frame.Navigate(typeof(Payment));
+                        break;
+                    case "saved":
+                        frame.Navigate(typeof(Saved));
+                        break;
+                    case "cart":
+                        frame.Navigate(typeof(Cart));
+                        break;
+                }
+            }
         }
     }
 }

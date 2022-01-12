@@ -70,8 +70,26 @@
     <AppxPackagedFile Include="E:\1\C#\ad-ei-project-group-04\CoffeSoftware\Coffee.Uwp\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\1\C#\ad-ei-project-group-04\CoffeSoftware\Coffee.Uwp\bin\x86\Debug\Views\Cart\Cart.xbf">
+      <PackagePath>Views\Cart\Cart.xbf</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="E:\1\C#\ad-ei-project-group-04\CoffeSoftware\Coffee.Uwp\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\1\C#\ad-ei-project-group-04\CoffeSoftware\Coffee.Uwp\bin\x86\Debug\Views\Home\Home.xbf">
+      <PackagePath>Views\Home\Home.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\1\C#\ad-ei-project-group-04\CoffeSoftware\Coffee.Uwp\bin\x86\Debug\Views\Menu\Menu.xbf">
+      <PackagePath>Views\Menu\Menu.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\1\C#\ad-ei-project-group-04\CoffeSoftware\Coffee.Uwp\bin\x86\Debug\Views\Payment\Payment.xbf">
+      <PackagePath>Views\Payment\Payment.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\1\C#\ad-ei-project-group-04\CoffeSoftware\Coffee.Uwp\bin\x86\Debug\Views\Saved\Saved.xbf">
+      <PackagePath>Views\Saved\Saved.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\1\C#\ad-ei-project-group-04\CoffeSoftware\Coffee.Uwp\bin\x86\Debug\Views\Settings\Settings.xbf">
+      <PackagePath>Views\Settings\Settings.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.19041.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>

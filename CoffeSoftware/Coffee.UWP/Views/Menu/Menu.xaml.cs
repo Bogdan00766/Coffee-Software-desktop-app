@@ -15,7 +15,7 @@ using Windows.UI.Xaml.Navigation;
 
 // The Blank Page item template is documented at https://go.microsoft.com/fwlink/?LinkId=234238
 
-namespace Coffee.Uwp
+namespace Coffee.Uwp.Views.Menu
 {
     /// <summary>
     /// An empty page that can be used on its own or navigated to within a Frame.
@@ -25,6 +25,18 @@ namespace Coffee.Uwp
         public Menu()
         {
             this.InitializeComponent();
+        }
+        private async void DeleteConfirmationButton_Click(object sender, RoutedEventArgs e)
+        {
+            
+        }
+        private void EditButton_Click(object sender, RoutedEventArgs e)
+        {
+            
+        }
+        private void AddButton_Click(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }

@@ -9,4 +9,10 @@ Assets\Wide310x150Logo.scale-200.png
 App.xbf
 Coffee.Uwp.xr.xml
 MainPage.xbf
+Views\Cart\Cart.xbf
+Views\Home\Home.xbf
+Views\Menu\Menu.xbf
+Views\Payment\Payment.xbf
+Views\Saved\Saved.xbf
+Views\Settings\Settings.xbf
 Properties\Default.rd.xml

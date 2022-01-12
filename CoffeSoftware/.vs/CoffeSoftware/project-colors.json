@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "0181180d-3c8b-40aa-8b36-29b2a98f8073": {
+      "ProjectGuid": "0181180d-3c8b-40aa-8b36-29b2a98f8073",
+      "DisplayName": "Coffe.Console",
+      "ColorIndex": 0
+    },
+    "dd96b82f-0e68-40ab-8efd-bd5145b311cb": {
+      "ProjectGuid": "dd96b82f-0e68-40ab-8efd-bd5145b311cb",
+      "DisplayName": "Coffe.Domain",
+      "ColorIndex": 1
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 2
+}
