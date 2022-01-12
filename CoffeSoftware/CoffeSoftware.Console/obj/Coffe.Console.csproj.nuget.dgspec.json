@@ -1,38 +1,36 @@
 {
   "format": 1,
   "restore": {
-    "D:\\IPB\\AD\\Project\\CoffeSoftware\\CoffeSoftware.Console\\Coffe.Console.csproj": {}
+    "E:\\1\\C#\\ad-ei-project-group-04\\CoffeSoftware\\CoffeSoftware.Console\\Coffe.Console.csproj": {}
   },
   "projects": {
-    "D:\\IPB\\AD\\Project\\CoffeSoftware\\Coffe.Domain\\Coffe.Domain.csproj": {
+    "E:\\1\\C#\\ad-ei-project-group-04\\CoffeSoftware\\Coffe.Domain\\Coffe.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\IPB\\AD\\Project\\CoffeSoftware\\Coffe.Domain\\Coffe.Domain.csproj",
+        "projectUniqueName": "E:\\1\\C#\\ad-ei-project-group-04\\CoffeSoftware\\Coffe.Domain\\Coffe.Domain.csproj",
         "projectName": "Coffe.Domain",
-        "projectPath": "D:\\IPB\\AD\\Project\\CoffeSoftware\\Coffe.Domain\\Coffe.Domain.csproj",
-        "packagesPath": "C:\\Users\\pchud\\.nuget\\packages\\",
-        "outputPath": "D:\\IPB\\AD\\Project\\CoffeSoftware\\Coffe.Domain\\obj\\",
+        "projectPath": "E:\\1\\C#\\ad-ei-project-group-04\\CoffeSoftware\\Coffe.Domain\\Coffe.Domain.csproj",
+        "packagesPath": "C:\\Users\\DiankaUser\\.nuget\\packages\\",
+        "outputPath": "E:\\1\\C#\\ad-ei-project-group-04\\CoffeSoftware\\Coffe.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "D:\\Aplikacje\\VisualStudio\\VisualStudioNarzedzia\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\pchud\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\DiankaUser\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netstandard2.1"
+          "netstandard2.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netstandard2.1": {
-            "targetAlias": "netstandard2.1",
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
             "projectReferences": {}
           }
         },
@@ -43,8 +41,16 @@
         }
       },
       "frameworks": {
-        "netstandard2.1": {
-          "targetAlias": "netstandard2.1",
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -55,33 +61,26 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "frameworkReferences": {
-            "NETStandard.Library": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\IPB\\AD\\Project\\CoffeSoftware\\CoffeSoftware.Console\\Coffe.Console.csproj": {
+    "E:\\1\\C#\\ad-ei-project-group-04\\CoffeSoftware\\CoffeSoftware.Console\\Coffe.Console.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\IPB\\AD\\Project\\CoffeSoftware\\CoffeSoftware.Console\\Coffe.Console.csproj",
+        "projectUniqueName": "E:\\1\\C#\\ad-ei-project-group-04\\CoffeSoftware\\CoffeSoftware.Console\\Coffe.Console.csproj",
         "projectName": "Coffe.Console",
-        "projectPath": "D:\\IPB\\AD\\Project\\CoffeSoftware\\CoffeSoftware.Console\\Coffe.Console.csproj",
-        "packagesPath": "C:\\Users\\pchud\\.nuget\\packages\\",
-        "outputPath": "D:\\IPB\\AD\\Project\\CoffeSoftware\\CoffeSoftware.Console\\obj\\",
+        "projectPath": "E:\\1\\C#\\ad-ei-project-group-04\\CoffeSoftware\\CoffeSoftware.Console\\Coffe.Console.csproj",
+        "packagesPath": "C:\\Users\\DiankaUser\\.nuget\\packages\\",
+        "outputPath": "E:\\1\\C#\\ad-ei-project-group-04\\CoffeSoftware\\CoffeSoftware.Console\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "D:\\Aplikacje\\VisualStudio\\VisualStudioNarzedzia\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\pchud\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\DiankaUser\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -94,8 +93,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\IPB\\AD\\Project\\CoffeSoftware\\CoffeSoftware.Infrastructure\\Coffe.Infrastructure.csproj": {
-                "projectPath": "D:\\IPB\\AD\\Project\\CoffeSoftware\\CoffeSoftware.Infrastructure\\Coffe.Infrastructure.csproj"
+              "E:\\1\\C#\\ad-ei-project-group-04\\CoffeSoftware\\CoffeSoftware.Infrastructure\\Coffe.Infrastructure.csproj": {
+                "projectPath": "E:\\1\\C#\\ad-ei-project-group-04\\CoffeSoftware\\CoffeSoftware.Infrastructure\\Coffe.Infrastructure.csproj"
               }
             }
           }
@@ -130,42 +129,40 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\IPB\\AD\\Project\\CoffeSoftware\\CoffeSoftware.Infrastructure\\Coffe.Infrastructure.csproj": {
+    "E:\\1\\C#\\ad-ei-project-group-04\\CoffeSoftware\\CoffeSoftware.Infrastructure\\Coffe.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\IPB\\AD\\Project\\CoffeSoftware\\CoffeSoftware.Infrastructure\\Coffe.Infrastructure.csproj",
+        "projectUniqueName": "E:\\1\\C#\\ad-ei-project-group-04\\CoffeSoftware\\CoffeSoftware.Infrastructure\\Coffe.Infrastructure.csproj",
         "projectName": "Coffe.Infrastructure",
-        "projectPath": "D:\\IPB\\AD\\Project\\CoffeSoftware\\CoffeSoftware.Infrastructure\\Coffe.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\pchud\\.nuget\\packages\\",
-        "outputPath": "D:\\IPB\\AD\\Project\\CoffeSoftware\\CoffeSoftware.Infrastructure\\obj\\",
+        "projectPath": "E:\\1\\C#\\ad-ei-project-group-04\\CoffeSoftware\\CoffeSoftware.Infrastructure\\Coffe.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\DiankaUser\\.nuget\\packages\\",
+        "outputPath": "E:\\1\\C#\\ad-ei-project-group-04\\CoffeSoftware\\CoffeSoftware.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "D:\\Aplikacje\\VisualStudio\\VisualStudioNarzedzia\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\pchud\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\DiankaUser\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netstandard2.1"
+          "netstandard2.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netstandard2.1": {
-            "targetAlias": "netstandard2.1",
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
             "projectReferences": {
-              "D:\\IPB\\AD\\Project\\CoffeSoftware\\Coffe.Domain\\Coffe.Domain.csproj": {
-                "projectPath": "D:\\IPB\\AD\\Project\\CoffeSoftware\\Coffe.Domain\\Coffe.Domain.csproj"
+              "E:\\1\\C#\\ad-ei-project-group-04\\CoffeSoftware\\Coffe.Domain\\Coffe.Domain.csproj": {
+                "projectPath": "E:\\1\\C#\\ad-ei-project-group-04\\CoffeSoftware\\Coffe.Domain\\Coffe.Domain.csproj"
               }
             }
           }
@@ -177,8 +174,8 @@
         }
       },
       "frameworks": {
-        "netstandard2.1": {
-          "targetAlias": "netstandard2.1",
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
@@ -193,6 +190,12 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[2.2.6, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
             }
           },
           "imports": [
@@ -205,12 +208,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "frameworkReferences": {
-            "NETStandard.Library": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
