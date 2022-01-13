@@ -14,5 +14,7 @@ namespace Coffe.Domain.Models
         public Address Address { get; set; }
         public List<OrderList> OrderLists { get; set; }
 
+
+
     }
 }

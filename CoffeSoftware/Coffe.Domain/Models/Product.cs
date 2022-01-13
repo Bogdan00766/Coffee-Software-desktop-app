@@ -10,8 +10,11 @@ namespace Coffe.Domain.Models
         public string Name { get; set; }
         public float Price { get; set; }
         public string ImagePath { get; set; }
+        public string Descriprion { get; set; }
+        public string Brand { get; set; }
         public Category Category { get; set; }
         public Shop Shop { get; set; }
         public List<OrderListProduct> OrderListProducts { get; set; }
+
     }
 }
