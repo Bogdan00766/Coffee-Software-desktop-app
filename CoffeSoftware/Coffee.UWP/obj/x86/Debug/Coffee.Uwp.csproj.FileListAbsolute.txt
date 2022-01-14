@@ -126,7 +126,6 @@ D:\IPB\AD\Project\CoffeSoftware\ad-ei-project-group-04\CoffeSoftware\Coffee.Uwp\
 D:\IPB\AD\Project\CoffeSoftware\ad-ei-project-group-04\CoffeSoftware\Coffee.Uwp\obj\x86\Debug\Views\Settings\Settings.xbf
 D:\IPB\AD\Project\CoffeSoftware\ad-ei-project-group-04\CoffeSoftware\Coffee.Uwp\obj\x86\Debug\XamlSaveStateFile.xml
 D:\IPB\AD\Project\CoffeSoftware\ad-ei-project-group-04\CoffeSoftware\Coffee.Uwp\obj\x86\Debug\Coffee.Uwp.csproj.CoreCompileInputs.cache
-D:\IPB\AD\Project\CoffeSoftware\ad-ei-project-group-04\CoffeSoftware\Coffee.Uwp\obj\x86\Debug\Coffee.Uwp.csproj.CopyComplete
 D:\IPB\AD\Project\CoffeSoftware\ad-ei-project-group-04\CoffeSoftware\Coffee.Uwp\obj\x86\Debug\Coffee.Uwp.exe
 D:\IPB\AD\Project\CoffeSoftware\ad-ei-project-group-04\CoffeSoftware\Coffee.Uwp\obj\x86\Debug\Coffee.Uwp.pdb
 D:\IPB\AD\Project\CoffeSoftware\ad-ei-project-group-04\CoffeSoftware\Coffee.Uwp\obj\x86\Debug\ResourceHandlingTask.state
