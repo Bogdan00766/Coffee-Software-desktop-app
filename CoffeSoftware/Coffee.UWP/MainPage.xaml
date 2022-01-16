@@ -17,6 +17,7 @@
                 <NavigationViewItem Icon="OpenPane" Content="Payment" Tag="payment"/>
                 <NavigationViewItem Icon="Shop" Content="Cart" Tag="cart"/>
                 <NavigationViewItem Icon="Setting" Content="Settings" Tag="settings"/>
+                <NavigationViewItem Content="Login" Tag="login"/> <!--Tymczasowe opcja do logowania, potem przeniesiemy--> 
             </NavigationView.MenuItems>
         </NavigationView>
 

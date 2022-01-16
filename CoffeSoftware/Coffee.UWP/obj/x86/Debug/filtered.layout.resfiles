@@ -10,6 +10,7 @@ Coffee.Uwp.xr.xml
 MainPage.xbf
 Views\Cart\Cart.xbf
 Views\Home\Home.xbf
+Views\Login\Login.xbf
 Views\Menu\Menu.xbf
 Views\Payment\Payment.xbf
 Views\Saved\Saved.xbf

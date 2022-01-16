@@ -18,9 +18,7 @@ using Coffee.Uwp.Views.Settings;
 using Coffee.Uwp.Views.Home;
 using Coffee.Uwp.Views.Menu;
 using Coffee.Uwp.Views.Saved;
-
-
-
+using Coffee.Uwp.Views.Login;
 
 namespace Coffee.Uwp
 {
@@ -56,6 +54,9 @@ namespace Coffee.Uwp
                         break;
                     case "cart":
                         frame.Navigate(typeof(Cart));
+                        break;
+                    case "login":
+                        frame.Navigate(typeof(Login));
                         break;
                 }
             }
