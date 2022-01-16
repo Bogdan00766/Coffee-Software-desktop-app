@@ -29,12 +29,12 @@ namespace Coffee.Uwp.Views.Login
 
         private void registerButton_Click(object sender, RoutedEventArgs e)
         {
-
+            
         }
 
         private void loginButton_Click(object sender, RoutedEventArgs e)
         {
-
+            isRegistered(emailText.Text);
         }
     }
 }

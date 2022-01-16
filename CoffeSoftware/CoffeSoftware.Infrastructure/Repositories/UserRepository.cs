@@ -2,7 +2,9 @@
 using Coffe.Domain.Repositories;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace Coffe.Infrastructure.Repositories
 {
@@ -11,6 +13,13 @@ namespace Coffe.Infrastructure.Repositories
         public UserRepository(CoffeDbContext dbContext) : base(dbContext)
         {
             _dbContext = dbContext;
+        }
+
+        public Task<bool> isRegistered(string email)
+        {
+            var user = _dbContext.User.Where(x => x.Email == email).First();
+            if (user != null) return Task.FromResult(true);
+            else return Task.FromResult(false);
         }
     }
 }
