@@ -53,6 +53,11 @@ namespace Coffee.Uwp.Views.Login
                     {
 
                         infoText.Text = "";
+                        if (await uow.UserRepository.checkPasswordAsync(emailText.Text, passwordText.Text))
+                        {
+
+                        }
+                        else infoText.Text = "Wrong password";
                     }
                     else
                     {

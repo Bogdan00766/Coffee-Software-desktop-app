@@ -15,6 +15,13 @@ namespace Coffe.Infrastructure.Repositories
             _dbContext = dbContext;
         }
 
+        public Task<bool> checkPasswordAsync(string email, string password)
+        {
+            var user = _dbContext.User.Where(x => x.Email == email).FirstOrDefault();
+            if(user != null && user.Password == password) return Task.FromResult(true);
+            else return Task.FromResult(false);
+        }
+
         public Task<bool> isRegisteredAsync(string email)
         {
             var user = _dbContext.User.Where(x => x.Email == email).FirstOrDefault();
