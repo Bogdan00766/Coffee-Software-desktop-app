@@ -7,3 +7,4 @@ D:\IPB\AD\Project\CoffeSoftware\ad-ei-project-group-04\CoffeSoftware\Coffe.Domai
 D:\IPB\AD\Project\CoffeSoftware\ad-ei-project-group-04\CoffeSoftware\Coffe.Domain\obj\Debug\netstandard2.0\Coffe.Domain.csproj.CoreCompileInputs.cache
 D:\IPB\AD\Project\CoffeSoftware\ad-ei-project-group-04\CoffeSoftware\Coffe.Domain\obj\Debug\netstandard2.0\Coffe.Domain.dll
 D:\IPB\AD\Project\CoffeSoftware\ad-ei-project-group-04\CoffeSoftware\Coffe.Domain\obj\Debug\netstandard2.0\Coffe.Domain.pdb
+D:\IPB\AD\Project\CoffeSoftware\ad-ei-project-group-04\CoffeSoftware\Coffe.Domain\obj\Debug\netstandard2.0\Coffe.Domain.csproj.AssemblyReference.cache

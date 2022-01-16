@@ -28,11 +28,10 @@ namespace Coffee.Uwp
     /// </summary>
     public sealed partial class MainPage : Page
     {
-        bool login_bool = true;
-        bool logout_bool = true;
         public MainPage()
         {
             this.InitializeComponent();
+            UpdateButtons();
         }
 
         public void UpdateUserInfo()
@@ -41,18 +40,23 @@ namespace Coffee.Uwp
             else currentUserText.Text = "You are: " + CurrentUser.Username;
         }
 
-        private void NavigationView_ItemInvoked(NavigationView sender, NavigationViewItemInvokedEventArgs args)
+        void UpdateButtons()
         {
-            if (CurrentUser.isGuest == true) 
-            { 
-                login_bool = true;
-                logout_bool = false;
+            if (CurrentUser.isGuest == true)
+            {
+                loginNav.Visibility = Visibility.Visible;
+                logoutNav.Visibility = Visibility.Collapsed;
             }
             else
             {
-                login_bool = false;
-                logout_bool = true;
+                loginNav.Visibility = Visibility.Collapsed;
+                logoutNav.Visibility = Visibility.Visible;
             }
+        }
+
+        private void NavigationView_ItemInvoked(NavigationView sender, NavigationViewItemInvokedEventArgs args)
+        {
+            UpdateButtons();
             UpdateUserInfo();
             NavigationViewItem nvi = (NavigationViewItem)args.InvokedItemContainer;
             if (nvi != null)

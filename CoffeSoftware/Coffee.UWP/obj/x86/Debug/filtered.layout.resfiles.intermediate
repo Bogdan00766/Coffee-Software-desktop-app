@@ -15,6 +15,7 @@ Views\Login\Register.xbf
 Views\Menu\Menu.xbf
 Views\Payment\Payment.xbf
 Views\Saved\Saved.xbf
+Views\Settings\ChangePassword.xbf
 Views\Settings\Settings.xbf
 Properties\Default.rd.xml
 WinMetadata\Windows.winmd

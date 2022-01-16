@@ -42,9 +42,7 @@
       <RootProperty Name="Icon" />
       <RootProperty Name="Content" />
       <RootProperty Name="Tag" />
-      <RootProperty Name="Visibility" />
     </RootType>
-    <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.BindExtension" />
     <RootType FullName="Coffee.Uwp.MainPage" />
     <RootType FullName="Coffee.Uwp.Views.Home.Home" />
     <RootType FullName="Windows.UI.Xaml.Controls.RowDefinition">
@@ -74,6 +72,7 @@
     <RootType FullName="Coffee.Uwp.Views.Menu.Menu" />
     <RootType FullName="Coffee.Uwp.Views.Payment.Payment" />
     <RootType FullName="Coffee.Uwp.Views.Saved.Saved" />
+    <RootType FullName="Coffee.Uwp.Views.Settings.ChangePassword" />
     <RootType FullName="Coffee.Uwp.Views.Settings.Settings" />
   </Roots.RootTypes>
 </Roots>
