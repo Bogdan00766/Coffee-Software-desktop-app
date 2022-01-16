@@ -19,7 +19,8 @@
                 <NavigationViewItem Icon="OpenPane" Content="Payment" Tag="payment"/>
                 <NavigationViewItem Icon="Shop" Content="Cart" Tag="cart"/>
                 <NavigationViewItem Icon="Setting" Content="Settings" Tag="settings"/>
-                <NavigationViewItem Content="Login" Tag="login"/> <!--Tymczasowe opcja do logowania, potem przeniesiemy--> 
+                <NavigationViewItem Content="Login" Tag="login" Visibility="{x:Bind login_bool}" /> <!--Opcja nie znika, trzeba wymyślić coś innego--> 
+                <NavigationViewItem Content="Logout" Tag="logout" Visibility="{x:Bind logout_bool}" />
             </NavigationView.MenuItems>
         </NavigationView>
         <TextBlock HorizontalAlignment="Right" VerticalAlignment="Bottom" Text="You are: Guest" x:Name="currentUserText"/>

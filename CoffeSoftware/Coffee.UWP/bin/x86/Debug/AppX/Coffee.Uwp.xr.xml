@@ -42,7 +42,9 @@
       <RootProperty Name="Icon" />
       <RootProperty Name="Content" />
       <RootProperty Name="Tag" />
+      <RootProperty Name="Visibility" />
     </RootType>
+    <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.BindExtension" />
     <RootType FullName="Coffee.Uwp.MainPage" />
     <RootType FullName="Coffee.Uwp.Views.Home.Home" />
     <RootType FullName="Windows.UI.Xaml.Controls.RowDefinition">
