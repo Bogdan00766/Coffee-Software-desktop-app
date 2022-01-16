@@ -8,5 +8,6 @@ namespace Coffe.Domain.Repositories
 {
     public interface IAddressRepository : IRepository<Address>
     {
+        new Address Create(Address address);
     }
 }

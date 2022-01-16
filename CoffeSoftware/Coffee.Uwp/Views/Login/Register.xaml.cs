@@ -63,8 +63,8 @@ namespace Coffee.Uwp.Views.Login
                     if (countryText.Text != string.Empty) address.Country = countryText.Text;
                     if (stateText.Text != string.Empty) address.State = stateText.Text;
 
-                    user.Address = address;
                     uow.AddressRepository.Create(address);
+                    user.Address = address;
                     uow.UserRepository.Create(user);
                     await uow.SaveAsync();
                 }
