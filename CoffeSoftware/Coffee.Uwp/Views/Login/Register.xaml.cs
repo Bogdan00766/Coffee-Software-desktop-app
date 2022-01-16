@@ -63,10 +63,22 @@ namespace Coffee.Uwp.Views.Login
                     if (countryText.Text != string.Empty) address.Country = countryText.Text;
                     if (stateText.Text != string.Empty) address.State = stateText.Text;
 
-                    uow.AddressRepository.Create(address);
+                    address = uow.AddressRepository.Create(address);
                     user.Address = address;
                     uow.UserRepository.Create(user);
                     await uow.SaveAsync();
+
+
+                    ContentDialog RegisterSuccessDialog = new ContentDialog()
+                    {
+                        Title = "Register Success!",
+                        Content = "You are registered now! Please log in",
+                        CloseButtonText = "Ok!"
+                    };
+
+                    this.Frame.Navigate(typeof(Login));
+                    await RegisterSuccessDialog.ShowAsync();
+                    
                 }
             }
         }

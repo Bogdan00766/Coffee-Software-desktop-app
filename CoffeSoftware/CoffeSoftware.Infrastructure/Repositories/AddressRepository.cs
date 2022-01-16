@@ -31,7 +31,7 @@ namespace Coffe.Infrastructure.Repositories
             }
             else
             {
-                return address;
+                return existingAddress;
             }
 
         }

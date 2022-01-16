@@ -36,7 +36,7 @@ namespace Coffee.Uwp.Views.Login
 
         private async void loginButton_Click(object sender, RoutedEventArgs e) 
         {
-            if(emailText.Text == String.Empty)
+            if (emailText.Text == String.Empty)
             {
                 infoText.Text = "Email cannot be empty";
             }
