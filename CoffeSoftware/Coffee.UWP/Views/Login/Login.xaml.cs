@@ -55,6 +55,18 @@ namespace Coffee.Uwp.Views.Login
                         infoText.Text = "";
                         if (await uow.UserRepository.checkPasswordAsync(emailText.Text, passwordText.Text))
                         {
+                            var uc = await uow.UserRepository.FindByEmailAsync(emailText.Text);
+                            CurrentUser.Login(uc);
+
+                            ContentDialog LoginSuccessDialog = new ContentDialog()
+                            {
+                                Title = "Login Success!",
+                                Content = "You are sucessfully logged in",
+                                CloseButtonText = "Ok!"
+                            };
+
+                            this.Frame.Navigate(typeof(Views.Home.Home)); ;
+                            await LoginSuccessDialog.ShowAsync();
 
                         }
                         else infoText.Text = "Wrong password";
