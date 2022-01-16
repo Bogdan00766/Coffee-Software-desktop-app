@@ -30,13 +30,13 @@
     <AppXManifest Include="D:\IPB\AD\Project\CoffeSoftware\ad-ei-project-group-04\CoffeSoftware\Coffee.Uwp\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-01-16T17:59:56.192</Modified>
+      <Modified>2022-01-16T21:57:26.659</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\IPB\AD\Project\CoffeSoftware\ad-ei-project-group-04\CoffeSoftware\Coffee.Uwp\bin\x86\Debug\Coffee.Uwp.exe">
       <PackagePath>entrypoint\Coffee.Uwp.exe</PackagePath>
-      <Modified>2022-01-16T17:59:55.765</Modified>
+      <Modified>2022-01-16T21:57:26.180</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pchud\.nuget\packages\microsoft.data.sqlite.core\2.2.6\lib\netstandard2.0\Microsoft.Data.Sqlite.dll">
       <PackagePath>Microsoft.Data.Sqlite.dll</PackagePath>
@@ -202,43 +202,43 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\IPB\AD\Project\CoffeSoftware\ad-ei-project-group-04\CoffeSoftware\Coffee.Uwp\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2022-01-16T17:59:55.682</Modified>
+      <Modified>2022-01-16T21:56:33.721</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\IPB\AD\Project\CoffeSoftware\ad-ei-project-group-04\CoffeSoftware\Coffee.Uwp\bin\x86\Debug\Views\Cart\Cart.xbf">
       <PackagePath>Views\Cart\Cart.xbf</PackagePath>
-      <Modified>2022-01-16T17:59:55.683</Modified>
+      <Modified>2022-01-16T21:56:33.721</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\IPB\AD\Project\CoffeSoftware\ad-ei-project-group-04\CoffeSoftware\Coffee.Uwp\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2022-01-16T17:59:55.683</Modified>
+      <Modified>2022-01-16T21:56:33.721</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\IPB\AD\Project\CoffeSoftware\ad-ei-project-group-04\CoffeSoftware\Coffee.Uwp\bin\x86\Debug\Views\Home\Home.xbf">
       <PackagePath>Views\Home\Home.xbf</PackagePath>
-      <Modified>2022-01-16T17:59:55.683</Modified>
+      <Modified>2022-01-16T21:56:33.721</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\IPB\AD\Project\CoffeSoftware\ad-ei-project-group-04\CoffeSoftware\Coffee.Uwp\bin\x86\Debug\Views\Login\Login.xbf">
       <PackagePath>Views\Login\Login.xbf</PackagePath>
-      <Modified>2022-01-16T17:59:55.683</Modified>
+      <Modified>2022-01-16T21:56:33.722</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\IPB\AD\Project\CoffeSoftware\ad-ei-project-group-04\CoffeSoftware\Coffee.Uwp\bin\x86\Debug\Views\Login\Register.xbf">
       <PackagePath>Views\Login\Register.xbf</PackagePath>
-      <Modified>2022-01-16T17:59:55.683</Modified>
+      <Modified>2022-01-16T21:56:33.722</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\IPB\AD\Project\CoffeSoftware\ad-ei-project-group-04\CoffeSoftware\Coffee.Uwp\bin\x86\Debug\Views\Menu\Menu.xbf">
       <PackagePath>Views\Menu\Menu.xbf</PackagePath>
-      <Modified>2022-01-16T17:59:55.683</Modified>
+      <Modified>2022-01-16T21:56:33.722</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\IPB\AD\Project\CoffeSoftware\ad-ei-project-group-04\CoffeSoftware\Coffee.Uwp\bin\x86\Debug\Views\Payment\Payment.xbf">
       <PackagePath>Views\Payment\Payment.xbf</PackagePath>
-      <Modified>2022-01-16T17:59:55.683</Modified>
+      <Modified>2022-01-16T21:56:33.722</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\IPB\AD\Project\CoffeSoftware\ad-ei-project-group-04\CoffeSoftware\Coffee.Uwp\bin\x86\Debug\Views\Saved\Saved.xbf">
       <PackagePath>Views\Saved\Saved.xbf</PackagePath>
-      <Modified>2022-01-16T17:59:55.683</Modified>
+      <Modified>2022-01-16T21:56:33.722</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\IPB\AD\Project\CoffeSoftware\ad-ei-project-group-04\CoffeSoftware\Coffee.Uwp\bin\x86\Debug\Views\Settings\Settings.xbf">
       <PackagePath>Views\Settings\Settings.xbf</PackagePath>
-      <Modified>2022-01-16T17:59:55.683</Modified>
+      <Modified>2022-01-16T21:57:26.075</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Windows Kits\10\UnionMetadata\10.0.19041.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -250,7 +250,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\IPB\AD\Project\CoffeSoftware\ad-ei-project-group-04\CoffeSoftware\Coffee.Uwp\bin\x86\Debug\Core\Coffee.Uwp.exe">
       <PackagePath>Coffee.Uwp.exe</PackagePath>
-      <Modified>2022-01-16T17:59:56.189</Modified>
+      <Modified>2022-01-16T21:57:26.656</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

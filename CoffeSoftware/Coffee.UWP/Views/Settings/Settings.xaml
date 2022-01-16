@@ -8,8 +8,26 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-    <Grid>
-        <TextBlock HorizontalAlignment="Left" Margin="1440,10,0,0" Text="Settings" TextWrapping="Wrap" VerticalAlignment="Top"/>
+    <Grid Margin="10"  VerticalAlignment="Top">
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <TextBlock Grid.Row="0" Text="Settings" FontSize="64" VerticalAlignment="Top" Margin="0, 10"/>
+        <TextBlock Grid.Row="1" Text="" FontSize="32" x:Name="usernameText"/>
+        <TextBlock Grid.Row="2" Text="" FontSize="32" x:Name="emailText"/>
+        <!--<TextBox Grid.Row="0" Header="Enter your e-mail:" PlaceholderText="Email" x:Name="emailText"/>
+        <TextBox Grid.Row="1" Header="Enter your password:" PlaceholderText="Password" x:Name="passwordText"/>
+        <TextBlock Grid.Row="2" Text="" x:Name="infoText"/>-->
+        <!--<Button Grid.Row ="3" Margin="0, 15" Content="Login" x:Name="loginButton" Click="loginButton_Click" />
+        <Button Grid.Row ="4" Content="Register" x:Name="registerButton" Click="registerButton_Click" />-->
+
+
+
 
     </Grid>
 </Page>

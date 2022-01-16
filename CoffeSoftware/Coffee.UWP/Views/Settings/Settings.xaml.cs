@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Coffe.Domain;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -22,9 +23,25 @@ namespace Coffee.Uwp.Views.Settings
     /// </summary>
     public sealed partial class Settings : Page
     {
+       
         public Settings()
         {
             this.InitializeComponent();
+            UpdateUserInfo();
+        }
+
+        private void UpdateUserInfo()
+        {
+            if (!CurrentUser.isGuest)
+            {
+                usernameText.Text = "Username: " + CurrentUser.Username;
+                emailText.Text = "Email: " + CurrentUser.Email;
+            }
+            else
+            {
+                usernameText.Text = "Username: You are Guest";
+                emailText.Text = "";
+            }
         }
     }
 }

@@ -77,6 +77,12 @@ namespace Coffee.Uwp
                     case "login":
                         frame.Navigate(typeof(Login));
                         break;
+                    case "settings":
+                        frame.Navigate(typeof(Settings));
+                        break;
+                    case "properties":
+                        frame.Navigate(typeof(Settings));
+                        break;
                     case "logout":
                         CurrentUser.Logout();
                         frame.Navigate(typeof(Home));
