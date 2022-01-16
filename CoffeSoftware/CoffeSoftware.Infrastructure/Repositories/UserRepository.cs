@@ -17,7 +17,7 @@ namespace Coffe.Infrastructure.Repositories
 
         public Task<bool> isRegistered(string email)
         {
-            var user = _dbContext.User.Where(x => x.Email == email).First();
+            var user = _dbContext.User.Where(x => x.Email == email).FirstOrDefault();
             if (user != null) return Task.FromResult(true);
             else return Task.FromResult(false);
         }

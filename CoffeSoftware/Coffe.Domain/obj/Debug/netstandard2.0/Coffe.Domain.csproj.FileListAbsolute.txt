@@ -1,0 +1,10 @@
+D:\IPB\AD\Project\CoffeSoftware\ad-ei-project-group-04\CoffeSoftware\Coffe.Domain\bin\Debug\netstandard2.0\Coffe.Domain.deps.json
+D:\IPB\AD\Project\CoffeSoftware\ad-ei-project-group-04\CoffeSoftware\Coffe.Domain\bin\Debug\netstandard2.0\Coffe.Domain.dll
+D:\IPB\AD\Project\CoffeSoftware\ad-ei-project-group-04\CoffeSoftware\Coffe.Domain\bin\Debug\netstandard2.0\Coffe.Domain.pdb
+D:\IPB\AD\Project\CoffeSoftware\ad-ei-project-group-04\CoffeSoftware\Coffe.Domain\obj\Debug\netstandard2.0\Coffe.Domain.csproj.AssemblyReference.cache
+D:\IPB\AD\Project\CoffeSoftware\ad-ei-project-group-04\CoffeSoftware\Coffe.Domain\obj\Debug\netstandard2.0\Coffe.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\IPB\AD\Project\CoffeSoftware\ad-ei-project-group-04\CoffeSoftware\Coffe.Domain\obj\Debug\netstandard2.0\Coffe.Domain.AssemblyInfoInputs.cache
+D:\IPB\AD\Project\CoffeSoftware\ad-ei-project-group-04\CoffeSoftware\Coffe.Domain\obj\Debug\netstandard2.0\Coffe.Domain.AssemblyInfo.cs
+D:\IPB\AD\Project\CoffeSoftware\ad-ei-project-group-04\CoffeSoftware\Coffe.Domain\obj\Debug\netstandard2.0\Coffe.Domain.csproj.CoreCompileInputs.cache
+D:\IPB\AD\Project\CoffeSoftware\ad-ei-project-group-04\CoffeSoftware\Coffe.Domain\obj\Debug\netstandard2.0\Coffe.Domain.dll
+D:\IPB\AD\Project\CoffeSoftware\ad-ei-project-group-04\CoffeSoftware\Coffe.Domain\obj\Debug\netstandard2.0\Coffe.Domain.pdb

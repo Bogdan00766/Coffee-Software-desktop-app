@@ -132,6 +132,9 @@
     <Compile Include="Views\Login\Login.xaml.cs">
       <DependentUpon>Login.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Views\Login\Register.xaml.cs">
+      <DependentUpon>Register.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Views\Menu\Menu.xaml.cs">
       <DependentUpon>Menu.xaml</DependentUpon>
     </Compile>
@@ -181,6 +184,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Views\Login\Register.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Views\Menu\Menu.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -205,6 +212,16 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="ViewsModels\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Coffe.Domain\Coffe.Domain.csproj">
+      <Project>{DD96B82F-0E68-40AB-8EFD-BD5145B311CB}</Project>
+      <Name>Coffe.Domain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CoffeSoftware.Infrastructure\Coffe.Infrastructure.csproj">
+      <Project>{783A0611-0614-4A46-86C3-890D75C25989}</Project>
+      <Name>Coffe.Infrastructure</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>

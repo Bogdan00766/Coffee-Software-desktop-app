@@ -8,19 +8,23 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-    <Grid>
-        <Grid x:ConnectionId='2' x:Name="LoginLayout">
-            <Grid.RowDefinitions>
-                <RowDefinition/>
-                <RowDefinition/>
-                <RowDefinition/>
-            </Grid.RowDefinitions>
+    <Grid Margin="100"  VerticalAlignment="Center">
+       
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
 
-            <TextBlock Grid.Row="0" Text="Login Page"/>
-            <TextBox Grid.Row="1" Header="Enter your e-mail:" PlaceholderText="Email" />
-            <TextBox Grid.Row="2" Header="Enter your password:" PlaceholderText="Password" />
+        <TextBox x:ConnectionId='2' Grid.Row="0" Header="Enter your e-mail:" PlaceholderText="Email" x:Name="emailText"/>
+        <TextBox x:ConnectionId='3' Grid.Row="1" Header="Enter your password:" PlaceholderText="Password" x:Name="passwordText"/>
+        <TextBlock x:ConnectionId='4' Grid.Row="2" Text="" x:Name="infoText"/>
+        <Button x:ConnectionId='5' Grid.Row ="3" Margin="0, 15" Content="Login" x:Name="loginButton"                           />
+        <Button x:ConnectionId='6' Grid.Row ="4" Content="Register" x:Name="registerButton"                              />
 
-        </Grid>
+
 
 
     </Grid>

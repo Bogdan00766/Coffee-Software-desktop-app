@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Coffe.Domain;
+using Coffe.Infrastructure;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -29,12 +31,36 @@ namespace Coffee.Uwp.Views.Login
 
         private void registerButton_Click(object sender, RoutedEventArgs e)
         {
-            
+           this.Frame.Navigate(typeof(Register));
         }
 
-        private void loginButton_Click(object sender, RoutedEventArgs e)
+        private async void loginButton_Click(object sender, RoutedEventArgs e) 
         {
-            isRegistered(emailText.Text);
+            if(emailText.Text == String.Empty)
+            {
+                infoText.Text = "Email cannot be empty";
+            }
+            else
+            {
+                if (passwordText.Text == String.Empty)
+                {
+                    infoText.Text = "Password cannot be empty";
+                }
+                else
+                {
+                    IUnitOfWork uow = new UnitOfWork();
+                    if (await uow.UserRepository.isRegistered(emailText.Text))
+                    {
+
+                        infoText.Text = "";
+                    }
+                    else
+                    {
+                        infoText.Text = "User is not found!";
+                    }
+                }
+            }
+
         }
     }
 }
