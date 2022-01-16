@@ -9,8 +9,10 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
+        
         <NavigationView x:ConnectionId='2'                                          PaneDisplayMode="Left">
             <NavigationView.MenuItems>
+                
                 <NavigationViewItem Icon="Home" Content="Home" Tag="home"/>
                 <NavigationViewItem Icon="AllApps" Content="Menu" Tag="menu"/>
                 <NavigationViewItem Icon="Like" Content="Saved" Tag="saved"/>
@@ -20,9 +22,9 @@
                 <NavigationViewItem Content="Login" Tag="login"/> <!--Tymczasowe opcja do logowania, potem przeniesiemy--> 
             </NavigationView.MenuItems>
         </NavigationView>
+        <TextBlock x:ConnectionId='3' HorizontalAlignment="Right" VerticalAlignment="Bottom" Text="You are: Guest" x:Name="currentUserText"/>
 
-
-        <Frame x:ConnectionId='3' x:Name="frame" Margin="322,0,0,0"/>
+        <Frame x:ConnectionId='4' x:Name="frame" Margin="322,0,0,14"/>
         
 
     </Grid>

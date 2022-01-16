@@ -19,6 +19,7 @@ using Coffee.Uwp.Views.Home;
 using Coffee.Uwp.Views.Menu;
 using Coffee.Uwp.Views.Saved;
 using Coffee.Uwp.Views.Login;
+using Coffe.Domain;
 
 namespace Coffee.Uwp
 {
@@ -32,9 +33,15 @@ namespace Coffee.Uwp
             this.InitializeComponent();
         }
 
+        void UpdateUserInfo()
+        {
+            if (CurrentUser.isGuest == true) currentUserText.Text = "You are: Guest";
+            else currentUserText.Text = "You are: " + CurrentUser.Username;
+        }
 
         private void NavigationView_ItemInvoked(NavigationView sender, NavigationViewItemInvokedEventArgs args)
         {
+            UpdateUserInfo();
             NavigationViewItem nvi = (NavigationViewItem)args.InvokedItemContainer;
             if (nvi != null)
             {
