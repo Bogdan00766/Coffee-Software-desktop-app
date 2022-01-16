@@ -15,7 +15,7 @@ namespace Coffe.Domain
         public static List<OrderList> OrderLists { get; set; }
         public static bool isGuest = true;
 
-        public static void login(User user)
+        public static void Login(User user)
         {
             Username = user.Username;
             Email = user.Email;
@@ -26,7 +26,7 @@ namespace Coffe.Domain
             isGuest = false;
         }
 
-        public static void logout()
+        public static void Logout()
         {
             isGuest = true;
             Username = null;

@@ -11,5 +11,6 @@ namespace Coffe.Domain.Repositories
     {
         Task <bool> isRegisteredAsync(string email);
         Task<bool> checkPasswordAsync(string email, string password);
+        Task<User> FindByEmail(string email);
     }
 }

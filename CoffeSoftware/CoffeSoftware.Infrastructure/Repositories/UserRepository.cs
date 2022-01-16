@@ -22,6 +22,12 @@ namespace Coffe.Infrastructure.Repositories
             else return Task.FromResult(false);
         }
 
+        public Task<User> FindByEmail(string email)
+        {
+            var user = _dbContext.User.Where(x => x.Email == email).FirstOrDefault();
+            return Task.FromResult(user);
+        }
+
         public Task<bool> isRegisteredAsync(string email)
         {
             var user = _dbContext.User.Where(x => x.Email == email).FirstOrDefault();
