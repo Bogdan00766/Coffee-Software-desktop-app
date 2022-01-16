@@ -9,6 +9,6 @@ namespace Coffe.Domain.Repositories
 {
     public interface IUserRepository : IRepository<User>
     {
-        Task <bool> isRegistered(string email);
+        Task <bool> isRegisteredAsync(string email);
     }
 }

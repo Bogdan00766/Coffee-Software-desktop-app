@@ -49,7 +49,7 @@ namespace Coffee.Uwp.Views.Login
                 else
                 {
                     IUnitOfWork uow = new UnitOfWork();
-                    if (await uow.UserRepository.isRegistered(emailText.Text))
+                    if (await uow.UserRepository.isRegisteredAsync(emailText.Text))
                     {
 
                         infoText.Text = "";
