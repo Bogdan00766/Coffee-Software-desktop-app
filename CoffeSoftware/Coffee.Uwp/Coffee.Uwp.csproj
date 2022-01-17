@@ -119,6 +119,7 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="ViewsModels\ProductViewModel.cs" />
     <Compile Include="Views\Cart\Cart.xaml.cs">
       <DependentUpon>Cart.xaml</DependentUpon>
     </Compile>
@@ -224,9 +225,7 @@
       <Version>6.2.12</Version>
     </PackageReference>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="ViewsModels\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <ProjectReference Include="..\Coffe.Domain\Coffe.Domain.csproj">
       <Project>{DD96B82F-0E68-40AB-8EFD-BD5145B311CB}</Project>

@@ -30,13 +30,13 @@
     <AppXManifest Include="D:\IPB\AD\Project\CoffeSoftware\ad-ei-project-group-04\CoffeSoftware\Coffee.Uwp\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-01-17T09:04:45.490</Modified>
+      <Modified>2022-01-17T09:11:24.866</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\IPB\AD\Project\CoffeSoftware\ad-ei-project-group-04\CoffeSoftware\Coffee.Uwp\bin\x86\Debug\Coffee.Uwp.exe">
       <PackagePath>entrypoint\Coffee.Uwp.exe</PackagePath>
-      <Modified>2022-01-17T09:04:43.534</Modified>
+      <Modified>2022-01-17T09:11:23.948</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pchud\.nuget\packages\microsoft.data.sqlite.core\2.2.6\lib\netstandard2.0\Microsoft.Data.Sqlite.dll">
       <PackagePath>Microsoft.Data.Sqlite.dll</PackagePath>
@@ -238,15 +238,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\IPB\AD\Project\CoffeSoftware\ad-ei-project-group-04\CoffeSoftware\Coffee.Uwp\bin\x86\Debug\Views\Settings\ChangeEmail.xbf">
       <PackagePath>Views\Settings\ChangeEmail.xbf</PackagePath>
-      <Modified>2022-01-17T09:04:43.405</Modified>
+      <Modified>2022-01-17T09:11:23.867</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\IPB\AD\Project\CoffeSoftware\ad-ei-project-group-04\CoffeSoftware\Coffee.Uwp\bin\x86\Debug\Views\Settings\ChangePassword.xbf">
       <PackagePath>Views\Settings\ChangePassword.xbf</PackagePath>
-      <Modified>2022-01-17T09:04:43.405</Modified>
+      <Modified>2022-01-17T09:11:23.867</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\IPB\AD\Project\CoffeSoftware\ad-ei-project-group-04\CoffeSoftware\Coffee.Uwp\bin\x86\Debug\Views\Settings\Settings.xbf">
       <PackagePath>Views\Settings\Settings.xbf</PackagePath>
-      <Modified>2022-01-17T09:04:43.405</Modified>
+      <Modified>2022-01-17T09:11:23.867</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Windows Kits\10\UnionMetadata\10.0.19041.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -254,11 +254,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\IPB\AD\Project\CoffeSoftware\ad-ei-project-group-04\CoffeSoftware\Coffee.Uwp\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2022-01-17T09:04:44.549</Modified>
+      <Modified>2022-01-17T09:11:24.334</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\IPB\AD\Project\CoffeSoftware\ad-ei-project-group-04\CoffeSoftware\Coffee.Uwp\bin\x86\Debug\Core\Coffee.Uwp.exe">
       <PackagePath>Coffee.Uwp.exe</PackagePath>
-      <Modified>2022-01-17T09:04:45.481</Modified>
+      <Modified>2022-01-17T09:11:24.862</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

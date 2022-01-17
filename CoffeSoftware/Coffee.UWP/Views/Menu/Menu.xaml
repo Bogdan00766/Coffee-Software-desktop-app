@@ -94,6 +94,21 @@
 
                         <FontIcon Glyph="&#xE74D;"/>
                         <TextBlock Grid.Row="1" Text="Delete" FontSize="12" VerticalAlignment="Bottom"/>
+
+                        <ListView Grid.Row="1" ItemsSource="{x:Bind ProductViewModel.Products}">
+                            <ListView.ItemTemplate>
+                                <DataTemplate x:DataType="models:Category">
+                                    <Grid>
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition/>
+                                            <RowDefinition/>
+                                        </Grid.RowDefinitions>
+                                        <TextBlock Text="{x:Bind Name}"/>
+                                        <TextBlock Text="{x:Bind Id}" Grid.Row="1"/>
+                                    </Grid>
+                                </DataTemplate>
+                            </ListView.ItemTemplate>
+                        </ListView>
                     </Grid>
                 </Button>
 

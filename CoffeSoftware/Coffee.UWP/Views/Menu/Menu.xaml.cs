@@ -22,6 +22,7 @@ namespace Coffee.Uwp.Views.Menu
     /// </summary>
     public sealed partial class Menu : Page
     {
+        public ProductViewModel 
         public Menu()
         {
             this.InitializeComponent();
