@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Coffee.Uwp.ViewsModels;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -22,10 +23,16 @@ namespace Coffee.Uwp.Views.Menu
     /// </summary>
     public sealed partial class Menu : Page
     {
-        public ProductViewModel 
+        public ProductViewModel  ProductViewModel { get; set; }
         public Menu()
         {
+            ProductViewModel = new ProductViewModel();
             this.InitializeComponent();
+        }
+        protected override void OnNavigatedTo(NavigationEventArgs e)
+        {
+            ProductViewModel.LoadAllAsync();
+            base.OnNavigatedTo(e);
         }
         private async void DeleteConfirmationButton_Click(object sender, RoutedEventArgs e)
         {
