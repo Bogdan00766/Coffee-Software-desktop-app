@@ -21,6 +21,8 @@ namespace Coffee.Uwp.Views.Settings
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Windows.UI.Xaml.Build.Tasks"," 10.0.19041.685")]
         private global::Windows.UI.Xaml.Controls.Button changePasswordButton; 
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Windows.UI.Xaml.Build.Tasks"," 10.0.19041.685")]
+        private global::Windows.UI.Xaml.Controls.Button changeEmailButton; 
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Windows.UI.Xaml.Build.Tasks"," 10.0.19041.685")]
         private bool _contentLoaded;
 
         /// <summary>
