@@ -44,6 +44,16 @@ namespace Coffee.Uwp.Views.Settings
                     await uow.SaveAsync();
                     CurrentUser.Email = newEmailText.Text;
 
+                    ContentDialog ChangeEmailSuccessDialog = new ContentDialog()
+                    {
+                        Title = "Success!",
+                        Content = "Your email is changed!",
+                        CloseButtonText = "Ok!"
+                    };
+
+                    this.Frame.Navigate(typeof(Settings)); ;
+                    await ChangeEmailSuccessDialog.ShowAsync();
+
                 }
                 else infoText.Text = "Error. Log in once again, please";
             }
