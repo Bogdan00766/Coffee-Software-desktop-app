@@ -37,12 +37,14 @@ namespace Coffee.Uwp.Views.Settings
                 usernameText.Text = "Username: " + CurrentUser.Username;
                 emailText.Text = "Email: " + CurrentUser.Email;
                 changePasswordButton.Visibility = Visibility.Visible;
+                changeEmailButton.Visibility = Visibility.Visible;
             }
             else
             {
                 usernameText.Text = "Username: You are Guest";
                 emailText.Visibility = 0;
                 changePasswordButton.Visibility = Visibility.Collapsed;
+                changeEmailButton.Visibility = Visibility.Collapsed;
 
             }
         }
@@ -50,6 +52,11 @@ namespace Coffee.Uwp.Views.Settings
         private void changePasswordButton_Click(object sender, RoutedEventArgs e)
         {
             this.Frame.Navigate(typeof(ChangePassword));
+        }
+
+        private void changeEmailButton_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(ChangeEmail));
         }
     }
 }
