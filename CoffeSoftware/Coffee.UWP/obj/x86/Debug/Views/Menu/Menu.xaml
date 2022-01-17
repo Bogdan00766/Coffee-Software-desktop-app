@@ -13,6 +13,21 @@
             <RowDefinition Height="auto"/>
             <RowDefinition/>
         </Grid.RowDefinitions>
+        <ListView x:ConnectionId='2' Grid.Row="1"                                                 >
+            <ListView.ItemTemplate>
+                <DataTemplate                            >
+                    <Grid x:ConnectionId='8'>
+                        <Grid.RowDefinitions>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                        </Grid.RowDefinitions>
+                        <TextBlock x:ConnectionId='9'                     />
+                        <TextBlock x:ConnectionId='10'                    Grid.Row="1"/>
+                    </Grid>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+
 
         <Grid BorderThickness="1" BorderBrush="Black"  Margin="1" Height="55">
             <Grid.ColumnDefinitions>
@@ -38,20 +53,19 @@
                     <TextBlock FontSize="16" HorizontalAlignment="Center" Margin="0,2,0,0" Text="Category" TextWrapping="Wrap"/>
                 </Grid>
 
-                <Grid Grid.Column="2" BorderThickness="1" BorderBrush="Black">
+                <!--<Grid Grid.Column="2" BorderThickness="1" BorderBrush="Black">
                     <TextBlock FontSize="16" HorizontalAlignment="Center" Margin="0,2,0,0" Text="Brand" TextWrapping="Wrap"/>
-                </Grid>
+                </Grid>-->
 
                 <Grid Grid.Column="3" BorderThickness="1" BorderBrush="Black">
                     <TextBlock FontSize="16" HorizontalAlignment="Center" Margin="0,2,0,0" Text="Price" TextWrapping="Wrap"/>
                 </Grid>
 
-                <Grid Grid.Column="4" BorderThickness="1" BorderBrush="Black">
+                <!--<Grid Grid.Column="4" BorderThickness="1" BorderBrush="Black">
                     <TextBlock FontSize="16"  HorizontalAlignment="Center" Margin="0,2,0,0" Text="Description" TextWrapping="Wrap" />
-                </Grid>
+                </Grid>-->
 
                 
-
             </Grid>
 
             <Grid Grid.Column="2">
@@ -61,7 +75,7 @@
                     <ColumnDefinition/>
                 </Grid.ColumnDefinitions>
 
-                <Button x:ConnectionId='2'                          x:Name="AddButton" BorderBrush="Black" BorderThickness="2" Height="53" Width="60">
+                <Button x:ConnectionId='3'                          x:Name="AddButton" BorderBrush="Black" BorderThickness="2" Height="53" Width="60">
                     <Grid>
                         <Grid.RowDefinitions>
                             <RowDefinition Height="27"/>
@@ -69,11 +83,11 @@
                         </Grid.RowDefinitions>
 
                         <FontIcon Glyph="&#xE710;"/>
-                        <TextBlock x:ConnectionId='10' Grid.Row="1" x:Name="AddButtonText" Text="Add" FontSize="12" VerticalAlignment="Bottom"/>
+                        <TextBlock x:ConnectionId='6' Grid.Row="1" x:Name="AddButtonText" Text="Add" FontSize="12" VerticalAlignment="Bottom"/>
                     </Grid>
                 </Button>
 
-                <Button x:ConnectionId='3'                           x:Name="EditButton" BorderBrush="Black" BorderThickness="2" Height="53" Width="60" Grid.Column="1">
+                <Button x:ConnectionId='4'                           x:Name="EditButton" BorderBrush="Black" BorderThickness="2" Height="53" Width="60" Grid.Column="1">
                     <Grid>
                         <Grid.RowDefinitions>
                             <RowDefinition Height="27"/>
@@ -81,7 +95,7 @@
                         </Grid.RowDefinitions>
 
                         <FontIcon Glyph="&#xE70F;"/>
-                        <TextBlock x:ConnectionId='9' Grid.Row="1" x:Name="EditButtonText" Text="Edit" FontSize="12" VerticalAlignment="Bottom"/>
+                        <TextBlock x:ConnectionId='5' Grid.Row="1" x:Name="EditButtonText" Text="Edit" FontSize="12" VerticalAlignment="Bottom"/>
                     </Grid>
                 </Button>
 
@@ -96,20 +110,7 @@
                         <FontIcon Glyph="&#xE74D;"/>
                         <TextBlock Grid.Row="1" Text="Delete" FontSize="12" VerticalAlignment="Bottom"/>
 
-                        <ListView x:ConnectionId='4' Grid.Row="2"                                                 >
-                            <ListView.ItemTemplate>
-                                <DataTemplate                            >
-                                    <Grid x:ConnectionId='6'>
-                                        <Grid.RowDefinitions>
-                                            <RowDefinition/>
-                                            <RowDefinition/>
-                                        </Grid.RowDefinitions>
-                                        <TextBlock x:ConnectionId='7'                     />
-                                        <TextBlock x:ConnectionId='8'                    Grid.Row="1"/>
-                                    </Grid>
-                                </DataTemplate>
-                            </ListView.ItemTemplate>
-                        </ListView>
+                        
                     </Grid>
                 </Button>
 

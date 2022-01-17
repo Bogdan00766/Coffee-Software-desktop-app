@@ -7,7 +7,7 @@ namespace Coffe.Domain
 {
     public static class CurrentUser
     {
-        public static int Id { get; set; }
+        public static int? Id { get; set; }
         public static string Username { get; set; }
         public static string Email { get; set; }
         public static string Password { get; set; }
@@ -30,7 +30,7 @@ namespace Coffe.Domain
 
         public static void Logout()
         {
-            Id = -1;
+            Id = null;
             isGuest = true;
             Username = null;
             Email = null;
