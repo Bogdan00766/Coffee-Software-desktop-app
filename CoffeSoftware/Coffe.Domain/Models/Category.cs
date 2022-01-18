@@ -9,5 +9,18 @@ namespace Coffe.Domain.Models
     {
         public string Name { get; set; }
         public List<Product> Products { get; set; }
+
+        public Category()
+        {
+
+        }
+
+        public Category(
+            string name, 
+            List<Product> products)
+        {
+            Name = name;
+            Products = products;
+        }
     }
 }
