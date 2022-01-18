@@ -13,5 +13,25 @@ namespace Coffe.Domain.Models
         public int PostalCode { get; set; }
         public string Country { get; set; }
         public List<User> Users { get; set; }
+
+        public Address()
+        {
+
+        }
+
+        public Address(string street, 
+            string city, 
+            string state, 
+            int postalCode, 
+            string country, 
+            List<User> users)
+        {
+            Street = street;
+            City = city;
+            State = state;
+            PostalCode = postalCode;
+            Country = country;
+            Users = users;
+        }
     }
 }
