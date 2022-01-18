@@ -53,7 +53,7 @@ namespace Coffe.Infrastructure.Migrations
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd();
 
-                    b.Property<DateTime>("CreationTime");
+                    b.Property<string>("CreationTime");
 
                     b.Property<string>("Name");
 
@@ -108,7 +108,7 @@ namespace Coffe.Infrastructure.Migrations
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd();
 
-                    b.Property<string>("ImagePath");
+                    b.Property<byte[]>("ImagePath");
 
                     b.Property<string>("Name");
 

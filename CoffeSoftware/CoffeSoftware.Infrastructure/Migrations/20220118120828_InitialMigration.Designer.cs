@@ -9,8 +9,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Coffe.Infrastructure.Migrations
 {
     [DbContext(typeof(CoffeDbContext))]
-    [Migration("20211228162042_Initial")]
-    partial class Initial
+    [Migration("20220118120828_InitialMigration")]
+    partial class InitialMigration
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -55,7 +55,7 @@ namespace Coffe.Infrastructure.Migrations
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd();
 
-                    b.Property<DateTime>("CreationTime");
+                    b.Property<string>("CreationTime");
 
                     b.Property<string>("Name");
 
@@ -110,7 +110,7 @@ namespace Coffe.Infrastructure.Migrations
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd();
 
-                    b.Property<string>("ImagePath");
+                    b.Property<byte[]>("ImagePath");
 
                     b.Property<string>("Name");
 
