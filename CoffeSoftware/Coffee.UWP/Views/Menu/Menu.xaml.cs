@@ -1,4 +1,7 @@
-﻿using Coffee.Uwp.ViewsModels;
+﻿using Coffe.Domain;
+using Coffe.Domain.Models;
+using Coffe.Infrastructure;
+using Coffee.Uwp.ViewsModels;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -26,8 +29,10 @@ namespace Coffee.Uwp.Views.Menu
         public ProductViewModel  ProductViewModel { get; set; }
         public Menu()
         {
+            
             ProductViewModel = new ProductViewModel();
             this.InitializeComponent();
+            //add isAdmin check for buttons :) 
         }
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
@@ -36,11 +41,17 @@ namespace Coffee.Uwp.Views.Menu
         }
         private async void DeleteConfirmationButton_Click(object sender, RoutedEventArgs e)
         {
-            
+            var product = (Product)productList.SelectedItem;
+            IUnitOfWork uow = new UnitOfWork();
+            //var prod = await uow.ProductRepository.FindByIdAsync(product.Id);
+            uow.ProductRepository.Delete(product);
+            await uow.SaveAsync();
+            this.Frame.Navigate(typeof(Menu));
         }
         private void EditButton_Click(object sender, RoutedEventArgs e)
         {
-            
+            var product = (Product)productList.SelectedItem;
+            infoText.Text = product.Id + "x" + product.Name + "x" + product.Price;
         }
         private void AddButton_Click(object sender, RoutedEventArgs e)
         {
