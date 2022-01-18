@@ -16,5 +16,23 @@ namespace Coffe.Domain.Models
         public Shop Shop { get; set; }
         public List<OrderListProduct> OrderListProducts { get; set; }
 
+        public Product(string name, 
+            float price, 
+            string imagePath, 
+            string descriprion, 
+            string brand, 
+            Category category, 
+            Shop shop, 
+            List<OrderListProduct> orderListProducts)
+        {
+            Name = name;
+            Price = price;
+            ImagePath = imagePath;
+            Descriprion = descriprion;
+            Brand = brand;
+            Category = category;
+            Shop = shop;
+            OrderListProducts = orderListProducts;
+        }
     }
 }
