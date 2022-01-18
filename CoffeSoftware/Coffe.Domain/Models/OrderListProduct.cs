@@ -19,14 +19,11 @@ namespace Coffe.Domain.Models
 
         public OrderListProduct(
             int orderListId,
-            OrderList orderList, 
-            int productId, 
-            Product product)
+            int productId
+            )
         {
             OrderListId = orderListId;
-            OrderList = orderList;
             ProductId = productId;
-            Product = product;
         }
     }
 }

@@ -9,7 +9,7 @@ namespace Coffe.Domain.Models
     {
         public string Name { get; set; }
         public float Price { get; set; }
-        public string ImagePath { get; set; }
+        public byte[] ImagePath { get; set; }
         //public string Descriprion { get; set; }
         //public string Brand { get; set; }
         public Category Category { get; set; }
@@ -24,17 +24,11 @@ namespace Coffe.Domain.Models
         public Product(
             string name, 
             float price, 
-            string imagePath, 
-            Category category, 
-            Shop shop, 
-            List<OrderListProduct> orderListProducts)
+            byte[] imagePath )
         {
             Name = name;
             Price = price;
             ImagePath = imagePath;
-            Category = category;
-            Shop = shop;
-            OrderListProducts = orderListProducts;
         }
     }
 }

@@ -86,7 +86,7 @@ namespace Coffe.Infrastructure.Migrations
 
                     b.Property<int?>("CategoryId");
 
-                    b.Property<string>("ImagePath");
+                    b.Property<byte[]>("ImagePath");
 
                     b.Property<string>("Name");
 

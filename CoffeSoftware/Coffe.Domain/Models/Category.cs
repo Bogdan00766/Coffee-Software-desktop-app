@@ -16,11 +16,10 @@ namespace Coffe.Domain.Models
         }
 
         public Category(
-            string name, 
-            List<Product> products)
+            string name)
         {
             Name = name;
-            Products = products;
+            
         }
     }
 }

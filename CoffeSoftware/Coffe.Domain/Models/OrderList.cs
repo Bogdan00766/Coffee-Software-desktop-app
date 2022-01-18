@@ -18,14 +18,11 @@ namespace Coffe.Domain.Models
         }
 
         public OrderList(string name, 
-            string creationTime, 
-            User user, 
-            List<OrderListProduct> orderListProducts)
+            string creationTime)
         {
             Name = name;
             CreationTime = creationTime;
-            User = user;
-            OrderListProducts = orderListProducts;
+            
         }
     }
 }

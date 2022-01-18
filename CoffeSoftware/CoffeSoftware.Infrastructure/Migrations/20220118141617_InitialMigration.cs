@@ -83,7 +83,7 @@ namespace Coffe.Infrastructure.Migrations
                         .Annotation("Sqlite:Autoincrement", true),
                     Name = table.Column<string>(nullable: true),
                     Price = table.Column<float>(nullable: false),
-                    ImagePath = table.Column<string>(nullable: true),
+                    ImagePath = table.Column<byte[]>(nullable: true),
                     CategoryId = table.Column<int>(nullable: true),
                     ShopId = table.Column<int>(nullable: true)
                 },

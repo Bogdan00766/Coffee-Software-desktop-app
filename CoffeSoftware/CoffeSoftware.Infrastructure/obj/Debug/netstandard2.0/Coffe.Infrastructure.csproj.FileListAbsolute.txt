@@ -23,3 +23,4 @@ E:\1\C#\ad-ei-project-group-04\CoffeSoftware\CoffeSoftware.Infrastructure\obj\De
 E:\1\C#\ad-ei-project-group-04\CoffeSoftware\CoffeSoftware.Infrastructure\obj\Debug\netstandard2.0\Coffe.Infrastructure.csproj.CoreCompileInputs.cache
 E:\1\C#\ad-ei-project-group-04\CoffeSoftware\CoffeSoftware.Infrastructure\obj\Debug\netstandard2.0\Coffe.Infrastructure.dll
 E:\1\C#\ad-ei-project-group-04\CoffeSoftware\CoffeSoftware.Infrastructure\obj\Debug\netstandard2.0\Coffe.Infrastructure.pdb
+E:\1\C#\ad-ei-project-group-04\CoffeSoftware\CoffeSoftware.Infrastructure\obj\Debug\netstandard2.0\Coffe.Infrastructure.csproj.CopyComplete

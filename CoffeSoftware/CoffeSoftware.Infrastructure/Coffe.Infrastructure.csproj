@@ -17,4 +17,8 @@
     <ProjectReference Include="..\Coffe.Domain\Coffe.Domain.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Migrations\" />
+  </ItemGroup>
+
 </Project>

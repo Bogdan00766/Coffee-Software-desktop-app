@@ -19,13 +19,12 @@ namespace Coffe.Domain.Models
 
         public Shop(string name, 
             byte[] imagePath, 
-            float price, 
-            List<Product> products)
+            float price 
+            )
         {
             Name = name;
             ImagePath = imagePath;
             Price = price;
-            Products = products;
         }
     }
 }

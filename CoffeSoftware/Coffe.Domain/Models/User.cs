@@ -22,16 +22,13 @@ namespace Coffe.Domain.Models
         public User(string username, 
             string email, 
             string password, 
-            bool isAdmin, 
-            Address address, 
-            List<OrderList> orderLists)
+            bool isAdmin
+           )
         {
             Username = username;
             Email = email;
             Password = password;
             IsAdmin = isAdmin;
-            Address = address;
-            OrderLists = orderLists;
         }
     }
 

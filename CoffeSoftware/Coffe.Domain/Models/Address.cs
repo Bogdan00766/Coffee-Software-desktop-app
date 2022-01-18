@@ -23,15 +23,15 @@ namespace Coffe.Domain.Models
             string city, 
             string state, 
             int postalCode, 
-            string country, 
-            List<User> users)
+            string country
+           )
         {
             Street = street;
             City = city;
             State = state;
             PostalCode = postalCode;
             Country = country;
-            Users = users;
+            
         }
     }
 }

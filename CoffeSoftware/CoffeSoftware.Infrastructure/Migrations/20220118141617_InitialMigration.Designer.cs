@@ -9,7 +9,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Coffe.Infrastructure.Migrations
 {
     [DbContext(typeof(CoffeDbContext))]
-    [Migration("20220118120828_InitialMigration")]
+    [Migration("20220118141617_InitialMigration")]
     partial class InitialMigration
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -88,7 +88,7 @@ namespace Coffe.Infrastructure.Migrations
 
                     b.Property<int?>("CategoryId");
 
-                    b.Property<string>("ImagePath");
+                    b.Property<byte[]>("ImagePath");
 
                     b.Property<string>("Name");
 
