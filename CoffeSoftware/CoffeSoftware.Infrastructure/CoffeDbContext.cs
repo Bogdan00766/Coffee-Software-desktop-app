@@ -18,7 +18,7 @@ namespace Coffe.Infrastructure
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlite("Data Source=shoppinglist.db");
+            optionsBuilder.UseSqlite("Data Source=coffe.db");
         }
 
         //TODO OnModelCreating Have to add properties like .IsRequired to Name etc.

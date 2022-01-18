@@ -13,8 +13,8 @@ namespace Coffe.Domain.Models
         public bool IsAdmin { get; set; }
         public Address Address { get; set; }
         public List<OrderList> OrderLists { get; set; }
-
-
+       
 
     }
+
 }

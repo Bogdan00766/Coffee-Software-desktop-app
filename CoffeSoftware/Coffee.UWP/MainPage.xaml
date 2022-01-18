@@ -9,19 +9,23 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
+        
         <NavigationView ItemInvoked="NavigationView_ItemInvoked" PaneDisplayMode="Left">
             <NavigationView.MenuItems>
+                
                 <NavigationViewItem Icon="Home" Content="Home" Tag="home"/>
                 <NavigationViewItem Icon="AllApps" Content="Menu" Tag="menu"/>
                 <NavigationViewItem Icon="Like" Content="Saved" Tag="saved"/>
                 <NavigationViewItem Icon="OpenPane" Content="Payment" Tag="payment"/>
                 <NavigationViewItem Icon="Shop" Content="Cart" Tag="cart"/>
                 <NavigationViewItem Icon="Setting" Content="Settings" Tag="settings"/>
+                <NavigationViewItem Content="Login" Tag="login" x:Name="loginNav" />
+                <NavigationViewItem Content="Logout" Tag="logout" x:Name="logoutNav"  />
             </NavigationView.MenuItems>
         </NavigationView>
+        <TextBlock HorizontalAlignment="Right" VerticalAlignment="Bottom" Text="You are: Guest" x:Name="currentUserText"/>
 
-
-        <Frame x:Name="frame" Margin="322,0,0,0"/>
+        <Frame x:Name="frame" Margin="322,0,0,14"/>
         
 
     </Grid>

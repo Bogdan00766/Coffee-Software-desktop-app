@@ -1,0 +1,13 @@
+D:\IPB\AD\Project\CoffeSoftware\ad-ei-project-group-04\CoffeSoftware\CoffeSoftware.Infrastructure\bin\Debug\netstandard2.0\Coffe.Infrastructure.deps.json
+D:\IPB\AD\Project\CoffeSoftware\ad-ei-project-group-04\CoffeSoftware\CoffeSoftware.Infrastructure\bin\Debug\netstandard2.0\Coffe.Infrastructure.dll
+D:\IPB\AD\Project\CoffeSoftware\ad-ei-project-group-04\CoffeSoftware\CoffeSoftware.Infrastructure\bin\Debug\netstandard2.0\Coffe.Infrastructure.pdb
+D:\IPB\AD\Project\CoffeSoftware\ad-ei-project-group-04\CoffeSoftware\CoffeSoftware.Infrastructure\bin\Debug\netstandard2.0\Coffe.Domain.dll
+D:\IPB\AD\Project\CoffeSoftware\ad-ei-project-group-04\CoffeSoftware\CoffeSoftware.Infrastructure\bin\Debug\netstandard2.0\Coffe.Domain.pdb
+D:\IPB\AD\Project\CoffeSoftware\ad-ei-project-group-04\CoffeSoftware\CoffeSoftware.Infrastructure\obj\Debug\netstandard2.0\Coffe.Infrastructure.csproj.AssemblyReference.cache
+D:\IPB\AD\Project\CoffeSoftware\ad-ei-project-group-04\CoffeSoftware\CoffeSoftware.Infrastructure\obj\Debug\netstandard2.0\Coffe.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\IPB\AD\Project\CoffeSoftware\ad-ei-project-group-04\CoffeSoftware\CoffeSoftware.Infrastructure\obj\Debug\netstandard2.0\Coffe.Infrastructure.AssemblyInfoInputs.cache
+D:\IPB\AD\Project\CoffeSoftware\ad-ei-project-group-04\CoffeSoftware\CoffeSoftware.Infrastructure\obj\Debug\netstandard2.0\Coffe.Infrastructure.AssemblyInfo.cs
+D:\IPB\AD\Project\CoffeSoftware\ad-ei-project-group-04\CoffeSoftware\CoffeSoftware.Infrastructure\obj\Debug\netstandard2.0\Coffe.Infrastructure.csproj.CoreCompileInputs.cache
+D:\IPB\AD\Project\CoffeSoftware\ad-ei-project-group-04\CoffeSoftware\CoffeSoftware.Infrastructure\obj\Debug\netstandard2.0\Coffe.Infrastructure.csproj.CopyComplete
+D:\IPB\AD\Project\CoffeSoftware\ad-ei-project-group-04\CoffeSoftware\CoffeSoftware.Infrastructure\obj\Debug\netstandard2.0\Coffe.Infrastructure.dll
+D:\IPB\AD\Project\CoffeSoftware\ad-ei-project-group-04\CoffeSoftware\CoffeSoftware.Infrastructure\obj\Debug\netstandard2.0\Coffe.Infrastructure.pdb

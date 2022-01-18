@@ -18,9 +18,8 @@ using Coffee.Uwp.Views.Settings;
 using Coffee.Uwp.Views.Home;
 using Coffee.Uwp.Views.Menu;
 using Coffee.Uwp.Views.Saved;
-
-
-
+using Coffee.Uwp.Views.Login;
+using Coffe.Domain;
 
 namespace Coffee.Uwp
 {
@@ -32,11 +31,33 @@ namespace Coffee.Uwp
         public MainPage()
         {
             this.InitializeComponent();
+            UpdateButtons();
         }
 
+        public void UpdateUserInfo()
+        {
+            if (CurrentUser.isGuest == true) currentUserText.Text = "You are: Guest";
+            else currentUserText.Text = "You are: " + CurrentUser.Username;
+        }
+
+        void UpdateButtons()
+        {
+            if (CurrentUser.isGuest == true)
+            {
+                loginNav.Visibility = Visibility.Visible;
+                logoutNav.Visibility = Visibility.Collapsed;
+            }
+            else
+            {
+                loginNav.Visibility = Visibility.Collapsed;
+                logoutNav.Visibility = Visibility.Visible;
+            }
+        }
 
         private void NavigationView_ItemInvoked(NavigationView sender, NavigationViewItemInvokedEventArgs args)
         {
+            UpdateButtons();
+            UpdateUserInfo();
             NavigationViewItem nvi = (NavigationViewItem)args.InvokedItemContainer;
             if (nvi != null)
             {
@@ -57,6 +78,20 @@ namespace Coffee.Uwp
                     case "cart":
                         frame.Navigate(typeof(Cart));
                         break;
+                    case "login":
+                        frame.Navigate(typeof(Login));
+                        break;
+                    case "settings":
+                        frame.Navigate(typeof(Settings));
+                        break;
+                    case "properties":
+                        frame.Navigate(typeof(Settings));
+                        break;
+                    case "logout":
+                        CurrentUser.Logout();
+                        frame.Navigate(typeof(Home));
+                        break;
+
                 }
             }
         }
