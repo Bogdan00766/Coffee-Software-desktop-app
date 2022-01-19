@@ -55,6 +55,7 @@
       <RootProperty Name="Tag" />
     </RootType>
     <RootType FullName="Coffee.Uwp.MainPage" />
+<<<<<<< HEAD
     <RootType FullName="Coffee.Uwp.Views.Home.Home" />
     <RootType FullName="Windows.UI.Xaml.Controls.RowDefinition">
       <RootProperty Name="Height" />
@@ -64,14 +65,46 @@
       <RootProperty Name="PlaceholderText" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Button">
+=======
+    <RootType FullName="Windows.UI.Xaml.Controls.StackPanel">
+      <RootProperty Name="Margin" />
+      <RootProperty Name="Children" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.ListView">
+      <RootProperty Name="ItemsSource" />
+      <RootProperty Name="ItemTemplate" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.Button">
+      <RootProperty Name="Height" />
+      <RootProperty Name="Content" />
+>>>>>>> 2c8a6df80365134ed8e21a964d815fa9ca6d5d58
       <RootProperty Name="Margin" />
       <RootProperty Name="Content" />
       <RootProperty Name="BorderBrush" />
       <RootProperty Name="BorderThickness" />
-      <RootProperty Name="Height" />
       <RootProperty Name="Width" />
       <RootEvent Name="Click" />
     </RootType>
+<<<<<<< HEAD
+=======
+    <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.BindExtension" />
+    <RootType FullName="Windows.UI.Xaml.DataTemplate">
+      <RootProperty Name="Template" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.VariableSizedWrapGrid">
+      <RootProperty Name="Children" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Data.Binding" />
+    <RootType FullName="Coffee.Uwp.Views.Catalog.Catalog" />
+    <RootType FullName="Coffee.Uwp.Views.Home.Home" />
+    <RootType FullName="Windows.UI.Xaml.Controls.RowDefinition">
+      <RootProperty Name="Height" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.TextBox">
+      <RootProperty Name="Header" />
+      <RootProperty Name="PlaceholderText" />
+    </RootType>
+>>>>>>> 2c8a6df80365134ed8e21a964d815fa9ca6d5d58
     <RootType FullName="Coffee.Uwp.Views.Login.Login" />
     <RootType FullName="Coffee.Uwp.Views.Login.Register" />
     <RootType FullName="Windows.UI.Xaml.Controls.FontIcon">

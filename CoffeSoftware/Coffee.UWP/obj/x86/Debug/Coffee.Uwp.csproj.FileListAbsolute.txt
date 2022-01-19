@@ -351,4 +351,3 @@ D:\for_visual_studio\ApplicationDevelopment\CoffeSoftware\Coffee.Uwp\obj\x86\Deb
 D:\for_visual_studio\ApplicationDevelopment\CoffeSoftware\Coffee.Uwp\obj\x86\Debug\Views\Catalog\Catalog.g.cs
 D:\for_visual_studio\ApplicationDevelopment\CoffeSoftware\Coffee.Uwp\obj\x86\Debug\Views\Catalog\Catalog.xaml
 D:\for_visual_studio\ApplicationDevelopment\CoffeSoftware\Coffee.Uwp\obj\x86\Debug\Views\Catalog\Catalog.xbf
-D:\for_visual_studio\ApplicationDevelopment\CoffeSoftware\Coffee.Uwp\obj\x86\Debug\Coffee.Uwp.csproj.CopyComplete

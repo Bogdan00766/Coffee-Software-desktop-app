@@ -1,4 +1,5 @@
 ﻿using Coffe.Domain;
+using Coffe.Domain.Models;
 using Coffe.Domain.Repositories;
 using Coffe.Infrastructure.Repositories;
 using Microsoft.EntityFrameworkCore;

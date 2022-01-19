@@ -119,7 +119,11 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+<<<<<<< HEAD
     <Compile Include="ViewsModels\OrderListProductViewModel.cs" />
+=======
+    <Compile Include="ViewsModels\CartViewModel.cs" />
+>>>>>>> 2c8a6df80365134ed8e21a964d815fa9ca6d5d58
     <Compile Include="ViewsModels\ProductViewModel.cs" />
     <Compile Include="Views\Cart\Cart.xaml.cs">
       <DependentUpon>Cart.xaml</DependentUpon>

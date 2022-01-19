@@ -39,6 +39,37 @@ namespace Coffee.Uwp.Views.Catalog
         protected override async void OnNavigatedTo(NavigationEventArgs e)
         {
             await ProductViewModel.LoadAllAsync();
-        } 
+        }
+
+        private async void AddCartButton_Click(object sender, RoutedEventArgs e)
+        {
+            bool isRegistered = false;
+            using (IUnitOfWork uow = new UnitOfWork())
+            {
+
+                if (await uow.UserRepository.isRegisteredAsync(CurrentUser.Email))
+                {
+                    isRegistered = true;
+                }
+                else { infoText.Text = "Error. Log in once again, please"; }
+
+                if (isRegistered)
+                {
+                    var user = await uow.UserRepository.FindByEmailAsync(CurrentUser.Email);
+                    OrderList list = new OrderList();
+                    var obj = (Product)listOfProducts.SelectedItem;
+                    list.Name = obj.Name;
+                    list.CreationTime = "34";
+                    list.User = user;
+                    list = uow.OrderListRepository.Create(list);
+                   
+                    OrderListProduct listProduct = new OrderListProduct();
+                    listProduct.OrderListId = list.Id;
+                    listProduct.ProductId = obj.Id;
+                    uow.OrderListProductRepository.Create(listProduct);
+                    await uow.SaveAsync();
+                }
+            }
+        }
     }
 }

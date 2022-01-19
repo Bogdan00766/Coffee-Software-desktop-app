@@ -3,14 +3,16 @@ using System;
 using Coffe.Infrastructure;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace Coffe.Infrastructure.Migrations
 {
     [DbContext(typeof(CoffeDbContext))]
-    partial class CoffeDbContextModelSnapshot : ModelSnapshot
+    [Migration("20220119163337_Migration x")]
+    partial class Migrationx
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -68,21 +70,13 @@ namespace Coffe.Infrastructure.Migrations
 
             modelBuilder.Entity("Coffe.Domain.Models.OrderListProduct", b =>
                 {
-                    b.Property<int>("Id");
-
                     b.Property<int>("OrderListId");
 
                     b.Property<int>("ProductId");
 
-<<<<<<< HEAD
-                    b.HasKey("Id", "OrderListId", "ProductId");
-
-                    b.HasIndex("OrderListId");
-=======
                     b.Property<int>("Id");
 
                     b.HasKey("OrderListId", "ProductId");
->>>>>>> 2c8a6df80365134ed8e21a964d815fa9ca6d5d58
 
                     b.HasIndex("ProductId");
 
