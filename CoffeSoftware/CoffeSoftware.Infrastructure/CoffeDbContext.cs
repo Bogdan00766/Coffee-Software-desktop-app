@@ -26,7 +26,7 @@ namespace Coffe.Infrastructure
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<OrderListProduct>()
-                .HasKey(olp => new {olp.Id, olp.OrderListId, olp.ProductId});
+                .HasKey(olp => new {olp.OrderListId, olp.ProductId});
             modelBuilder.Entity<OrderListProduct>()
                 .HasOne(olp => olp.OrderList)
                 .WithMany(ol => ol.OrderListProducts)

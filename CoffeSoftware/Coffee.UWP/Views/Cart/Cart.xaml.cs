@@ -32,7 +32,7 @@ namespace Coffee.Uwp.Views.Cart
         }
         protected override async void OnNavigatedTo(NavigationEventArgs e)
         {
-            await OrderListProductViewModel.LoadAllForUserAsync(1);
+            await OrderListProductViewModel.LoadAllForUserAsync(CurrentUser.Id);
             base.OnNavigatedTo(e);
         }
     }

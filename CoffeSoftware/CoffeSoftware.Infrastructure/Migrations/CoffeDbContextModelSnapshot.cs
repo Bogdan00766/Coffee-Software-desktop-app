@@ -68,21 +68,13 @@ namespace Coffe.Infrastructure.Migrations
 
             modelBuilder.Entity("Coffe.Domain.Models.OrderListProduct", b =>
                 {
-                    b.Property<int>("Id");
-
                     b.Property<int>("OrderListId");
 
                     b.Property<int>("ProductId");
 
-<<<<<<< HEAD
-                    b.HasKey("Id", "OrderListId", "ProductId");
-
-                    b.HasIndex("OrderListId");
-=======
                     b.Property<int>("Id");
 
                     b.HasKey("OrderListId", "ProductId");
->>>>>>> 2c8a6df80365134ed8e21a964d815fa9ca6d5d58
 
                     b.HasIndex("ProductId");
 

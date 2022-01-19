@@ -30,21 +30,13 @@
     <AppXManifest Include="D:\IPB\AD\Project\CoffeSoftware\ad-ei-project-group-04\CoffeSoftware\Coffee.Uwp\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-<<<<<<< HEAD
-      <Modified>2022-01-19T17:02:17.660</Modified>
-=======
-      <Modified>2022-01-19T16:42:38.941</Modified>
->>>>>>> 2c8a6df80365134ed8e21a964d815fa9ca6d5d58
+      <Modified>2022-01-19T17:21:24.352</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\IPB\AD\Project\CoffeSoftware\ad-ei-project-group-04\CoffeSoftware\Coffee.Uwp\bin\x86\Debug\Coffee.Uwp.exe">
       <PackagePath>entrypoint\Coffee.Uwp.exe</PackagePath>
-<<<<<<< HEAD
-      <Modified>2022-01-19T17:02:17.216</Modified>
-=======
-      <Modified>2022-01-19T16:42:38.381</Modified>
->>>>>>> 2c8a6df80365134ed8e21a964d815fa9ca6d5d58
+      <Modified>2022-01-19T17:21:23.922</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pchud\.nuget\packages\microsoft.data.sqlite.core\2.2.6\lib\netstandard2.0\Microsoft.Data.Sqlite.dll">
       <PackagePath>Microsoft.Data.Sqlite.dll</PackagePath>
@@ -156,19 +148,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\IPB\AD\Project\CoffeSoftware\ad-ei-project-group-04\CoffeSoftware\Coffe.Domain\bin\Debug\netstandard2.0\Coffe.Domain.dll">
       <PackagePath>Coffe.Domain.dll</PackagePath>
-<<<<<<< HEAD
-      <Modified>2022-01-19T16:44:33.291</Modified>
-=======
-      <Modified>2022-01-19T14:49:08.342</Modified>
->>>>>>> 2c8a6df80365134ed8e21a964d815fa9ca6d5d58
+      <Modified>2022-01-19T17:19:09.711</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\IPB\AD\Project\CoffeSoftware\ad-ei-project-group-04\CoffeSoftware\CoffeSoftware.Infrastructure\bin\Debug\netstandard2.0\Coffe.Infrastructure.dll">
       <PackagePath>Coffe.Infrastructure.dll</PackagePath>
-<<<<<<< HEAD
-      <Modified>2022-01-19T17:02:11.802</Modified>
-=======
-      <Modified>2022-01-19T16:34:01.126</Modified>
->>>>>>> 2c8a6df80365134ed8e21a964d815fa9ca6d5d58
+      <Modified>2022-01-19T17:21:18.609</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Windows Kits\10\bin\10.0.19041.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
@@ -222,111 +206,55 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\IPB\AD\Project\CoffeSoftware\ad-ei-project-group-04\CoffeSoftware\Coffee.Uwp\bin\x86\Debug\Coffee.Uwp.xr.xml">
       <PackagePath>Coffee.Uwp.xr.xml</PackagePath>
-<<<<<<< HEAD
-      <Modified>2022-01-19T15:33:04.540</Modified>
-=======
-      <Modified>2022-01-19T15:09:07.947</Modified>
->>>>>>> 2c8a6df80365134ed8e21a964d815fa9ca6d5d58
+      <Modified>2022-01-19T17:13:33.431</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\IPB\AD\Project\CoffeSoftware\ad-ei-project-group-04\CoffeSoftware\Coffee.Uwp\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-<<<<<<< HEAD
-      <Modified>2022-01-19T17:02:17.131</Modified>
-=======
-      <Modified>2022-01-19T16:42:38.246</Modified>
->>>>>>> 2c8a6df80365134ed8e21a964d815fa9ca6d5d58
+      <Modified>2022-01-19T17:21:23.837</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\IPB\AD\Project\CoffeSoftware\ad-ei-project-group-04\CoffeSoftware\Coffee.Uwp\bin\x86\Debug\Views\Cart\Cart.xbf">
       <PackagePath>Views\Cart\Cart.xbf</PackagePath>
-<<<<<<< HEAD
-      <Modified>2022-01-19T17:02:17.131</Modified>
-=======
-      <Modified>2022-01-19T16:42:38.246</Modified>
->>>>>>> 2c8a6df80365134ed8e21a964d815fa9ca6d5d58
+      <Modified>2022-01-19T17:21:23.837</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\IPB\AD\Project\CoffeSoftware\ad-ei-project-group-04\CoffeSoftware\Coffee.Uwp\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-<<<<<<< HEAD
-      <Modified>2022-01-19T17:02:17.131</Modified>
+      <Modified>2022-01-19T17:21:23.837</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\IPB\AD\Project\CoffeSoftware\ad-ei-project-group-04\CoffeSoftware\Coffee.Uwp\bin\x86\Debug\Views\Home\Home.xbf">
       <PackagePath>Views\Home\Home.xbf</PackagePath>
-      <Modified>2022-01-19T17:02:17.131</Modified>
-=======
-      <Modified>2022-01-19T16:42:38.246</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\for_visual_studio\ApplicationDevelopment\CoffeSoftware\Coffee.Uwp\bin\x86\Debug\Views\Catalog\Catalog.xbf">
-      <PackagePath>Views\Catalog\Catalog.xbf</PackagePath>
-      <Modified>2022-01-19T16:42:38.246</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\for_visual_studio\ApplicationDevelopment\CoffeSoftware\Coffee.Uwp\bin\x86\Debug\Views\Home\Home.xbf">
-      <PackagePath>Views\Home\Home.xbf</PackagePath>
-      <Modified>2022-01-19T16:42:38.246</Modified>
->>>>>>> 2c8a6df80365134ed8e21a964d815fa9ca6d5d58
+      <Modified>2022-01-19T17:21:23.837</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\IPB\AD\Project\CoffeSoftware\ad-ei-project-group-04\CoffeSoftware\Coffee.Uwp\bin\x86\Debug\Views\Login\Login.xbf">
       <PackagePath>Views\Login\Login.xbf</PackagePath>
-<<<<<<< HEAD
-      <Modified>2022-01-19T17:02:17.131</Modified>
-=======
-      <Modified>2022-01-19T16:42:38.247</Modified>
->>>>>>> 2c8a6df80365134ed8e21a964d815fa9ca6d5d58
+      <Modified>2022-01-19T17:21:23.837</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\IPB\AD\Project\CoffeSoftware\ad-ei-project-group-04\CoffeSoftware\Coffee.Uwp\bin\x86\Debug\Views\Login\Register.xbf">
       <PackagePath>Views\Login\Register.xbf</PackagePath>
-<<<<<<< HEAD
-      <Modified>2022-01-19T17:02:17.132</Modified>
-=======
-      <Modified>2022-01-19T16:42:38.247</Modified>
->>>>>>> 2c8a6df80365134ed8e21a964d815fa9ca6d5d58
+      <Modified>2022-01-19T17:21:23.837</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\IPB\AD\Project\CoffeSoftware\ad-ei-project-group-04\CoffeSoftware\Coffee.Uwp\bin\x86\Debug\Views\Menu\Menu.xbf">
       <PackagePath>Views\Menu\Menu.xbf</PackagePath>
-<<<<<<< HEAD
-      <Modified>2022-01-19T17:02:17.132</Modified>
-=======
-      <Modified>2022-01-19T16:42:38.247</Modified>
->>>>>>> 2c8a6df80365134ed8e21a964d815fa9ca6d5d58
+      <Modified>2022-01-19T17:21:23.837</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\IPB\AD\Project\CoffeSoftware\ad-ei-project-group-04\CoffeSoftware\Coffee.Uwp\bin\x86\Debug\Views\Payment\Payment.xbf">
       <PackagePath>Views\Payment\Payment.xbf</PackagePath>
-<<<<<<< HEAD
-      <Modified>2022-01-19T17:02:17.132</Modified>
-=======
-      <Modified>2022-01-19T16:42:38.247</Modified>
->>>>>>> 2c8a6df80365134ed8e21a964d815fa9ca6d5d58
+      <Modified>2022-01-19T17:21:23.838</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\IPB\AD\Project\CoffeSoftware\ad-ei-project-group-04\CoffeSoftware\Coffee.Uwp\bin\x86\Debug\Views\Saved\Saved.xbf">
       <PackagePath>Views\Saved\Saved.xbf</PackagePath>
-<<<<<<< HEAD
-      <Modified>2022-01-19T17:02:17.132</Modified>
-=======
-      <Modified>2022-01-19T16:42:38.247</Modified>
->>>>>>> 2c8a6df80365134ed8e21a964d815fa9ca6d5d58
+      <Modified>2022-01-19T17:21:23.838</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\IPB\AD\Project\CoffeSoftware\ad-ei-project-group-04\CoffeSoftware\Coffee.Uwp\bin\x86\Debug\Views\Settings\ChangeEmail.xbf">
       <PackagePath>Views\Settings\ChangeEmail.xbf</PackagePath>
-<<<<<<< HEAD
-      <Modified>2022-01-19T17:02:17.132</Modified>
-=======
-      <Modified>2022-01-19T16:42:38.247</Modified>
->>>>>>> 2c8a6df80365134ed8e21a964d815fa9ca6d5d58
+      <Modified>2022-01-19T17:21:23.838</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\IPB\AD\Project\CoffeSoftware\ad-ei-project-group-04\CoffeSoftware\Coffee.Uwp\bin\x86\Debug\Views\Settings\ChangePassword.xbf">
       <PackagePath>Views\Settings\ChangePassword.xbf</PackagePath>
-<<<<<<< HEAD
-      <Modified>2022-01-19T17:02:17.132</Modified>
-=======
-      <Modified>2022-01-19T16:42:38.247</Modified>
->>>>>>> 2c8a6df80365134ed8e21a964d815fa9ca6d5d58
+      <Modified>2022-01-19T17:21:23.838</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\IPB\AD\Project\CoffeSoftware\ad-ei-project-group-04\CoffeSoftware\Coffee.Uwp\bin\x86\Debug\Views\Settings\Settings.xbf">
       <PackagePath>Views\Settings\Settings.xbf</PackagePath>
-<<<<<<< HEAD
-      <Modified>2022-01-19T17:02:17.132</Modified>
-=======
-      <Modified>2022-01-19T16:42:38.247</Modified>
->>>>>>> 2c8a6df80365134ed8e21a964d815fa9ca6d5d58
+      <Modified>2022-01-19T17:21:23.838</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Windows Kits\10\UnionMetadata\10.0.19041.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -334,19 +262,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\IPB\AD\Project\CoffeSoftware\ad-ei-project-group-04\CoffeSoftware\Coffee.Uwp\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-<<<<<<< HEAD
-      <Modified>2022-01-19T16:46:30.654</Modified>
-=======
-      <Modified>2022-01-19T14:49:22.579</Modified>
->>>>>>> 2c8a6df80365134ed8e21a964d815fa9ca6d5d58
+      <Modified>2022-01-19T17:13:34.388</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\IPB\AD\Project\CoffeSoftware\ad-ei-project-group-04\CoffeSoftware\Coffee.Uwp\bin\x86\Debug\Core\Coffee.Uwp.exe">
       <PackagePath>Coffee.Uwp.exe</PackagePath>
-<<<<<<< HEAD
-      <Modified>2022-01-19T17:02:17.658</Modified>
-=======
-      <Modified>2022-01-19T16:42:38.937</Modified>
->>>>>>> 2c8a6df80365134ed8e21a964d815fa9ca6d5d58
+      <Modified>2022-01-19T17:21:24.349</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

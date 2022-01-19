@@ -9,8 +9,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Coffe.Infrastructure.Migrations
 {
     [DbContext(typeof(CoffeDbContext))]
-    [Migration("20220119163337_Migration x")]
-    partial class Migrationx
+    [Migration("20220119172115_initial")]
+    partial class initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

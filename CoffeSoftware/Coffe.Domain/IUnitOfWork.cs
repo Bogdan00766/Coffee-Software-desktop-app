@@ -15,7 +15,6 @@ namespace Coffe.Domain
         IProductRepository ProductRepository { get; }
         IShopRepository ShopRepository { get; }
         IUserRepository UserRepository { get; }
-        IOrderListProductRepository OrderListProductRepository { get; }
         Task SaveAsync();
     }
 }
