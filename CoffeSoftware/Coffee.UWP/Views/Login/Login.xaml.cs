@@ -48,32 +48,34 @@ namespace Coffee.Uwp.Views.Login
                 }
                 else
                 {
-                    IUnitOfWork uow = new UnitOfWork();
-                    if (await uow.UserRepository.isRegisteredAsync(emailText.Text))
+                    using (IUnitOfWork uow = new UnitOfWork())
                     {
-
-                        infoText.Text = "";
-                        if (await uow.UserRepository.checkPasswordAsync(emailText.Text, passwordText.Text))
+                        if (await uow.UserRepository.isRegisteredAsync(emailText.Text))
                         {
-                            var uc = await uow.UserRepository.FindByEmailAsync(emailText.Text);
-                            CurrentUser.Login(uc);
 
-                            ContentDialog LoginSuccessDialog = new ContentDialog()
+                            infoText.Text = "";
+                            if (await uow.UserRepository.checkPasswordAsync(emailText.Text, passwordText.Text))
                             {
-                                Title = "Login Success!",
-                                Content = "You are sucessfully logged in",
-                                CloseButtonText = "Ok!"
-                            };
+                                var uc = await uow.UserRepository.FindByEmailAsync(emailText.Text);
+                                CurrentUser.Login(uc);
 
-                            this.Frame.Navigate(typeof(Views.Home.Home)); ;
-                            await LoginSuccessDialog.ShowAsync();
+                                ContentDialog LoginSuccessDialog = new ContentDialog()
+                                {
+                                    Title = "Login Success!",
+                                    Content = "You are sucessfully logged in",
+                                    CloseButtonText = "Ok!"
+                                };
 
+                                this.Frame.Navigate(typeof(Views.Home.Home)); ;
+                                await LoginSuccessDialog.ShowAsync();
+
+                            }
+                            else infoText.Text = "Wrong password";
                         }
-                        else infoText.Text = "Wrong password";
-                    }
-                    else
-                    {
-                        infoText.Text = "User is not found!";
+                        else
+                        {
+                            infoText.Text = "User is not found!";
+                        }
                     }
                 }
             }

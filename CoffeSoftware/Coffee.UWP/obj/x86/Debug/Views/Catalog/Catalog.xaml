@@ -16,14 +16,17 @@
                     <DataTemplate                            >
                         <VariableSizedWrapGrid>
                             <TextBlock Text="{Binding ImagePath}" Width="600"/>
-                            <TextBlock Text="{Binding Name}" />
+                            <TextBlock Text="{Binding Name}" x:Name="productText" />
                             <TextBlock Text="{Binding Price}" />
-                            <Button>Add to cart</Button>
+                            <TextBlock Text="" x:Name="infoText"/>
                         </VariableSizedWrapGrid>
                     </DataTemplate>
                 </ListView.ItemTemplate>
             </ListView>
+            <TextBlock x:ConnectionId='3' Text="" x:Name="infoText"/>
+            <Button x:ConnectionId='4' Height="300"                            >Add to cart</Button>
         </StackPanel>
+        
     </Grid>
 </Page>
 

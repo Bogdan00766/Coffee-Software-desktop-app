@@ -1,4 +1,5 @@
 ﻿using Coffe.Domain;
+using Coffe.Domain.Models;
 using Coffe.Domain.Repositories;
 using Coffe.Infrastructure.Repositories;
 using Microsoft.EntityFrameworkCore;
@@ -18,6 +19,7 @@ namespace Coffe.Infrastructure
         public IProductRepository ProductRepository => new ProductRepository(_dbContext);
         public IShopRepository ShopRepository => new ShopRepository(_dbContext);
         public IUserRepository UserRepository => new UserRepository(_dbContext);
+        public IOrderListProductRepository OrderListProductRepository => new OrderListProductRepository(_dbContext);
 
         public UnitOfWork()
         {

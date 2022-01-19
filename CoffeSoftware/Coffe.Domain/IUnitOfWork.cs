@@ -11,6 +11,7 @@ namespace Coffe.Domain
         IAddressRepository AddressRepository { get; }
         ICategoryRepository CategoryRepository { get; }
         IOrderListRepository OrderListRepository { get; }
+        IOrderListProductRepository OrderListProductRepository { get; }
         IProductRepository ProductRepository { get; }
         IShopRepository ShopRepository { get; }
         IUserRepository UserRepository { get; }   
