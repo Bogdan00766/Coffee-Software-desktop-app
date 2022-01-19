@@ -20,6 +20,7 @@ using Coffee.Uwp.Views.Menu;
 using Coffee.Uwp.Views.Saved;
 using Coffee.Uwp.Views.Login;
 using Coffe.Domain;
+using Coffee.Uwp.Views.Catalog;
 
 namespace Coffee.Uwp
 {
@@ -73,7 +74,7 @@ namespace Coffee.Uwp
                         frame.Navigate(typeof(Payment));
                         break;
                     case "catalog":
-                        //frame.Navigate(typeof(Catalog));
+                        frame.Navigate(typeof(Catalog));
                         break;
                     case "saved":
                         frame.Navigate(typeof(Saved));

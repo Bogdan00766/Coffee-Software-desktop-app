@@ -1,9 +1,7 @@
-<<<<<<< HEAD
+
 ﻿using Coffe.Domain;
+using Coffe.Domain.Models;
 using Coffee.Uwp.ViewsModels;
-=======
-﻿using Coffee.Uwp.ViewsModels;
->>>>>>> a2c601f0f207569bda5b6c9f681eb669ccc6f522
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -28,28 +26,44 @@ namespace Coffee.Uwp.Views.Cart
     /// </summary>
     public sealed partial class Cart : Page
     {
-<<<<<<< HEAD
-        public OrderListProductViewModel OrderListProductViewModel { get; set; }
-=======
-        public CartViewModel CartViewModel { get; set; }
 
->>>>>>> a2c601f0f207569bda5b6c9f681eb669ccc6f522
+        //public OrderListProductViewModel OrderListProductViewModel { get; set; }
+
+        public CartViewModel CartViewModel { get; set; }
         public Cart()
         {
-            OrderListProductViewModel = new OrderListProductViewModel();
+            //OrderListProductViewModel = new OrderListProductViewModel();
+            CartViewModel = new CartViewModel();
             this.InitializeComponent();
 
-            CartViewModel = new CartViewModel();
+            //CartViewModel = new CartViewModel();
         }
 
         protected override async void OnNavigatedTo(NavigationEventArgs e)
         {
-            await CartViewModel.LoadAllAsync();
-        }
-        protected override async void OnNavigatedTo(NavigationEventArgs e)
-        {
-            await OrderListProductViewModel.LoadAllForUserAsync(CurrentUser.Id);
+            await CartViewModel.LoadAllForUserAsync(1);
+            sum();
             base.OnNavigatedTo(e);
         }
+        void sum()
+        {
+            float sum = 0;
+            foreach(Product prod in CartViewModel.ListProducts)
+            {
+                sum += prod.Price;
+            }
+            sumText.Text = "Full price: " + sum.ToString() + " €";
+        }
+
+        private void payButton_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        //protected override async void OnNavigatedTo(NavigationEventArgs e)
+        //{
+        //    await OrderListProductViewModel.LoadAllForUserAsync(CurrentUser.Id);
+        //    base.OnNavigatedTo(e);
+        //}
     }
 }

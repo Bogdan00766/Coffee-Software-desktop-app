@@ -351,3 +351,8 @@ D:\for_visual_studio\ApplicationDevelopment\CoffeSoftware\Coffee.Uwp\obj\x86\Deb
 D:\for_visual_studio\ApplicationDevelopment\CoffeSoftware\Coffee.Uwp\obj\x86\Debug\Views\Catalog\Catalog.g.cs
 D:\for_visual_studio\ApplicationDevelopment\CoffeSoftware\Coffee.Uwp\obj\x86\Debug\Views\Catalog\Catalog.xaml
 D:\for_visual_studio\ApplicationDevelopment\CoffeSoftware\Coffee.Uwp\obj\x86\Debug\Views\Catalog\Catalog.xbf
+D:\IPB\AD\Project\CoffeSoftware\ad-ei-project-group-04\CoffeSoftware\Coffee.Uwp\obj\x86\Debug\Views\Catalog\Catalog.g.i.cs
+D:\IPB\AD\Project\CoffeSoftware\ad-ei-project-group-04\CoffeSoftware\Coffee.Uwp\obj\x86\Debug\Views\Catalog\Catalog.g.cs
+D:\IPB\AD\Project\CoffeSoftware\ad-ei-project-group-04\CoffeSoftware\Coffee.Uwp\obj\x86\Debug\Views\Catalog\Catalog.xaml
+D:\IPB\AD\Project\CoffeSoftware\ad-ei-project-group-04\CoffeSoftware\Coffee.Uwp\obj\x86\Debug\Views\Catalog\Catalog.xbf
+D:\IPB\AD\Project\CoffeSoftware\ad-ei-project-group-04\CoffeSoftware\Coffee.Uwp\bin\x86\Debug\Views\Catalog\Catalog.xbf

@@ -22,7 +22,8 @@ namespace Coffe.Infrastructure.Repositories
             var tmp = _dbContext.OrderListProduct.Where(x => x.OrderList.User.Id == id).ToList();
             foreach(OrderListProduct olp in tmp)
             {
-                productsList.Add(olp.Product);
+                Product product = _dbContext.Product.Where(x => x.Id == olp.Id).FirstOrDefault();               
+                productsList.Add(product);
             }
             return Task.FromResult(productsList);
         }

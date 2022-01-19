@@ -13,34 +13,59 @@ namespace Coffee.Uwp.ViewsModels
 
     public class CartViewModel
     {
-        public ObservableCollection<OrderListProduct> ListProducts { get; set; }
+        public ObservableCollection<Product> ListProducts { get; set; }
         
 
         public CartViewModel()
         {
-            ListProducts = new ObservableCollection<OrderListProduct>();
+            ListProducts = new ObservableCollection<Product>();
+        }
+
+        public async Task LoadAllForUserAsync(int id)
+        {
+            using (IUnitOfWork uow = new UnitOfWork())
+            {
+                List<Product> list = await uow.ProductRepository.FindAllForUserAsync(id);
+                ListProducts.Clear();
+                foreach (Product c in list)
+                {
+                    ListProducts.Add(c);
+                }
+            }
         }
 
         public async Task LoadAllAsync()
         {
             using (IUnitOfWork uow = new UnitOfWork())
             {
-                List<OrderListProduct> list = await uow.OrderListProductRepository.FindAllAsync();
+                List<Product> list = await uow.ProductRepository.FindAllAsync();
                 ListProducts.Clear();
-                foreach (OrderListProduct p in list)
+                foreach (Product c in list)
                 {
-                    ListProducts.Add(p);
+                    ListProducts.Add(c);
                 }
-                ////////////////////////////////////////////////////////////////////////////////////////////
-                //foreach (OrderListProduct p in db.OrderListProduct.Include(p => p.Product))
-                //{
-                //    foreach (OrderListProduct ol in db.OrderListProduct.Include(ol => ol.OrderList))
-                //    {
-                //        ListProducts.Add(p);
-                //        ListProducts.Add(ol);
-                //    }
-                //}
             }
         }
+        //public async Task LoadAllAsync()
+        //{
+        //    using (IUnitOfWork uow = new UnitOfWork())
+        //    {
+        //        List<OrderListProduct> list = await uow.OrderListProductRepository.FindAllAsync();
+        //        ListProducts.Clear();
+        //        foreach (OrderListProduct p in list)
+        //        {
+        //            ListProducts.Add(p);
+        //        }
+        //        ////////////////////////////////////////////////////////////////////////////////////////////
+        //        //foreach (OrderListProduct p in db.OrderListProduct.Include(p => p.Product))
+        //        //{
+        //        //    foreach (OrderListProduct ol in db.OrderListProduct.Include(ol => ol.OrderList))
+        //        //    {
+        //        //        ListProducts.Add(p);
+        //        //        ListProducts.Add(ol);
+        //        //    }
+        //        //}
+        //    }
+        //}
     }
 }

@@ -9,8 +9,8 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-<<<<<<< HEAD
-        <ListView x:Name="cartList" Grid.Row="1" ItemsSource="{x:Bind OrderListProductViewModel.OrderListProducts}">
+
+        <!--<ListView x:Name="cartList" Grid.Row="1" ItemsSource="{x:Bind OrderListProductViewModel.OrderListProducts}">
             <ListView.ItemTemplate>
                 <DataTemplate x:Name="cartData" x:DataType="models:Product">
                     <Grid>
@@ -25,23 +25,56 @@
                     </Grid>
                 </DataTemplate>
             </ListView.ItemTemplate>
-        </ListView>
+        </ListView>-->
 
-=======
-        <TextBlock HorizontalAlignment="Left" Margin="1440,10,0,0" Text="Cart" TextWrapping="Wrap" VerticalAlignment="Top"/>
-        <StackPanel>
-            <ListView x:Name="CartList" ItemsSource="{x:Bind CartViewModel.ListProducts}">
+
+
+            <!--<ListView x:Name="CartList" ItemsSource="{x:Bind CartViewModel.ListProducts}">
                 <ListView.ItemTemplate>
                     <DataTemplate x:DataType="models:OrderListProduct">
-                        <VariableSizedWrapGrid>
-                            <TextBlock Text="{Binding ProductId}" Width="600"/>
-                            <TextBlock Text="{Binding OrderListId}" x:Name="productText" />
-                            <TextBlock Text="" x:Name="infoText"/>
-                        </VariableSizedWrapGrid>
+                        <Grid Background="LightBlue">
+                            <TextBlock Text="{Binding Id}" Width="auto"/>
+                            <TextBlock Text="{Binding Category}" x:Name="productText" />
+                            <TextBlock Text="xxx" x:Name="infoText"/>
+                        </Grid>
+                        
                     </DataTemplate>
                 </ListView.ItemTemplate>
-            </ListView>
-        </StackPanel>
->>>>>>> a2c601f0f207569bda5b6c9f681eb669ccc6f522
+            </ListView>-->
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        
+        <TextBlock HorizontalAlignment="Left" Margin="10,10,0,0" Text="Cart" TextWrapping="Wrap" FontSize="40" VerticalAlignment="Top"/>
+        
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="300"/>
+            </Grid.ColumnDefinitions>
+            <TextBlock FontWeight="Bold" Margin="10,10,0 ,0" FontSize="24" Text="Name:"/>
+            <TextBlock FontWeight="Bold" Margin="0,10,0,0" FontSize="24" HorizontalAlignment="Right" Text="Price"/>
+        </Grid>
+
+        <ListView Margin="0,15,0,0" HorizontalAlignment="Stretch" VerticalAlignment="Top" Grid.Row="2" x:Name="productList" ItemsSource="{x:Bind CartViewModel.ListProducts}">
+            <ListView.ItemTemplate>
+                <DataTemplate x:Name="productData" x:DataType="models:Product">
+                    <Grid HorizontalAlignment="Center">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="300"/>
+                        </Grid.ColumnDefinitions>
+                        <TextBlock Margin="0,10" FontSize="24" Text="{x:Bind Name}"/>
+                        <TextBlock Margin="0,10,20,0" FontSize="24" HorizontalAlignment="Right" Text="{x:Bind Price}"/>
+                        <TextBlock Margin="0,10" FontSize="24" HorizontalAlignment="Right" Text=" €"/>
+                    </Grid>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+
+        <TextBlock Grid.Row="3" Margin="0,0,15,15" FontSize="24" HorizontalAlignment="Right" VerticalAlignment="Bottom" x:Name="sumText" Text=""/>
+        <Button FontSize="24" Width="200" HorizontalAlignment="Right" Grid.Row="4" Content="PAY" Margin="0,0,15,15" x:Name="payButton" Click="payButton_Click"/>
     </Grid>
 </Page>
