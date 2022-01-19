@@ -180,23 +180,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\DiankaUser\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\dena_\\.nuget\\packages\\": {},
+    "D:\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\1\\C#\\ad-ei-project-group-04\\CoffeSoftware\\Coffe.Domain\\Coffe.Domain.csproj",
+      "projectUniqueName": "D:\\for_visual_studio\\ApplicationDevelopment\\CoffeSoftware\\Coffe.Domain\\Coffe.Domain.csproj",
       "projectName": "Coffe.Domain",
-      "projectPath": "E:\\1\\C#\\ad-ei-project-group-04\\CoffeSoftware\\Coffe.Domain\\Coffe.Domain.csproj",
-      "packagesPath": "C:\\Users\\DiankaUser\\.nuget\\packages\\",
-      "outputPath": "E:\\1\\C#\\ad-ei-project-group-04\\CoffeSoftware\\Coffe.Domain\\obj\\",
+      "projectPath": "D:\\for_visual_studio\\ApplicationDevelopment\\CoffeSoftware\\Coffe.Domain\\Coffe.Domain.csproj",
+      "packagesPath": "C:\\Users\\dena_\\.nuget\\packages\\",
+      "outputPath": "D:\\for_visual_studio\\ApplicationDevelopment\\CoffeSoftware\\Coffe.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        "D:\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\DiankaUser\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\dena_\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -240,7 +240,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
       }
     }
   }
