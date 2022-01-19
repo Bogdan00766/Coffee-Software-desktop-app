@@ -15,6 +15,7 @@
                 
                 <NavigationViewItem Icon="Home" Content="Home" Tag="home"/>
                 <NavigationViewItem Icon="AllApps" Content="Menu" Tag="menu"/>
+                <NavigationViewItem Icon="AllApps" Content="Catalog" Tag="catalog"/>
                 <NavigationViewItem Icon="Like" Content="Saved" Tag="saved"/>
                 <NavigationViewItem Icon="OpenPane" Content="Payment" Tag="payment"/>
                 <NavigationViewItem Icon="Shop" Content="Cart" Tag="cart"/>

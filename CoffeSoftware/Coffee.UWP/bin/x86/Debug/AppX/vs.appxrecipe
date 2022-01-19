@@ -30,13 +30,13 @@
     <AppXManifest Include="D:\for_visual_studio\ApplicationDevelopment\CoffeSoftware\Coffee.Uwp\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-01-19T01:01:53.837</Modified>
+      <Modified>2022-01-19T10:03:47.618</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\for_visual_studio\ApplicationDevelopment\CoffeSoftware\Coffee.Uwp\bin\x86\Debug\Coffee.Uwp.exe">
       <PackagePath>entrypoint\Coffee.Uwp.exe</PackagePath>
-      <Modified>2022-01-19T01:01:50.045</Modified>
+      <Modified>2022-01-19T10:03:46.123</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dena_\.nuget\packages\microsoft.data.sqlite.core\2.2.6\lib\netstandard2.0\Microsoft.Data.Sqlite.dll">
       <PackagePath>Microsoft.Data.Sqlite.dll</PackagePath>
@@ -148,11 +148,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\for_visual_studio\ApplicationDevelopment\CoffeSoftware\Coffe.Domain\bin\Debug\netstandard2.0\Coffe.Domain.dll">
       <PackagePath>Coffe.Domain.dll</PackagePath>
-      <Modified>2022-01-19T00:58:57.579</Modified>
+      <Modified>2022-01-19T01:39:14.438</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\for_visual_studio\ApplicationDevelopment\CoffeSoftware\CoffeSoftware.Infrastructure\bin\Debug\netstandard2.0\Coffe.Infrastructure.dll">
       <PackagePath>Coffe.Infrastructure.dll</PackagePath>
-      <Modified>2022-01-19T00:58:58.994</Modified>
+      <Modified>2022-01-19T10:03:29.011</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Windows Kits\10\bin\10.0.19041.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
@@ -160,101 +160,105 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\for_visual_studio\ApplicationDevelopment\CoffeSoftware\Coffee.Uwp\Assets\coffee.png">
       <PackagePath>Assets\coffee.png</PackagePath>
-      <Modified>2022-01-19T00:53:50.643</Modified>
+      <Modified>2022-01-19T01:39:14.718</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\for_visual_studio\ApplicationDevelopment\CoffeSoftware\Coffee.Uwp\Assets\coffee1.png">
       <PackagePath>Assets\coffee1.png</PackagePath>
-      <Modified>2022-01-19T00:53:50.644</Modified>
+      <Modified>2022-01-19T01:39:14.718</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\for_visual_studio\ApplicationDevelopment\CoffeSoftware\Coffee.Uwp\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
-      <Modified>2022-01-19T00:53:50.624</Modified>
+      <Modified>2022-01-19T01:39:14.715</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\for_visual_studio\ApplicationDevelopment\CoffeSoftware\Coffee.Uwp\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-01-19T00:53:50.624</Modified>
+      <Modified>2022-01-19T01:39:14.716</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\for_visual_studio\ApplicationDevelopment\CoffeSoftware\Coffee.Uwp\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-01-19T00:53:50.624</Modified>
+      <Modified>2022-01-19T01:39:14.716</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\for_visual_studio\ApplicationDevelopment\CoffeSoftware\Coffee.Uwp\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-01-19T00:53:50.641</Modified>
+      <Modified>2022-01-19T01:39:14.717</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\for_visual_studio\ApplicationDevelopment\CoffeSoftware\Coffee.Uwp\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-01-19T00:53:50.642</Modified>
+      <Modified>2022-01-19T01:39:14.717</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\for_visual_studio\ApplicationDevelopment\CoffeSoftware\Coffee.Uwp\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-01-19T00:53:50.642</Modified>
+      <Modified>2022-01-19T01:39:14.717</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\for_visual_studio\ApplicationDevelopment\CoffeSoftware\Coffee.Uwp\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-01-19T00:53:50.643</Modified>
+      <Modified>2022-01-19T01:39:14.717</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\for_visual_studio\ApplicationDevelopment\CoffeSoftware\Coffee.Uwp\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2022-01-19T00:53:50.647</Modified>
+      <Modified>2022-01-19T01:39:14.720</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\for_visual_studio\ApplicationDevelopment\CoffeSoftware\Coffee.Uwp\bin\x86\Debug\Coffee.Uwp.xr.xml">
       <PackagePath>Coffee.Uwp.xr.xml</PackagePath>
-      <Modified>2022-01-19T00:53:50.970</Modified>
+      <Modified>2022-01-19T09:49:03.708</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\for_visual_studio\ApplicationDevelopment\CoffeSoftware\Coffee.Uwp\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2022-01-19T01:01:49.827</Modified>
+      <Modified>2022-01-19T10:03:45.855</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\for_visual_studio\ApplicationDevelopment\CoffeSoftware\Coffee.Uwp\bin\x86\Debug\Views\Cart\Cart.xbf">
       <PackagePath>Views\Cart\Cart.xbf</PackagePath>
-      <Modified>2022-01-19T01:01:49.827</Modified>
+      <Modified>2022-01-19T10:03:45.856</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\for_visual_studio\ApplicationDevelopment\CoffeSoftware\Coffee.Uwp\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2022-01-19T01:01:49.827</Modified>
+      <Modified>2022-01-19T10:03:45.856</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\for_visual_studio\ApplicationDevelopment\CoffeSoftware\Coffee.Uwp\bin\x86\Debug\Views\Catalog\Catalog.xbf">
+      <PackagePath>Views\Catalog\Catalog.xbf</PackagePath>
+      <Modified>2022-01-19T10:03:45.856</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\for_visual_studio\ApplicationDevelopment\CoffeSoftware\Coffee.Uwp\bin\x86\Debug\Views\Home\Home.xbf">
       <PackagePath>Views\Home\Home.xbf</PackagePath>
-      <Modified>2022-01-19T01:01:49.827</Modified>
+      <Modified>2022-01-19T10:03:45.856</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\for_visual_studio\ApplicationDevelopment\CoffeSoftware\Coffee.Uwp\bin\x86\Debug\Views\Login\Login.xbf">
       <PackagePath>Views\Login\Login.xbf</PackagePath>
-      <Modified>2022-01-19T01:01:49.827</Modified>
+      <Modified>2022-01-19T10:03:45.856</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\for_visual_studio\ApplicationDevelopment\CoffeSoftware\Coffee.Uwp\bin\x86\Debug\Views\Login\Register.xbf">
       <PackagePath>Views\Login\Register.xbf</PackagePath>
-      <Modified>2022-01-19T01:01:49.827</Modified>
+      <Modified>2022-01-19T10:03:45.857</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\for_visual_studio\ApplicationDevelopment\CoffeSoftware\Coffee.Uwp\bin\x86\Debug\Views\Menu\Menu.xbf">
       <PackagePath>Views\Menu\Menu.xbf</PackagePath>
-      <Modified>2022-01-19T01:01:49.828</Modified>
+      <Modified>2022-01-19T10:03:45.857</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\for_visual_studio\ApplicationDevelopment\CoffeSoftware\Coffee.Uwp\bin\x86\Debug\Views\Payment\Payment.xbf">
       <PackagePath>Views\Payment\Payment.xbf</PackagePath>
-      <Modified>2022-01-19T01:01:49.828</Modified>
+      <Modified>2022-01-19T10:03:45.857</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\for_visual_studio\ApplicationDevelopment\CoffeSoftware\Coffee.Uwp\bin\x86\Debug\Views\Saved\Saved.xbf">
       <PackagePath>Views\Saved\Saved.xbf</PackagePath>
-      <Modified>2022-01-19T01:01:49.828</Modified>
+      <Modified>2022-01-19T10:03:45.858</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\for_visual_studio\ApplicationDevelopment\CoffeSoftware\Coffee.Uwp\bin\x86\Debug\Views\Settings\ChangeEmail.xbf">
       <PackagePath>Views\Settings\ChangeEmail.xbf</PackagePath>
-      <Modified>2022-01-19T01:01:49.828</Modified>
+      <Modified>2022-01-19T10:03:45.858</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\for_visual_studio\ApplicationDevelopment\CoffeSoftware\Coffee.Uwp\bin\x86\Debug\Views\Settings\ChangePassword.xbf">
       <PackagePath>Views\Settings\ChangePassword.xbf</PackagePath>
-      <Modified>2022-01-19T01:01:49.828</Modified>
+      <Modified>2022-01-19T10:03:45.858</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\for_visual_studio\ApplicationDevelopment\CoffeSoftware\Coffee.Uwp\bin\x86\Debug\Views\Settings\Settings.xbf">
       <PackagePath>Views\Settings\Settings.xbf</PackagePath>
-      <Modified>2022-01-19T01:01:49.828</Modified>
+      <Modified>2022-01-19T10:03:45.858</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Windows Kits\10\UnionMetadata\10.0.19041.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -262,11 +266,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\for_visual_studio\ApplicationDevelopment\CoffeSoftware\Coffee.Uwp\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2022-01-19T01:01:51.396</Modified>
+      <Modified>2022-01-19T09:25:03.502</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\for_visual_studio\ApplicationDevelopment\CoffeSoftware\Coffee.Uwp\bin\x86\Debug\Core\Coffee.Uwp.exe">
       <PackagePath>Coffee.Uwp.exe</PackagePath>
-      <Modified>2022-01-19T01:01:53.833</Modified>
+      <Modified>2022-01-19T10:03:47.605</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

@@ -166,6 +166,9 @@
     <AppxPackagedFile Include="D:\for_visual_studio\ApplicationDevelopment\CoffeSoftware\Coffee.Uwp\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\for_visual_studio\ApplicationDevelopment\CoffeSoftware\Coffee.Uwp\bin\x86\Debug\Views\Catalog\Catalog.xbf">
+      <PackagePath>Views\Catalog\Catalog.xbf</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\for_visual_studio\ApplicationDevelopment\CoffeSoftware\Coffee.Uwp\bin\x86\Debug\Views\Home\Home.xbf">
       <PackagePath>Views\Home\Home.xbf</PackagePath>
     </AppxPackagedFile>

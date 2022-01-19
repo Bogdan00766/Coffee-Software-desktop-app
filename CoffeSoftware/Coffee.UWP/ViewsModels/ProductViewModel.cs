@@ -14,12 +14,14 @@ namespace Coffee.Uwp.ViewsModels
     public class ProductViewModel
     {
         public ObservableCollection<Product> Products { get; set; }
+        
+
         public ProductViewModel()
         {
             Products = new ObservableCollection<Product>();
         }
 
-        public async void LoadAllAsync()
+        public async Task LoadAllAsync()
         {
             using (IUnitOfWork uow = new UnitOfWork())
             {

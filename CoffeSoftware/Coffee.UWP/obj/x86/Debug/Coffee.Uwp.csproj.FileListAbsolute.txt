@@ -313,7 +313,6 @@ D:\for_visual_studio\ApplicationDevelopment\CoffeSoftware\Coffee.Uwp\obj\x86\Deb
 D:\for_visual_studio\ApplicationDevelopment\CoffeSoftware\Coffee.Uwp\obj\x86\Debug\Views\Settings\Settings.xbf
 D:\for_visual_studio\ApplicationDevelopment\CoffeSoftware\Coffee.Uwp\obj\x86\Debug\XamlSaveStateFile.xml
 D:\for_visual_studio\ApplicationDevelopment\CoffeSoftware\Coffee.Uwp\obj\x86\Debug\Coffee.Uwp.csproj.CoreCompileInputs.cache
-D:\for_visual_studio\ApplicationDevelopment\CoffeSoftware\Coffee.Uwp\obj\x86\Debug\Coffee.Uwp.csproj.CopyComplete
 D:\for_visual_studio\ApplicationDevelopment\CoffeSoftware\Coffee.Uwp\obj\x86\Debug\Coffee.Uwp.exe
 D:\for_visual_studio\ApplicationDevelopment\CoffeSoftware\Coffee.Uwp\obj\x86\Debug\Coffee.Uwp.pdb
 D:\for_visual_studio\ApplicationDevelopment\CoffeSoftware\Coffee.Uwp\obj\x86\Debug\ResourceHandlingTask.state
@@ -347,3 +346,9 @@ D:\for_visual_studio\ApplicationDevelopment\CoffeSoftware\Coffee.Uwp\obj\x86\Deb
 D:\for_visual_studio\ApplicationDevelopment\CoffeSoftware\Coffee.Uwp\obj\x86\Debug\ProjectArchitectures.txt
 D:\for_visual_studio\ApplicationDevelopment\CoffeSoftware\Coffee.Uwp\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_637424743200000000.json
 D:\for_visual_studio\ApplicationDevelopment\CoffeSoftware\Coffee.Uwp\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_637424779200000000.json
+D:\for_visual_studio\ApplicationDevelopment\CoffeSoftware\Coffee.Uwp\bin\x86\Debug\Views\Catalog\Catalog.xbf
+D:\for_visual_studio\ApplicationDevelopment\CoffeSoftware\Coffee.Uwp\obj\x86\Debug\Views\Catalog\Catalog.g.i.cs
+D:\for_visual_studio\ApplicationDevelopment\CoffeSoftware\Coffee.Uwp\obj\x86\Debug\Views\Catalog\Catalog.g.cs
+D:\for_visual_studio\ApplicationDevelopment\CoffeSoftware\Coffee.Uwp\obj\x86\Debug\Views\Catalog\Catalog.xaml
+D:\for_visual_studio\ApplicationDevelopment\CoffeSoftware\Coffee.Uwp\obj\x86\Debug\Views\Catalog\Catalog.xbf
+D:\for_visual_studio\ApplicationDevelopment\CoffeSoftware\Coffee.Uwp\obj\x86\Debug\Coffee.Uwp.csproj.CopyComplete
