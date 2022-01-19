@@ -14,6 +14,8 @@ namespace Coffe.Infrastructure
         public DbSet<Product> Product { get; set; }
         public DbSet<Shop> Shop { get; set; }
         public DbSet<User> User { get; set; }
+        public DbSet<Payment> Payment { get; set; }
+        public DbSet<Favorite> Favorite { get; set; }
         public DbSet<OrderListProduct> OrderListProduct { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)

@@ -36,4 +36,3 @@ D:\for_visual_studio\ApplicationDevelopment\CoffeSoftware\CoffeSoftware.Infrastr
 D:\for_visual_studio\ApplicationDevelopment\CoffeSoftware\CoffeSoftware.Infrastructure\obj\Debug\netstandard2.0\Coffe.Infrastructure.csproj.CoreCompileInputs.cache
 D:\for_visual_studio\ApplicationDevelopment\CoffeSoftware\CoffeSoftware.Infrastructure\obj\Debug\netstandard2.0\Coffe.Infrastructure.dll
 D:\for_visual_studio\ApplicationDevelopment\CoffeSoftware\CoffeSoftware.Infrastructure\obj\Debug\netstandard2.0\Coffe.Infrastructure.pdb
-D:\for_visual_studio\ApplicationDevelopment\CoffeSoftware\CoffeSoftware.Infrastructure\obj\Debug\netstandard2.0\Coffe.Infrastructure.csproj.CopyComplete

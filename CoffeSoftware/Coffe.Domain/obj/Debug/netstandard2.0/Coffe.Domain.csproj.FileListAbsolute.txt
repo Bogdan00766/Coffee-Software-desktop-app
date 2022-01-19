@@ -26,3 +26,4 @@ D:\for_visual_studio\ApplicationDevelopment\CoffeSoftware\Coffe.Domain\obj\Debug
 D:\for_visual_studio\ApplicationDevelopment\CoffeSoftware\Coffe.Domain\obj\Debug\netstandard2.0\Coffe.Domain.csproj.CoreCompileInputs.cache
 D:\for_visual_studio\ApplicationDevelopment\CoffeSoftware\Coffe.Domain\obj\Debug\netstandard2.0\Coffe.Domain.dll
 D:\for_visual_studio\ApplicationDevelopment\CoffeSoftware\Coffe.Domain\obj\Debug\netstandard2.0\Coffe.Domain.pdb
+D:\for_visual_studio\ApplicationDevelopment\CoffeSoftware\Coffe.Domain\obj\Debug\netstandard2.0\Coffe.Domain.csproj.AssemblyReference.cache

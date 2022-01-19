@@ -7,11 +7,11 @@ namespace Coffe.Domain.Models
 {
     public class Payment : Entity
     {
-        public string CardNumber { get; set; }
-        public string CVV { get; set; }
+        public int CardNumber { get; set; }
+        public int CVV { get; set; }
         public string CardName { get; set; }
-        public string Sum { get; set; }
-        public List<User> Users { get; set; }
+        public int Sum { get; set; }
+        public User User { get; set; }
 
         public Payment()
         {
@@ -19,10 +19,10 @@ namespace Coffe.Domain.Models
         }
 
         public Payment(
-            string cardNumber, 
-            string cvv, 
+            int cardNumber,
+            int cvv, 
             string cardName,
-            string sum
+            int sum
            )
         {
             CardNumber = cardNumber;
