@@ -1,1 +1,1 @@
-D:\IPB\AD\Project\CoffeSoftware\ad-ei-project-group-04\CoffeSoftware\Coffee.Uwp\Coffee.Uwp.csproj;x86
+D:\for_visual_studio\ApplicationDevelopment\CoffeSoftware\Coffee.Uwp\Coffee.Uwp.csproj;x86
