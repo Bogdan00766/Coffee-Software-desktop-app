@@ -1,18 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Roots >
   <Roots.PropertyPathNames>
-<<<<<<< HEAD
     <RootPropertyPathName Name="Price" />
     <RootPropertyPathName Name="Name" />
     <RootPropertyPathName Name="ImagePath" />
-=======
-    <RootPropertyPathName Name="OrderListId" />
     <RootPropertyPathName Name="ProductId" />
-    <RootPropertyPathName Name="Price" />
-    <RootPropertyPathName Name="Name" />
-    <RootPropertyPathName Name="ImagePath" />
     <RootPropertyPathName Name="UserId" />
->>>>>>> ae3e86116b54766ff0d63054ea0173883308ef06
   </Roots.PropertyPathNames>
   <Roots.RootTypes>
     <RootType FullName="Windows.UI.Xaml.Application" />
@@ -25,10 +18,7 @@
       <RootProperty Name="RowDefinitions" />
       <RootProperty Name="Children" />
       <RootProperty Name="ColumnDefinitions" />
-<<<<<<< HEAD
       <RootProperty Name="HorizontalAlignment" />
-=======
->>>>>>> ae3e86116b54766ff0d63054ea0173883308ef06
       <RootProperty Name="Background" />
       <RootProperty Name="Margin" />
       <RootProperty Name="VerticalAlignment" />
@@ -71,36 +61,16 @@
       <RootProperty Name="ItemsSource" />
       <RootProperty Name="ItemTemplate" />
     </RootType>
-    <RootType FullName="Windows.UI.Xaml.Controls.TextBlock">
-      <RootProperty Name="HorizontalAlignment" />
-      <RootProperty Name="Margin" />
-      <RootProperty Name="Text" />
-      <RootProperty Name="TextWrapping" />
-      <RootProperty Name="VerticalAlignment" />
-      <RootProperty Name="Width" />
-      <RootProperty Name="FontSize" />
-    </RootType>
-    <RootType FullName="Windows.UI.Xaml.Controls.StackPanel">
-      <RootProperty Name="Children" />
-      <RootProperty Name="Margin" />
-    </RootType>
     <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.BindExtension" />
     <RootType FullName="Windows.UI.Xaml.DataTemplate">
       <RootProperty Name="Template" />
     </RootType>
-    <RootType FullName="Windows.UI.Xaml.Controls.VariableSizedWrapGrid">
-      <RootProperty Name="Children" />
-    </RootType>
-    <RootType FullName="Windows.UI.Xaml.Data.Binding" />
     <RootType FullName="Windows.UI.Xaml.Controls.ColumnDefinition">
       <RootProperty Name="Width" />
     </RootType>
-<<<<<<< HEAD
     <RootType FullName="Windows.UI.Xaml.Controls.FontIcon">
       <RootProperty Name="Glyph" />
     </RootType>
-=======
->>>>>>> ae3e86116b54766ff0d63054ea0173883308ef06
     <RootType FullName="Coffee.Uwp.Views.Cart.Cart" />
     <RootType FullName="Windows.UI.Xaml.Controls.NavigationView">
       <RootProperty Name="PaneDisplayMode" />
@@ -116,7 +86,6 @@
       <RootProperty Name="Tag" />
     </RootType>
     <RootType FullName="Coffee.Uwp.MainPage" />
-<<<<<<< HEAD
     <RootType FullName="Windows.UI.Xaml.Controls.StackPanel">
       <RootProperty Name="Margin" />
       <RootProperty Name="Children" />
@@ -127,22 +96,6 @@
     <RootType FullName="Windows.UI.Xaml.Data.Binding" />
     <RootType FullName="Coffee.Uwp.Views.Catalog.Catalog" />
     <RootType FullName="Coffee.Uwp.Views.Home.Home" />
-=======
-    <RootType FullName="Windows.UI.Xaml.Controls.Button">
-      <RootProperty Name="Content" />
-      <RootProperty Name="Margin" />
-      <RootProperty Name="BorderBrush" />
-      <RootProperty Name="BorderThickness" />
-      <RootProperty Name="Height" />
-      <RootProperty Name="Width" />
-      <RootEvent Name="Click" />
-    </RootType>
-    <RootType FullName="Coffee.Uwp.Views.Catalog.Catalog" />
-    <RootType FullName="Coffee.Uwp.Views.Home.Home" />
-    <RootType FullName="Windows.UI.Xaml.Controls.RowDefinition">
-      <RootProperty Name="Height" />
-    </RootType>
->>>>>>> ae3e86116b54766ff0d63054ea0173883308ef06
     <RootType FullName="Windows.UI.Xaml.Controls.TextBox">
       <RootProperty Name="Header" />
       <RootProperty Name="PlaceholderText" />

@@ -43,7 +43,7 @@ namespace Coffee.Uwp.Views.Cart
 
         protected override async void OnNavigatedTo(NavigationEventArgs e)
         {
-            await CartViewModel.LoadAllForUserAsync(1);
+            await CartViewModel.LoadAllForUserAsync(CurrentUser.Id);
             sum();
             base.OnNavigatedTo(e);
         }
@@ -66,7 +66,7 @@ namespace Coffee.Uwp.Views.Cart
         private async void clearCart_Click(object sender, RoutedEventArgs e)
         {
             IUnitOfWork uow = new UnitOfWork();
-            await uow.ProductRepository.ClearAllForUserAsync(1);
+            await uow.ProductRepository.ClearAllForUserAsync(CurrentUser.Id);
             await uow.SaveAsync();
             this.Frame.Navigate(typeof(Cart));
         }

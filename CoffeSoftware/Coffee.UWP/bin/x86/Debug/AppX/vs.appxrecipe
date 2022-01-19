@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>DESKTOP-76DJHHK</Machine>
-    <WindowsUser>dena_</WindowsUser>
+    <Machine>DESKTOP-O3IORB2</Machine>
+    <WindowsUser>pchud</WindowsUser>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetOsVersion>10.0</TargetOsVersion>
     <TargetOsDescription>Windows 10.0</TargetOsDescription>
@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>4ba3ee1d-00f8-4035-8bdf-b97f6f3cbf0b</PackageIdentityName>
     <PackageIdentityPublisher>CN=DiankaUser</PackageIdentityPublisher>
-    <IntermediateOutputPath>D:\for_visual_studio\ApplicationDevelopment\CoffeSoftware\Coffee.Uwp\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>D:\IPB\AD\Project\CoffeSoftware\ad-ei-project-group-04\CoffeSoftware\Coffee.Uwp\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,8 +18,8 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>D:\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>D:\for_visual_studio\ApplicationDevelopment\CoffeSoftware\Coffee.Uwp\bin\x86\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>5B71D3F2B99283FB3EBAC8E2DC29788CC9213BE347FF0358EB886DAFD45D14E0</RegisteredManifestChecksum>
+    <LayoutDir>D:\IPB\AD\Project\CoffeSoftware\ad-ei-project-group-04\CoffeSoftware\Coffee.Uwp\bin\x86\Debug\AppX</LayoutDir>
+    <RegisteredManifestChecksum>FB47C7637C73C2F8CBC0537C5E5058A648CAAA6EBB22081C276F0485B331927F</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>4ba3ee1d-00f8-4035-8bdf-b97f6f3cbf0b_1.0.0.0_x86__jej5fc53x7d68</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>4ba3ee1d-00f8-4035-8bdf-b97f6f3cbf0b_jej5fc53x7d68!App</RegisteredUserModeAppID>
     <RegisteredPackageID>4ba3ee1d-00f8-4035-8bdf-b97f6f3cbf0b</RegisteredPackageID>
@@ -27,330 +27,250 @@
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="D:\for_visual_studio\ApplicationDevelopment\CoffeSoftware\Coffee.Uwp\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="D:\IPB\AD\Project\CoffeSoftware\ad-ei-project-group-04\CoffeSoftware\Coffee.Uwp\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-<<<<<<< HEAD
-      <Modified>2022-01-19T23:30:14.589</Modified>
-=======
-      <Modified>2022-01-19T22:28:14.029</Modified>
->>>>>>> ae3e86116b54766ff0d63054ea0173883308ef06
+      <Modified>2022-01-19T23:41:05.242</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="D:\for_visual_studio\ApplicationDevelopment\CoffeSoftware\Coffee.Uwp\bin\x86\Debug\Coffee.Uwp.exe">
+    <AppxPackagedFile Include="D:\IPB\AD\Project\CoffeSoftware\ad-ei-project-group-04\CoffeSoftware\Coffee.Uwp\bin\x86\Debug\Coffee.Uwp.exe">
       <PackagePath>entrypoint\Coffee.Uwp.exe</PackagePath>
-<<<<<<< HEAD
-      <Modified>2022-01-19T23:30:13.045</Modified>
-=======
-      <Modified>2022-01-19T22:28:12.684</Modified>
->>>>>>> ae3e86116b54766ff0d63054ea0173883308ef06
+      <Modified>2022-01-19T23:41:03.391</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dena_\.nuget\packages\microsoft.data.sqlite.core\2.2.6\lib\netstandard2.0\Microsoft.Data.Sqlite.dll">
+    <AppxPackagedFile Include="C:\Users\pchud\.nuget\packages\microsoft.data.sqlite.core\2.2.6\lib\netstandard2.0\Microsoft.Data.Sqlite.dll">
       <PackagePath>Microsoft.Data.Sqlite.dll</PackagePath>
       <Modified>2019-06-18T21:21:18.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dena_\.nuget\packages\microsoft.dotnet.platformabstractions\2.1.0\lib\netstandard1.3\Microsoft.DotNet.PlatformAbstractions.dll">
+    <AppxPackagedFile Include="C:\Users\pchud\.nuget\packages\microsoft.dotnet.platformabstractions\2.1.0\lib\netstandard1.3\Microsoft.DotNet.PlatformAbstractions.dll">
       <PackagePath>Microsoft.DotNet.PlatformAbstractions.dll</PackagePath>
       <Modified>2018-05-15T21:01:34.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dena_\.nuget\packages\microsoft.entityframeworkcore\2.2.6\lib\netstandard2.0\Microsoft.EntityFrameworkCore.dll">
+    <AppxPackagedFile Include="C:\Users\pchud\.nuget\packages\microsoft.entityframeworkcore\2.2.6\lib\netstandard2.0\Microsoft.EntityFrameworkCore.dll">
       <PackagePath>Microsoft.EntityFrameworkCore.dll</PackagePath>
       <Modified>2019-06-18T21:21:26.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dena_\.nuget\packages\microsoft.entityframeworkcore.abstractions\2.2.6\lib\netstandard2.0\Microsoft.EntityFrameworkCore.Abstractions.dll">
+    <AppxPackagedFile Include="C:\Users\pchud\.nuget\packages\microsoft.entityframeworkcore.abstractions\2.2.6\lib\netstandard2.0\Microsoft.EntityFrameworkCore.Abstractions.dll">
       <PackagePath>Microsoft.EntityFrameworkCore.Abstractions.dll</PackagePath>
       <Modified>2019-06-18T21:21:18.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dena_\.nuget\packages\microsoft.entityframeworkcore.relational\2.2.6\lib\netstandard2.0\Microsoft.EntityFrameworkCore.Relational.dll">
+    <AppxPackagedFile Include="C:\Users\pchud\.nuget\packages\microsoft.entityframeworkcore.relational\2.2.6\lib\netstandard2.0\Microsoft.EntityFrameworkCore.Relational.dll">
       <PackagePath>Microsoft.EntityFrameworkCore.Relational.dll</PackagePath>
       <Modified>2019-06-18T21:21:34.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dena_\.nuget\packages\microsoft.entityframeworkcore.sqlite.core\2.2.6\lib\netstandard2.0\Microsoft.EntityFrameworkCore.Sqlite.dll">
+    <AppxPackagedFile Include="C:\Users\pchud\.nuget\packages\microsoft.entityframeworkcore.sqlite.core\2.2.6\lib\netstandard2.0\Microsoft.EntityFrameworkCore.Sqlite.dll">
       <PackagePath>Microsoft.EntityFrameworkCore.Sqlite.dll</PackagePath>
       <Modified>2019-06-18T21:21:58.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dena_\.nuget\packages\microsoft.extensions.caching.abstractions\2.2.0\lib\netstandard2.0\Microsoft.Extensions.Caching.Abstractions.dll">
+    <AppxPackagedFile Include="C:\Users\pchud\.nuget\packages\microsoft.extensions.caching.abstractions\2.2.0\lib\netstandard2.0\Microsoft.Extensions.Caching.Abstractions.dll">
       <PackagePath>Microsoft.Extensions.Caching.Abstractions.dll</PackagePath>
       <Modified>2018-11-11T00:26:38.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dena_\.nuget\packages\microsoft.extensions.caching.memory\2.2.0\lib\netstandard2.0\Microsoft.Extensions.Caching.Memory.dll">
+    <AppxPackagedFile Include="C:\Users\pchud\.nuget\packages\microsoft.extensions.caching.memory\2.2.0\lib\netstandard2.0\Microsoft.Extensions.Caching.Memory.dll">
       <PackagePath>Microsoft.Extensions.Caching.Memory.dll</PackagePath>
       <Modified>2018-11-11T00:26:46.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dena_\.nuget\packages\microsoft.extensions.configuration\2.2.0\lib\netstandard2.0\Microsoft.Extensions.Configuration.dll">
+    <AppxPackagedFile Include="C:\Users\pchud\.nuget\packages\microsoft.extensions.configuration\2.2.0\lib\netstandard2.0\Microsoft.Extensions.Configuration.dll">
       <PackagePath>Microsoft.Extensions.Configuration.dll</PackagePath>
       <Modified>2018-11-11T00:27:02.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dena_\.nuget\packages\microsoft.extensions.configuration.abstractions\2.2.0\lib\netstandard2.0\Microsoft.Extensions.Configuration.Abstractions.dll">
+    <AppxPackagedFile Include="C:\Users\pchud\.nuget\packages\microsoft.extensions.configuration.abstractions\2.2.0\lib\netstandard2.0\Microsoft.Extensions.Configuration.Abstractions.dll">
       <PackagePath>Microsoft.Extensions.Configuration.Abstractions.dll</PackagePath>
       <Modified>2018-11-11T00:26:38.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dena_\.nuget\packages\microsoft.extensions.configuration.binder\2.2.0\lib\netstandard2.0\Microsoft.Extensions.Configuration.Binder.dll">
+    <AppxPackagedFile Include="C:\Users\pchud\.nuget\packages\microsoft.extensions.configuration.binder\2.2.0\lib\netstandard2.0\Microsoft.Extensions.Configuration.Binder.dll">
       <PackagePath>Microsoft.Extensions.Configuration.Binder.dll</PackagePath>
       <Modified>2018-11-11T00:27:02.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dena_\.nuget\packages\microsoft.extensions.dependencyinjection\2.2.0\lib\netstandard2.0\Microsoft.Extensions.DependencyInjection.dll">
+    <AppxPackagedFile Include="C:\Users\pchud\.nuget\packages\microsoft.extensions.dependencyinjection\2.2.0\lib\netstandard2.0\Microsoft.Extensions.DependencyInjection.dll">
       <PackagePath>Microsoft.Extensions.DependencyInjection.dll</PackagePath>
       <Modified>2018-11-11T00:26:38.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dena_\.nuget\packages\microsoft.extensions.dependencyinjection.abstractions\2.2.0\lib\netstandard2.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll">
+    <AppxPackagedFile Include="C:\Users\pchud\.nuget\packages\microsoft.extensions.dependencyinjection.abstractions\2.2.0\lib\netstandard2.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll">
       <PackagePath>Microsoft.Extensions.DependencyInjection.Abstractions.dll</PackagePath>
       <Modified>2018-11-11T00:26:36.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dena_\.nuget\packages\microsoft.extensions.dependencymodel\2.1.0\lib\netstandard1.6\Microsoft.Extensions.DependencyModel.dll">
+    <AppxPackagedFile Include="C:\Users\pchud\.nuget\packages\microsoft.extensions.dependencymodel\2.1.0\lib\netstandard1.6\Microsoft.Extensions.DependencyModel.dll">
       <PackagePath>Microsoft.Extensions.DependencyModel.dll</PackagePath>
       <Modified>2018-05-15T21:01:34.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dena_\.nuget\packages\microsoft.extensions.logging\2.2.0\lib\netstandard2.0\Microsoft.Extensions.Logging.dll">
+    <AppxPackagedFile Include="C:\Users\pchud\.nuget\packages\microsoft.extensions.logging\2.2.0\lib\netstandard2.0\Microsoft.Extensions.Logging.dll">
       <PackagePath>Microsoft.Extensions.Logging.dll</PackagePath>
       <Modified>2018-11-11T00:27:18.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dena_\.nuget\packages\microsoft.extensions.logging.abstractions\2.2.0\lib\netstandard2.0\Microsoft.Extensions.Logging.Abstractions.dll">
+    <AppxPackagedFile Include="C:\Users\pchud\.nuget\packages\microsoft.extensions.logging.abstractions\2.2.0\lib\netstandard2.0\Microsoft.Extensions.Logging.Abstractions.dll">
       <PackagePath>Microsoft.Extensions.Logging.Abstractions.dll</PackagePath>
       <Modified>2018-11-11T00:26:40.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dena_\.nuget\packages\microsoft.extensions.options\2.2.0\lib\netstandard2.0\Microsoft.Extensions.Options.dll">
+    <AppxPackagedFile Include="C:\Users\pchud\.nuget\packages\microsoft.extensions.options\2.2.0\lib\netstandard2.0\Microsoft.Extensions.Options.dll">
       <PackagePath>Microsoft.Extensions.Options.dll</PackagePath>
       <Modified>2018-11-11T00:26:38.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dena_\.nuget\packages\microsoft.extensions.primitives\2.2.0\lib\netstandard2.0\Microsoft.Extensions.Primitives.dll">
+    <AppxPackagedFile Include="C:\Users\pchud\.nuget\packages\microsoft.extensions.primitives\2.2.0\lib\netstandard2.0\Microsoft.Extensions.Primitives.dll">
       <PackagePath>Microsoft.Extensions.Primitives.dll</PackagePath>
       <Modified>2018-11-11T00:26:36.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dena_\.nuget\packages\newtonsoft.json\9.0.1\lib\portable-net45+wp80+win8+wpa81\Newtonsoft.Json.dll">
+    <AppxPackagedFile Include="C:\Users\pchud\.nuget\packages\newtonsoft.json\9.0.1\lib\portable-net45+wp80+win8+wpa81\Newtonsoft.Json.dll">
       <PackagePath>Newtonsoft.Json.dll</PackagePath>
       <Modified>2016-06-13T23:06:14.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dena_\.nuget\packages\remotion.linq\2.2.0\lib\portable-net45+win+wpa81+wp80\Remotion.Linq.dll">
+    <AppxPackagedFile Include="C:\Users\pchud\.nuget\packages\remotion.linq\2.2.0\lib\portable-net45+win+wpa81+wp80\Remotion.Linq.dll">
       <PackagePath>Remotion.Linq.dll</PackagePath>
       <Modified>2018-02-06T22:25:00.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.12\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
-      <Modified>2021-02-04T23:15:46.000</Modified>
+      <Modified>2021-02-05T00:15:46.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dena_\.nuget\packages\sqlitepclraw.bundle_green\1.1.12\lib\uap10.0\SQLitePCLRaw.batteries_green.dll">
+    <AppxPackagedFile Include="C:\Users\pchud\.nuget\packages\sqlitepclraw.bundle_green\1.1.12\lib\uap10.0\SQLitePCLRaw.batteries_green.dll">
       <PackagePath>SQLitePCLRaw.batteries_green.dll</PackagePath>
       <Modified>2018-12-18T15:00:32.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dena_\.nuget\packages\sqlitepclraw.bundle_green\1.1.12\lib\uap10.0\SQLitePCLRaw.batteries_v2.dll">
+    <AppxPackagedFile Include="C:\Users\pchud\.nuget\packages\sqlitepclraw.bundle_green\1.1.12\lib\uap10.0\SQLitePCLRaw.batteries_v2.dll">
       <PackagePath>SQLitePCLRaw.batteries_v2.dll</PackagePath>
       <Modified>2018-12-18T15:00:32.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dena_\.nuget\packages\sqlitepclraw.core\1.1.12\lib\uap10.0\SQLitePCLRaw.core.dll">
+    <AppxPackagedFile Include="C:\Users\pchud\.nuget\packages\sqlitepclraw.core\1.1.12\lib\uap10.0\SQLitePCLRaw.core.dll">
       <PackagePath>SQLitePCLRaw.core.dll</PackagePath>
       <Modified>2018-12-18T15:00:30.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dena_\.nuget\packages\sqlitepclraw.lib.e_sqlite3.v140\1.1.12\runtimes\win10-x86\native\e_sqlite3.dll">
+    <AppxPackagedFile Include="C:\Users\pchud\.nuget\packages\sqlitepclraw.lib.e_sqlite3.v140\1.1.12\runtimes\win10-x86\native\e_sqlite3.dll">
       <PackagePath>e_sqlite3.dll</PackagePath>
       <Modified>2018-12-18T15:01:16.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dena_\.nuget\packages\sqlitepclraw.provider.e_sqlite3.uwp10\1.1.12\lib\uap10.0\SQLitePCLRaw.provider.e_sqlite3.dll">
+    <AppxPackagedFile Include="C:\Users\pchud\.nuget\packages\sqlitepclraw.provider.e_sqlite3.uwp10\1.1.12\lib\uap10.0\SQLitePCLRaw.provider.e_sqlite3.dll">
       <PackagePath>SQLitePCLRaw.provider.e_sqlite3.dll</PackagePath>
       <Modified>2018-12-18T15:00:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dena_\.nuget\packages\system.interactive.async\3.2.0\lib\netstandard2.0\System.Interactive.Async.dll">
+    <AppxPackagedFile Include="C:\Users\pchud\.nuget\packages\system.interactive.async\3.2.0\lib\netstandard2.0\System.Interactive.Async.dll">
       <PackagePath>System.Interactive.Async.dll</PackagePath>
       <Modified>2018-07-11T13:48:42.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\for_visual_studio\ApplicationDevelopment\CoffeSoftware\Coffe.Domain\bin\Debug\netstandard2.0\Coffe.Domain.dll">
+    <AppxPackagedFile Include="D:\IPB\AD\Project\CoffeSoftware\ad-ei-project-group-04\CoffeSoftware\Coffe.Domain\bin\Debug\netstandard2.0\Coffe.Domain.dll">
       <PackagePath>Coffe.Domain.dll</PackagePath>
-<<<<<<< HEAD
-      <Modified>2022-01-19T23:30:04.055</Modified>
-=======
-      <Modified>2022-01-19T21:43:34.317</Modified>
->>>>>>> ae3e86116b54766ff0d63054ea0173883308ef06
+      <Modified>2022-01-19T23:40:57.107</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\for_visual_studio\ApplicationDevelopment\CoffeSoftware\CoffeSoftware.Infrastructure\bin\Debug\netstandard2.0\Coffe.Infrastructure.dll">
+    <AppxPackagedFile Include="D:\IPB\AD\Project\CoffeSoftware\ad-ei-project-group-04\CoffeSoftware\CoffeSoftware.Infrastructure\bin\Debug\netstandard2.0\Coffe.Infrastructure.dll">
       <PackagePath>Coffe.Infrastructure.dll</PackagePath>
-<<<<<<< HEAD
-      <Modified>2022-01-19T23:30:04.798</Modified>
-=======
-      <Modified>2022-01-19T21:47:05.337</Modified>
->>>>>>> ae3e86116b54766ff0d63054ea0173883308ef06
+      <Modified>2022-01-19T23:40:57.584</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Windows Kits\10\bin\10.0.19041.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
-      <Modified>2020-12-02T02:52:00.000</Modified>
+      <Modified>2020-12-02T03:52:00.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\for_visual_studio\ApplicationDevelopment\CoffeSoftware\Coffee.Uwp\Assets\coffee.png">
+    <AppxPackagedFile Include="D:\IPB\AD\Project\CoffeSoftware\ad-ei-project-group-04\CoffeSoftware\Coffee.Uwp\Assets\coffee.png">
       <PackagePath>Assets\coffee.png</PackagePath>
-      <Modified>2022-01-19T19:45:45.542</Modified>
+      <Modified>2022-01-19T14:31:51.047</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\for_visual_studio\ApplicationDevelopment\CoffeSoftware\Coffee.Uwp\Assets\coffee1.png">
+    <AppxPackagedFile Include="D:\IPB\AD\Project\CoffeSoftware\ad-ei-project-group-04\CoffeSoftware\Coffee.Uwp\Assets\coffee1.png">
       <PackagePath>Assets\coffee1.png</PackagePath>
-      <Modified>2022-01-19T19:45:45.542</Modified>
+      <Modified>2022-01-19T14:31:51.047</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\for_visual_studio\ApplicationDevelopment\CoffeSoftware\Coffee.Uwp\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="D:\IPB\AD\Project\CoffeSoftware\ad-ei-project-group-04\CoffeSoftware\Coffee.Uwp\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
-      <Modified>2022-01-19T19:45:45.539</Modified>
+      <Modified>2022-01-19T14:31:51.046</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\for_visual_studio\ApplicationDevelopment\CoffeSoftware\Coffee.Uwp\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="D:\IPB\AD\Project\CoffeSoftware\ad-ei-project-group-04\CoffeSoftware\Coffee.Uwp\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-01-19T19:45:45.539</Modified>
+      <Modified>2022-01-19T14:31:51.046</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\for_visual_studio\ApplicationDevelopment\CoffeSoftware\Coffee.Uwp\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\IPB\AD\Project\CoffeSoftware\ad-ei-project-group-04\CoffeSoftware\Coffee.Uwp\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-01-19T19:45:45.539</Modified>
+      <Modified>2022-01-19T14:31:51.046</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\for_visual_studio\ApplicationDevelopment\CoffeSoftware\Coffee.Uwp\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\IPB\AD\Project\CoffeSoftware\ad-ei-project-group-04\CoffeSoftware\Coffee.Uwp\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-01-19T19:45:45.540</Modified>
+      <Modified>2022-01-19T14:31:51.047</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\for_visual_studio\ApplicationDevelopment\CoffeSoftware\Coffee.Uwp\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="D:\IPB\AD\Project\CoffeSoftware\ad-ei-project-group-04\CoffeSoftware\Coffee.Uwp\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-01-19T19:45:45.541</Modified>
+      <Modified>2022-01-19T14:31:51.047</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\for_visual_studio\ApplicationDevelopment\CoffeSoftware\Coffee.Uwp\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="D:\IPB\AD\Project\CoffeSoftware\ad-ei-project-group-04\CoffeSoftware\Coffee.Uwp\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-01-19T19:45:45.541</Modified>
+      <Modified>2022-01-19T14:31:51.047</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\for_visual_studio\ApplicationDevelopment\CoffeSoftware\Coffee.Uwp\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\IPB\AD\Project\CoffeSoftware\ad-ei-project-group-04\CoffeSoftware\Coffee.Uwp\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-01-19T19:45:45.541</Modified>
+      <Modified>2022-01-19T14:31:51.047</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\for_visual_studio\ApplicationDevelopment\CoffeSoftware\Coffee.Uwp\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="D:\IPB\AD\Project\CoffeSoftware\ad-ei-project-group-04\CoffeSoftware\Coffee.Uwp\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2022-01-19T19:45:45.544</Modified>
+      <Modified>2022-01-19T14:31:51.050</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\for_visual_studio\ApplicationDevelopment\CoffeSoftware\Coffee.Uwp\bin\x86\Debug\Coffee.Uwp.xr.xml">
+    <AppxPackagedFile Include="D:\IPB\AD\Project\CoffeSoftware\ad-ei-project-group-04\CoffeSoftware\Coffee.Uwp\bin\x86\Debug\Coffee.Uwp.xr.xml">
       <PackagePath>Coffee.Uwp.xr.xml</PackagePath>
-<<<<<<< HEAD
-      <Modified>2022-01-19T23:12:32.726</Modified>
-=======
-      <Modified>2022-01-19T22:28:09.901</Modified>
->>>>>>> ae3e86116b54766ff0d63054ea0173883308ef06
+      <Modified>2022-01-19T23:41:03.244</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\for_visual_studio\ApplicationDevelopment\CoffeSoftware\Coffee.Uwp\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="D:\IPB\AD\Project\CoffeSoftware\ad-ei-project-group-04\CoffeSoftware\Coffee.Uwp\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-<<<<<<< HEAD
-      <Modified>2022-01-19T23:30:12.930</Modified>
-=======
-      <Modified>2022-01-19T22:28:12.138</Modified>
->>>>>>> ae3e86116b54766ff0d63054ea0173883308ef06
+      <Modified>2022-01-19T23:41:03.284</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\for_visual_studio\ApplicationDevelopment\CoffeSoftware\Coffee.Uwp\bin\x86\Debug\Views\Cart\Cart.xbf">
+    <AppxPackagedFile Include="D:\IPB\AD\Project\CoffeSoftware\ad-ei-project-group-04\CoffeSoftware\Coffee.Uwp\bin\x86\Debug\Views\Cart\Cart.xbf">
       <PackagePath>Views\Cart\Cart.xbf</PackagePath>
-<<<<<<< HEAD
-      <Modified>2022-01-19T23:30:12.930</Modified>
-=======
-      <Modified>2022-01-19T22:28:12.139</Modified>
->>>>>>> ae3e86116b54766ff0d63054ea0173883308ef06
+      <Modified>2022-01-19T23:41:03.284</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\for_visual_studio\ApplicationDevelopment\CoffeSoftware\Coffee.Uwp\bin\x86\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="D:\IPB\AD\Project\CoffeSoftware\ad-ei-project-group-04\CoffeSoftware\Coffee.Uwp\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-<<<<<<< HEAD
-      <Modified>2022-01-19T23:30:12.930</Modified>
+      <Modified>2022-01-19T23:41:03.284</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\IPB\AD\Project\CoffeSoftware\ad-ei-project-group-04\CoffeSoftware\Coffee.Uwp\bin\x86\Debug\Views\Catalog\Catalog.xbf">
       <PackagePath>Views\Catalog\Catalog.xbf</PackagePath>
-      <Modified>2022-01-19T23:30:12.930</Modified>
-=======
-      <Modified>2022-01-19T22:28:12.139</Modified>
->>>>>>> ae3e86116b54766ff0d63054ea0173883308ef06
+      <Modified>2022-01-19T23:41:03.284</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\for_visual_studio\ApplicationDevelopment\CoffeSoftware\Coffee.Uwp\bin\x86\Debug\Views\Catalog\Catalog.xbf">
-      <PackagePath>Views\Catalog\Catalog.xbf</PackagePath>
-      <Modified>2022-01-19T22:28:12.139</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\for_visual_studio\ApplicationDevelopment\CoffeSoftware\Coffee.Uwp\bin\x86\Debug\Views\Home\Home.xbf">
+    <AppxPackagedFile Include="D:\IPB\AD\Project\CoffeSoftware\ad-ei-project-group-04\CoffeSoftware\Coffee.Uwp\bin\x86\Debug\Views\Home\Home.xbf">
       <PackagePath>Views\Home\Home.xbf</PackagePath>
-<<<<<<< HEAD
-      <Modified>2022-01-19T23:30:12.930</Modified>
-=======
-      <Modified>2022-01-19T22:28:12.139</Modified>
->>>>>>> ae3e86116b54766ff0d63054ea0173883308ef06
+      <Modified>2022-01-19T23:41:03.284</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\for_visual_studio\ApplicationDevelopment\CoffeSoftware\Coffee.Uwp\bin\x86\Debug\Views\Login\Login.xbf">
+    <AppxPackagedFile Include="D:\IPB\AD\Project\CoffeSoftware\ad-ei-project-group-04\CoffeSoftware\Coffee.Uwp\bin\x86\Debug\Views\Login\Login.xbf">
       <PackagePath>Views\Login\Login.xbf</PackagePath>
-<<<<<<< HEAD
-      <Modified>2022-01-19T23:30:12.930</Modified>
-=======
-      <Modified>2022-01-19T22:28:12.139</Modified>
->>>>>>> ae3e86116b54766ff0d63054ea0173883308ef06
+      <Modified>2022-01-19T23:41:03.285</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\for_visual_studio\ApplicationDevelopment\CoffeSoftware\Coffee.Uwp\bin\x86\Debug\Views\Login\Register.xbf">
+    <AppxPackagedFile Include="D:\IPB\AD\Project\CoffeSoftware\ad-ei-project-group-04\CoffeSoftware\Coffee.Uwp\bin\x86\Debug\Views\Login\Register.xbf">
       <PackagePath>Views\Login\Register.xbf</PackagePath>
-<<<<<<< HEAD
-      <Modified>2022-01-19T23:30:12.930</Modified>
-=======
-      <Modified>2022-01-19T22:28:12.140</Modified>
->>>>>>> ae3e86116b54766ff0d63054ea0173883308ef06
+      <Modified>2022-01-19T23:41:03.285</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\for_visual_studio\ApplicationDevelopment\CoffeSoftware\Coffee.Uwp\bin\x86\Debug\Views\Menu\Menu.xbf">
+    <AppxPackagedFile Include="D:\IPB\AD\Project\CoffeSoftware\ad-ei-project-group-04\CoffeSoftware\Coffee.Uwp\bin\x86\Debug\Views\Menu\Menu.xbf">
       <PackagePath>Views\Menu\Menu.xbf</PackagePath>
-<<<<<<< HEAD
-      <Modified>2022-01-19T23:30:12.931</Modified>
-=======
-      <Modified>2022-01-19T22:28:12.280</Modified>
->>>>>>> ae3e86116b54766ff0d63054ea0173883308ef06
+      <Modified>2022-01-19T23:41:03.285</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\for_visual_studio\ApplicationDevelopment\CoffeSoftware\Coffee.Uwp\bin\x86\Debug\Views\Payment\Payment.xbf">
+    <AppxPackagedFile Include="D:\IPB\AD\Project\CoffeSoftware\ad-ei-project-group-04\CoffeSoftware\Coffee.Uwp\bin\x86\Debug\Views\Payment\Payment.xbf">
       <PackagePath>Views\Payment\Payment.xbf</PackagePath>
-<<<<<<< HEAD
-      <Modified>2022-01-19T23:30:12.931</Modified>
-=======
-      <Modified>2022-01-19T22:28:12.281</Modified>
->>>>>>> ae3e86116b54766ff0d63054ea0173883308ef06
+      <Modified>2022-01-19T23:41:03.285</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\for_visual_studio\ApplicationDevelopment\CoffeSoftware\Coffee.Uwp\bin\x86\Debug\Views\Saved\Saved.xbf">
+    <AppxPackagedFile Include="D:\IPB\AD\Project\CoffeSoftware\ad-ei-project-group-04\CoffeSoftware\Coffee.Uwp\bin\x86\Debug\Views\Saved\Saved.xbf">
       <PackagePath>Views\Saved\Saved.xbf</PackagePath>
-<<<<<<< HEAD
-      <Modified>2022-01-19T23:30:12.931</Modified>
-=======
-      <Modified>2022-01-19T22:28:12.281</Modified>
->>>>>>> ae3e86116b54766ff0d63054ea0173883308ef06
+      <Modified>2022-01-19T23:41:03.285</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\for_visual_studio\ApplicationDevelopment\CoffeSoftware\Coffee.Uwp\bin\x86\Debug\Views\Settings\ChangeEmail.xbf">
+    <AppxPackagedFile Include="D:\IPB\AD\Project\CoffeSoftware\ad-ei-project-group-04\CoffeSoftware\Coffee.Uwp\bin\x86\Debug\Views\Settings\ChangeEmail.xbf">
       <PackagePath>Views\Settings\ChangeEmail.xbf</PackagePath>
-<<<<<<< HEAD
-      <Modified>2022-01-19T23:30:12.931</Modified>
-=======
-      <Modified>2022-01-19T22:28:12.282</Modified>
->>>>>>> ae3e86116b54766ff0d63054ea0173883308ef06
+      <Modified>2022-01-19T23:41:03.285</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\for_visual_studio\ApplicationDevelopment\CoffeSoftware\Coffee.Uwp\bin\x86\Debug\Views\Settings\ChangePassword.xbf">
+    <AppxPackagedFile Include="D:\IPB\AD\Project\CoffeSoftware\ad-ei-project-group-04\CoffeSoftware\Coffee.Uwp\bin\x86\Debug\Views\Settings\ChangePassword.xbf">
       <PackagePath>Views\Settings\ChangePassword.xbf</PackagePath>
-<<<<<<< HEAD
-      <Modified>2022-01-19T23:30:12.931</Modified>
-=======
-      <Modified>2022-01-19T22:28:12.347</Modified>
->>>>>>> ae3e86116b54766ff0d63054ea0173883308ef06
+      <Modified>2022-01-19T23:41:03.285</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\for_visual_studio\ApplicationDevelopment\CoffeSoftware\Coffee.Uwp\bin\x86\Debug\Views\Settings\Settings.xbf">
+    <AppxPackagedFile Include="D:\IPB\AD\Project\CoffeSoftware\ad-ei-project-group-04\CoffeSoftware\Coffee.Uwp\bin\x86\Debug\Views\Settings\Settings.xbf">
       <PackagePath>Views\Settings\Settings.xbf</PackagePath>
-<<<<<<< HEAD
-      <Modified>2022-01-19T23:30:12.931</Modified>
-=======
-      <Modified>2022-01-19T22:28:12.348</Modified>
->>>>>>> ae3e86116b54766ff0d63054ea0173883308ef06
+      <Modified>2022-01-19T23:41:03.285</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Windows Kits\10\UnionMetadata\10.0.19041.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
-      <Modified>2020-12-02T00:52:06.000</Modified>
+      <Modified>2020-12-02T01:52:06.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\for_visual_studio\ApplicationDevelopment\CoffeSoftware\Coffee.Uwp\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="D:\IPB\AD\Project\CoffeSoftware\ad-ei-project-group-04\CoffeSoftware\Coffee.Uwp\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-<<<<<<< HEAD
-      <Modified>2022-01-19T22:14:48.750</Modified>
-=======
-      <Modified>2022-01-19T20:00:37.624</Modified>
->>>>>>> ae3e86116b54766ff0d63054ea0173883308ef06
+      <Modified>2022-01-19T23:41:04.041</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\for_visual_studio\ApplicationDevelopment\CoffeSoftware\Coffee.Uwp\bin\x86\Debug\Core\Coffee.Uwp.exe">
+    <AppxPackagedFile Include="D:\IPB\AD\Project\CoffeSoftware\ad-ei-project-group-04\CoffeSoftware\Coffee.Uwp\bin\x86\Debug\Core\Coffee.Uwp.exe">
       <PackagePath>Coffee.Uwp.exe</PackagePath>
-<<<<<<< HEAD
-      <Modified>2022-01-19T23:30:14.584</Modified>
-=======
-      <Modified>2022-01-19T22:28:14.023</Modified>
->>>>>>> ae3e86116b54766ff0d63054ea0173883308ef06
+      <Modified>2022-01-19T23:41:05.238</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
