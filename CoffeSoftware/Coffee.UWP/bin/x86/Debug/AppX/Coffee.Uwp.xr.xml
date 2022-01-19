@@ -6,6 +6,7 @@
     <RootPropertyPathName Name="Price" />
     <RootPropertyPathName Name="Name" />
     <RootPropertyPathName Name="ImagePath" />
+    <RootPropertyPathName Name="UserId" />
   </Roots.PropertyPathNames>
   <Roots.RootTypes>
     <RootType FullName="Windows.UI.Xaml.Application" />
@@ -73,11 +74,11 @@
     </RootType>
     <RootType FullName="Coffee.Uwp.MainPage" />
     <RootType FullName="Windows.UI.Xaml.Controls.Button">
-      <RootProperty Name="Height" />
       <RootProperty Name="Content" />
       <RootProperty Name="Margin" />
       <RootProperty Name="BorderBrush" />
       <RootProperty Name="BorderThickness" />
+      <RootProperty Name="Height" />
       <RootProperty Name="Width" />
       <RootEvent Name="Click" />
     </RootType>

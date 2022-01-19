@@ -24,7 +24,8 @@
                 </ListView.ItemTemplate>
             </ListView>
             <TextBlock Text="" x:Name="infoText"/>
-            <Button Height="300" Click="AddCartButton_Click">Add to cart</Button>
+            <Button Click="AddCartButton_Click">Add to cart</Button>
+            <Button Click="AddFacoriteButton_Click" Margin="0,20,21,32">Add to Favorite</Button>
         </StackPanel>
         
     </Grid>

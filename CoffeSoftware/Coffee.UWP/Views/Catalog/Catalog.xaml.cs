@@ -71,5 +71,32 @@ namespace Coffee.Uwp.Views.Catalog
                 }
             }
         }
+
+        private async void AddFacoriteButton_Click(object sender, RoutedEventArgs e)
+        {
+            bool isRegistered = false;
+            using (IUnitOfWork uow = new UnitOfWork())
+            {
+
+                if (await uow.UserRepository.isRegisteredAsync(CurrentUser.Email))
+                {
+                    isRegistered = true;
+                }
+                else { infoText.Text = "Error. Log in once again, please"; }
+
+                if (isRegistered)
+                {
+                    var user = await uow.UserRepository.FindByEmailAsync(CurrentUser.Email);
+                    var obj = (Product)listOfProducts.SelectedItem;
+
+                    Favorite favoriteProduct = new Favorite();
+                    favoriteProduct.User = user;
+                    favoriteProduct.ProductId = obj.Id;
+                    uow.FavoriteRepository.Create(favoriteProduct);
+                    await uow.SaveAsync();
+                }
+            }
+
+        }
     }
 }

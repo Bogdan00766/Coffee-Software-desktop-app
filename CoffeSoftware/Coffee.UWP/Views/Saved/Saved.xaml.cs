@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Coffee.Uwp.ViewsModels;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -22,9 +23,17 @@ namespace Coffee.Uwp.Views.Saved
     /// </summary>
     public sealed partial class Saved : Page
     {
+        public SavedViewModel SavedViewModel { get; set; }
         public Saved()
         {
             this.InitializeComponent();
+
+            SavedViewModel = new SavedViewModel();
+        }
+
+        protected override async void OnNavigatedTo(NavigationEventArgs e)
+        {
+            await SavedViewModel.LoadAllAsync();
         }
     }
 }

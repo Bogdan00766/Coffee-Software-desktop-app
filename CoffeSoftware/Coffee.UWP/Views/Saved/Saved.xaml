@@ -4,11 +4,22 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:local="using:Coffee.Uwp.Views.Saved"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:models="using:Coffe.Domain.Models"
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-        <TextBlock HorizontalAlignment="Left" Margin="1440,10,0,0" Text="Saved" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <StackPanel Margin="322,0,0,14">
+            <ListView x:Name="listOfProducts" ItemsSource="{x:Bind SavedViewModel.Favorites}">
+                <ListView.ItemTemplate>
+                    <DataTemplate x:DataType="models:Favorite">
+                        <VariableSizedWrapGrid>
+                            <TextBlock Text="{Binding UserId}" Width="600"/>
+                            <TextBlock Text="{Binding ProductId}" Width="600"/>
+                        </VariableSizedWrapGrid>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackPanel>
     </Grid>
 </Page>
