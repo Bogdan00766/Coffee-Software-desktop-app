@@ -9,28 +9,26 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-<<<<<<< HEAD
         <ListView x:ConnectionId='2' x:Name="cartList" Grid.Row="1"                                                                   >
             <ListView.ItemTemplate>
                 <DataTemplate x:Name="cartData"                            >
-                    <Grid x:ConnectionId='4'>
+                    <Grid x:ConnectionId='9'>
                         <Grid.ColumnDefinitions>
                             <ColumnDefinition Width="*"/>
                             <ColumnDefinition Width="*"/>
                             <ColumnDefinition Width="*"/>
                         </Grid.ColumnDefinitions>
-                        <TextBlock x:ConnectionId='5'                      Grid.Column="0"/>
-                        <TextBlock x:ConnectionId='6'                       Grid.Column="1"/>
-                        <TextBlock x:ConnectionId='7'                          Grid.Column="2"/>
+                        <TextBlock x:ConnectionId='10'                      Grid.Column="0"/>
+                        <TextBlock x:ConnectionId='11'                       Grid.Column="1"/>
+                        <TextBlock x:ConnectionId='12'                          Grid.Column="2"/>
                     </Grid>
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>
 
-=======
         <TextBlock HorizontalAlignment="Left" Margin="1440,10,0,0" Text="Cart" TextWrapping="Wrap" VerticalAlignment="Top"/>
         <StackPanel>
-            <ListView x:ConnectionId='2' x:Name="CartList"                                                  >
+            <ListView x:ConnectionId='3' x:Name="CartList"                                                  >
                 <ListView.ItemTemplate>
                     <DataTemplate                                     >
                         <VariableSizedWrapGrid>
@@ -42,7 +40,6 @@
                 </ListView.ItemTemplate>
             </ListView>
         </StackPanel>
->>>>>>> a2c601f0f207569bda5b6c9f681eb669ccc6f522
     </Grid>
 </Page>
 

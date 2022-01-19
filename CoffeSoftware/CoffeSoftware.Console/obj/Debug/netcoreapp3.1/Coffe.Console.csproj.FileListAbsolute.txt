@@ -218,7 +218,6 @@ D:\for_visual_studio\ApplicationDevelopment\CoffeSoftware\CoffeSoftware.Console\
 D:\for_visual_studio\ApplicationDevelopment\CoffeSoftware\CoffeSoftware.Console\obj\Debug\netcoreapp3.1\Coffe.Console.AssemblyInfoInputs.cache
 D:\for_visual_studio\ApplicationDevelopment\CoffeSoftware\CoffeSoftware.Console\obj\Debug\netcoreapp3.1\Coffe.Console.AssemblyInfo.cs
 D:\for_visual_studio\ApplicationDevelopment\CoffeSoftware\CoffeSoftware.Console\obj\Debug\netcoreapp3.1\Coffe.Console.csproj.CoreCompileInputs.cache
-D:\for_visual_studio\ApplicationDevelopment\CoffeSoftware\CoffeSoftware.Console\obj\Debug\netcoreapp3.1\Coffe.Console.csproj.CopyComplete
 D:\for_visual_studio\ApplicationDevelopment\CoffeSoftware\CoffeSoftware.Console\obj\Debug\netcoreapp3.1\Coffe.Console.dll
 D:\for_visual_studio\ApplicationDevelopment\CoffeSoftware\CoffeSoftware.Console\obj\Debug\netcoreapp3.1\Coffe.Console.pdb
 D:\for_visual_studio\ApplicationDevelopment\CoffeSoftware\CoffeSoftware.Console\obj\Debug\netcoreapp3.1\Coffe.Console.genruntimeconfig.cache
