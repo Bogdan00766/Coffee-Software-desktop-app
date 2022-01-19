@@ -1,16 +1,28 @@
-﻿<Page
+﻿<Page x:ConnectionId='1'
     x:Class="Coffee.Uwp.Views.Cart.Cart"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:local="using:Coffee.Uwp.Views.Cart"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:models="using:Coffe.Domain.Models"
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
         <TextBlock HorizontalAlignment="Left" Margin="1440,10,0,0" Text="Cart" TextWrapping="Wrap" VerticalAlignment="Top"/>
-
+        <StackPanel>
+            <ListView x:ConnectionId='2' x:Name="CartList"                                                  >
+                <ListView.ItemTemplate>
+                    <DataTemplate                                     >
+                        <VariableSizedWrapGrid>
+                            <TextBlock Text="{Binding ProductId}" Width="600"/>
+                            <TextBlock Text="{Binding OrderListId}" x:Name="productText" />
+                            <TextBlock Text="" x:Name="infoText"/>
+                        </VariableSizedWrapGrid>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackPanel>
     </Grid>
 </Page>
 
