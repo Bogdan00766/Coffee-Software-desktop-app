@@ -10,5 +10,6 @@ namespace Coffe.Domain.Repositories
     public interface IProductRepository : IRepository<Product>
     {
         Task<List<Product>> FindAllForUserAsync(int id);
+        Task<bool> ClearAllForUserAsync(int id);
     }
 }

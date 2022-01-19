@@ -27,5 +27,16 @@ namespace Coffe.Infrastructure.Repositories
             }
             return Task.FromResult(productsList);
         }
+        public Task<bool> ClearAllForUserAsync(int id)
+        {
+            List<Product> productsList = new List<Product>();
+            //return _dbContext.Product.Where(x => x.OrderListProducts.OrderList.User.Id == id).toList();
+            var tmp = _dbContext.OrderListProduct.Where(x => x.OrderList.User.Id == id).ToList();
+            foreach (OrderListProduct olp in tmp)
+            {
+                _dbContext.OrderListProduct.Remove(olp);
+            }
+            return Task.FromResult(true);
+        }
     }
 }

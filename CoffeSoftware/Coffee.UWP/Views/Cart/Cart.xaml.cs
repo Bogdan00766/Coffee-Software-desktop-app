@@ -1,6 +1,7 @@
 
 ﻿using Coffe.Domain;
 using Coffe.Domain.Models;
+using Coffe.Infrastructure;
 using Coffee.Uwp.ViewsModels;
 using System;
 using System.Collections.Generic;
@@ -59,6 +60,15 @@ namespace Coffee.Uwp.Views.Cart
         {
 
         }
+
+        private async void clearCart_Click(object sender, RoutedEventArgs e)
+        {
+            IUnitOfWork uow = new UnitOfWork();
+            await uow.ProductRepository.ClearAllForUserAsync(1);
+            await uow.SaveAsync();
+            this.Frame.Navigate(typeof(Cart));
+        }
+
 
         //protected override async void OnNavigatedTo(NavigationEventArgs e)
         //{

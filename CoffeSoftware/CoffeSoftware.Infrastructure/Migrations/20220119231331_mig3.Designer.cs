@@ -9,8 +9,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Coffe.Infrastructure.Migrations
 {
     [DbContext(typeof(CoffeDbContext))]
-    [Migration("20220119172115_initial")]
-    partial class initial
+    [Migration("20220119231331_mig3")]
+    partial class mig3
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -74,7 +74,8 @@ namespace Coffe.Infrastructure.Migrations
 
                     b.Property<int>("ProductId");
 
-                    b.Property<int>("Id");
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd();
 
                     b.HasKey("OrderListId", "ProductId");
 
