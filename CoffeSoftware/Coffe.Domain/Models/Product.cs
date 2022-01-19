@@ -13,6 +13,7 @@ namespace Coffe.Domain.Models
         public Category Category { get; set; }
         public Shop Shop { get; set; }
         public List<OrderListProduct> OrderListProducts { get; set; }
+        public List<Favorite> Favorites { get; set; }
 
         public Product()
         {

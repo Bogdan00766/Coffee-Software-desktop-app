@@ -1,15 +1,26 @@
-﻿<Page
+﻿<Page x:ConnectionId='1'
     x:Class="Coffee.Uwp.Views.Saved.Saved"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:local="using:Coffee.Uwp.Views.Saved"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:models="using:Coffe.Domain.Models"
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-        <TextBlock HorizontalAlignment="Left" Margin="1440,10,0,0" Text="Saved" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <StackPanel Margin="322,0,0,14">
+            <ListView x:ConnectionId='2' x:Name="listOfProducts"                                                >
+                <ListView.ItemTemplate>
+                    <DataTemplate                             >
+                        <VariableSizedWrapGrid>
+                            <TextBlock Text="{Binding UserId}" Width="600"/>
+                            <TextBlock Text="{Binding ProductId}" Width="600"/>
+                        </VariableSizedWrapGrid>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackPanel>
     </Grid>
 </Page>
 

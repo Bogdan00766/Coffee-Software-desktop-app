@@ -4,6 +4,8 @@
     <RootPropertyPathName Name="Price" />
     <RootPropertyPathName Name="Name" />
     <RootPropertyPathName Name="ImagePath" />
+    <RootPropertyPathName Name="ProductId" />
+    <RootPropertyPathName Name="UserId" />
   </Roots.PropertyPathNames>
   <Roots.RootTypes>
     <RootType FullName="Windows.UI.Xaml.Application" />

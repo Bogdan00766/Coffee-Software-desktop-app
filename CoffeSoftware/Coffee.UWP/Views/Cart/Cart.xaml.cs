@@ -1,4 +1,5 @@
 
+
 ﻿using Coffe.Domain;
 using Coffe.Domain.Models;
 using Coffe.Infrastructure;
@@ -28,9 +29,9 @@ namespace Coffee.Uwp.Views.Cart
     public sealed partial class Cart : Page
     {
 
-        //public OrderListProductViewModel OrderListProductViewModel { get; set; }
 
         public CartViewModel CartViewModel { get; set; }
+
         public Cart()
         {
             //OrderListProductViewModel = new OrderListProductViewModel();
@@ -46,6 +47,7 @@ namespace Coffee.Uwp.Views.Cart
             sum();
             base.OnNavigatedTo(e);
         }
+
         void sum()
         {
             float sum = 0;

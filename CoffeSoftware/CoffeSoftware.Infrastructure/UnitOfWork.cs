@@ -20,6 +20,8 @@ namespace Coffe.Infrastructure
         public IShopRepository ShopRepository => new ShopRepository(_dbContext);
         public IUserRepository UserRepository => new UserRepository(_dbContext);
         public IOrderListProductRepository OrderListProductRepository => new OrderListProductRepository(_dbContext);
+        public IPaymentRepository PaymentRepository => new PaymentRepository(_dbContext);
+        public IFavoriteRepository FavoriteRepository => new FavoriteRepository(_dbContext);
 
         public UnitOfWork()
         {

@@ -48,6 +48,25 @@ namespace Coffe.Infrastructure.Migrations
                     b.ToTable("Category");
                 });
 
+            modelBuilder.Entity("Coffe.Domain.Models.Favorite", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd();
+
+                    b.Property<int>("ProductId");
+
+                    b.Property<int>("UserId");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("ProductId");
+
+                    b.HasIndex("UserId")
+                        .IsUnique();
+
+                    b.ToTable("Favorite");
+                });
+
             modelBuilder.Entity("Coffe.Domain.Models.OrderList", b =>
                 {
                     b.Property<int>("Id")
@@ -80,6 +99,28 @@ namespace Coffe.Infrastructure.Migrations
                     b.HasIndex("ProductId");
 
                     b.ToTable("OrderListProduct");
+                });
+
+            modelBuilder.Entity("Coffe.Domain.Models.Payment", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd();
+
+                    b.Property<int>("CVV");
+
+                    b.Property<string>("CardName");
+
+                    b.Property<int>("CardNumber");
+
+                    b.Property<int>("Sum");
+
+                    b.Property<int?>("UserId");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("Payment");
                 });
 
             modelBuilder.Entity("Coffe.Domain.Models.Product", b =>
@@ -144,6 +185,19 @@ namespace Coffe.Infrastructure.Migrations
                     b.ToTable("User");
                 });
 
+            modelBuilder.Entity("Coffe.Domain.Models.Favorite", b =>
+                {
+                    b.HasOne("Coffe.Domain.Models.Product", "Product")
+                        .WithMany("Favorites")
+                        .HasForeignKey("ProductId")
+                        .OnDelete(DeleteBehavior.Cascade);
+
+                    b.HasOne("Coffe.Domain.Models.User", "User")
+                        .WithOne("Favorite")
+                        .HasForeignKey("Coffe.Domain.Models.Favorite", "UserId")
+                        .OnDelete(DeleteBehavior.Cascade);
+                });
+
             modelBuilder.Entity("Coffe.Domain.Models.OrderList", b =>
                 {
                     b.HasOne("Coffe.Domain.Models.User", "User")
@@ -162,6 +216,13 @@ namespace Coffe.Infrastructure.Migrations
                         .WithMany("OrderListProducts")
                         .HasForeignKey("ProductId")
                         .OnDelete(DeleteBehavior.Cascade);
+                });
+
+            modelBuilder.Entity("Coffe.Domain.Models.Payment", b =>
+                {
+                    b.HasOne("Coffe.Domain.Models.User", "User")
+                        .WithMany("Payments")
+                        .HasForeignKey("UserId");
                 });
 
             modelBuilder.Entity("Coffe.Domain.Models.Product", b =>

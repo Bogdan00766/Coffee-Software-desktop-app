@@ -10,37 +10,6 @@
 
     <Grid>
 
-        <!--<ListView x:Name="cartList" Grid.Row="1" ItemsSource="{x:Bind OrderListProductViewModel.OrderListProducts}">
-            <ListView.ItemTemplate>
-                <DataTemplate x:Name="cartData" x:DataType="models:Product">
-                    <Grid>
-                        <Grid.ColumnDefinitions>
-                            <ColumnDefinition Width="*"/>
-                            <ColumnDefinition Width="*"/>
-                            <ColumnDefinition Width="*"/>
-                        </Grid.ColumnDefinitions>
-                        <TextBlock Text="{x:Bind Name}" Grid.Column="0"/>
-                        <TextBlock Text="{x:Bind Price}" Grid.Column="1"/>
-                        <TextBlock Text="{x:Bind Category}" Grid.Column="2"/>
-                    </Grid>
-                </DataTemplate>
-            </ListView.ItemTemplate>
-        </ListView>-->
-
-
-
-            <!--<ListView x:Name="CartList" ItemsSource="{x:Bind CartViewModel.ListProducts}">
-                <ListView.ItemTemplate>
-                    <DataTemplate x:DataType="models:OrderListProduct">
-                        <Grid Background="LightBlue">
-                            <TextBlock Text="{Binding Id}" Width="auto"/>
-                            <TextBlock Text="{Binding Category}" x:Name="productText" />
-                            <TextBlock Text="xxx" x:Name="infoText"/>
-                        </Grid>
-                        
-                    </DataTemplate>
-                </ListView.ItemTemplate>
-            </ListView>-->
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="Auto"/>
