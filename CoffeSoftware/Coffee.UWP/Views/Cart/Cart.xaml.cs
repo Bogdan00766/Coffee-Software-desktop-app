@@ -1,5 +1,9 @@
+<<<<<<< HEAD
 ﻿using Coffe.Domain;
 using Coffee.Uwp.ViewsModels;
+=======
+﻿using Coffee.Uwp.ViewsModels;
+>>>>>>> a2c601f0f207569bda5b6c9f681eb669ccc6f522
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -24,11 +28,23 @@ namespace Coffee.Uwp.Views.Cart
     /// </summary>
     public sealed partial class Cart : Page
     {
+<<<<<<< HEAD
         public OrderListProductViewModel OrderListProductViewModel { get; set; }
+=======
+        public CartViewModel CartViewModel { get; set; }
+
+>>>>>>> a2c601f0f207569bda5b6c9f681eb669ccc6f522
         public Cart()
         {
             OrderListProductViewModel = new OrderListProductViewModel();
             this.InitializeComponent();
+
+            CartViewModel = new CartViewModel();
+        }
+
+        protected override async void OnNavigatedTo(NavigationEventArgs e)
+        {
+            await CartViewModel.LoadAllAsync();
         }
         protected override async void OnNavigatedTo(NavigationEventArgs e)
         {

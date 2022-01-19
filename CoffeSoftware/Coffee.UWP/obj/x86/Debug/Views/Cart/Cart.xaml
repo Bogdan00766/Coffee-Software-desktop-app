@@ -9,6 +9,7 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
+<<<<<<< HEAD
         <ListView x:ConnectionId='2' x:Name="cartList" Grid.Row="1"                                                                   >
             <ListView.ItemTemplate>
                 <DataTemplate x:Name="cartData"                            >
@@ -26,6 +27,22 @@
             </ListView.ItemTemplate>
         </ListView>
 
+=======
+        <TextBlock HorizontalAlignment="Left" Margin="1440,10,0,0" Text="Cart" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <StackPanel>
+            <ListView x:ConnectionId='2' x:Name="CartList"                                                  >
+                <ListView.ItemTemplate>
+                    <DataTemplate                                     >
+                        <VariableSizedWrapGrid>
+                            <TextBlock Text="{Binding ProductId}" Width="600"/>
+                            <TextBlock Text="{Binding OrderListId}" x:Name="productText" />
+                            <TextBlock Text="" x:Name="infoText"/>
+                        </VariableSizedWrapGrid>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackPanel>
+>>>>>>> a2c601f0f207569bda5b6c9f681eb669ccc6f522
     </Grid>
 </Page>
 
