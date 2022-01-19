@@ -7,7 +7,6 @@ D:\IPB\AD\Project\CoffeSoftware\ad-ei-project-group-04\CoffeSoftware\Coffe.Domai
 D:\IPB\AD\Project\CoffeSoftware\ad-ei-project-group-04\CoffeSoftware\Coffe.Domain\obj\Debug\netstandard2.0\Coffe.Domain.csproj.CoreCompileInputs.cache
 D:\IPB\AD\Project\CoffeSoftware\ad-ei-project-group-04\CoffeSoftware\Coffe.Domain\obj\Debug\netstandard2.0\Coffe.Domain.dll
 D:\IPB\AD\Project\CoffeSoftware\ad-ei-project-group-04\CoffeSoftware\Coffe.Domain\obj\Debug\netstandard2.0\Coffe.Domain.pdb
-D:\IPB\AD\Project\CoffeSoftware\ad-ei-project-group-04\CoffeSoftware\Coffe.Domain\obj\Debug\netstandard2.0\Coffe.Domain.csproj.AssemblyReference.cache
 E:\1\C#\ad-ei-project-group-04\CoffeSoftware\Coffe.Domain\bin\Debug\netstandard2.0\Coffe.Domain.deps.json
 E:\1\C#\ad-ei-project-group-04\CoffeSoftware\Coffe.Domain\bin\Debug\netstandard2.0\Coffe.Domain.dll
 E:\1\C#\ad-ei-project-group-04\CoffeSoftware\Coffe.Domain\bin\Debug\netstandard2.0\Coffe.Domain.pdb
@@ -28,3 +27,4 @@ D:\for_visual_studio\ApplicationDevelopment\CoffeSoftware\Coffe.Domain\obj\Debug
 D:\for_visual_studio\ApplicationDevelopment\CoffeSoftware\Coffe.Domain\obj\Debug\netstandard2.0\Coffe.Domain.csproj.CoreCompileInputs.cache
 D:\for_visual_studio\ApplicationDevelopment\CoffeSoftware\Coffe.Domain\obj\Debug\netstandard2.0\Coffe.Domain.dll
 D:\for_visual_studio\ApplicationDevelopment\CoffeSoftware\Coffe.Domain\obj\Debug\netstandard2.0\Coffe.Domain.pdb
+D:\IPB\AD\Project\CoffeSoftware\ad-ei-project-group-04\CoffeSoftware\Coffe.Domain\obj\Debug\netstandard2.0\Coffe.Domain.csproj.AssemblyReference.cache

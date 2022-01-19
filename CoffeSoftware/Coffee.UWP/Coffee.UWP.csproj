@@ -119,6 +119,7 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="ViewsModels\OrderListProductViewModel.cs" />
     <Compile Include="ViewsModels\ProductViewModel.cs" />
     <Compile Include="Views\Cart\Cart.xaml.cs">
       <DependentUpon>Cart.xaml</DependentUpon>
@@ -127,9 +128,6 @@
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Views\Catalog\Catalog.xaml.cs">
-      <DependentUpon>Catalog.xaml</DependentUpon>
-    </Compile>
     <Compile Include="Views\Home\Home.xaml.cs">
       <DependentUpon>Home.xaml</DependentUpon>
     </Compile>
@@ -185,10 +183,6 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="MainPage.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="Views\Catalog\Catalog.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>

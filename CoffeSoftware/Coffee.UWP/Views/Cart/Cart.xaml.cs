@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Coffe.Domain;
+using Coffee.Uwp.ViewsModels;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -22,9 +24,16 @@ namespace Coffee.Uwp.Views.Cart
     /// </summary>
     public sealed partial class Cart : Page
     {
+        public OrderListProductViewModel OrderListProductViewModel { get; set; }
         public Cart()
         {
+            OrderListProductViewModel = new OrderListProductViewModel();
             this.InitializeComponent();
+        }
+        protected override async void OnNavigatedTo(NavigationEventArgs e)
+        {
+            await OrderListProductViewModel.LoadAllForUserAsync(1);
+            base.OnNavigatedTo(e);
         }
     }
 }

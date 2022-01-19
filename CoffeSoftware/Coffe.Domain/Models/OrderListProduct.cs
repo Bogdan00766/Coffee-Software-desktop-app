@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Coffe.Domain.Models
 {
-    public class OrderListProduct
+    public class OrderListProduct : Entity
     {
         public int OrderListId { get; set; }
         public OrderList OrderList { get; set; }

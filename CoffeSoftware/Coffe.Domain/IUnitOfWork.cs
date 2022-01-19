@@ -13,8 +13,8 @@ namespace Coffe.Domain
         IOrderListRepository OrderListRepository { get; }
         IProductRepository ProductRepository { get; }
         IShopRepository ShopRepository { get; }
-        IUserRepository UserRepository { get; }   
-      
+        IUserRepository UserRepository { get; }
+        IOrderListProductRepository OrderListProductRepository { get; }
         Task SaveAsync();
     }
 }

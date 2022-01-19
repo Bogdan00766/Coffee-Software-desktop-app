@@ -19884,28 +19884,31 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\dena_\\.nuget\\packages\\": {},
-    "D:\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Users\\pchud\\.nuget\\packages\\": {},
+    "D:\\Aplikacje\\VisualStudio\\VisualStudioNarzedzia\\NuGetPackages": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {},
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\for_visual_studio\\ApplicationDevelopment\\CoffeSoftware\\Coffee.Uwp\\Coffee.Uwp.csproj",
+      "projectUniqueName": "D:\\IPB\\AD\\Project\\CoffeSoftware\\ad-ei-project-group-04\\CoffeSoftware\\Coffee.Uwp\\Coffee.Uwp.csproj",
       "projectName": "Coffee.Uwp",
-      "projectPath": "D:\\for_visual_studio\\ApplicationDevelopment\\CoffeSoftware\\Coffee.Uwp\\Coffee.Uwp.csproj",
-      "packagesPath": "C:\\Users\\dena_\\.nuget\\packages\\",
-      "outputPath": "D:\\for_visual_studio\\ApplicationDevelopment\\CoffeSoftware\\Coffee.Uwp\\obj\\",
+      "projectPath": "D:\\IPB\\AD\\Project\\CoffeSoftware\\ad-ei-project-group-04\\CoffeSoftware\\Coffee.Uwp\\Coffee.Uwp.csproj",
+      "packagesPath": "C:\\Users\\pchud\\.nuget\\packages\\",
+      "outputPath": "D:\\IPB\\AD\\Project\\CoffeSoftware\\ad-ei-project-group-04\\CoffeSoftware\\Coffee.Uwp\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
-        "D:\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "D:\\Aplikacje\\VisualStudio\\VisualStudioNarzedzia\\NuGetPackages",
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
         "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\dena_\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\pchud\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "uap10.0.17763"
@@ -19917,11 +19920,11 @@
       "frameworks": {
         "uap10.0.17763": {
           "projectReferences": {
-            "D:\\for_visual_studio\\ApplicationDevelopment\\CoffeSoftware\\Coffe.Domain\\Coffe.Domain.csproj": {
-              "projectPath": "D:\\for_visual_studio\\ApplicationDevelopment\\CoffeSoftware\\Coffe.Domain\\Coffe.Domain.csproj"
+            "D:\\IPB\\AD\\Project\\CoffeSoftware\\ad-ei-project-group-04\\CoffeSoftware\\Coffe.Domain\\Coffe.Domain.csproj": {
+              "projectPath": "D:\\IPB\\AD\\Project\\CoffeSoftware\\ad-ei-project-group-04\\CoffeSoftware\\Coffe.Domain\\Coffe.Domain.csproj"
             },
-            "D:\\for_visual_studio\\ApplicationDevelopment\\CoffeSoftware\\CoffeSoftware.Infrastructure\\Coffe.Infrastructure.csproj": {
-              "projectPath": "D:\\for_visual_studio\\ApplicationDevelopment\\CoffeSoftware\\CoffeSoftware.Infrastructure\\Coffe.Infrastructure.csproj"
+            "D:\\IPB\\AD\\Project\\CoffeSoftware\\ad-ei-project-group-04\\CoffeSoftware\\CoffeSoftware.Infrastructure\\Coffe.Infrastructure.csproj": {
+              "projectPath": "D:\\IPB\\AD\\Project\\CoffeSoftware\\ad-ei-project-group-04\\CoffeSoftware\\CoffeSoftware.Infrastructure\\Coffe.Infrastructure.csproj"
             }
           }
         }

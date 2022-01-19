@@ -32,11 +32,20 @@ namespace Coffee.Uwp.Views.Menu
             
             ProductViewModel = new ProductViewModel();
             this.InitializeComponent();
+            if (CurrentUser.IsAdmin)
+            {
+                AddButton.Visibility = Visibility.Visible;
+            }
+            else
+            {
+                AddButton.Visibility = Visibility.Collapsed;
+            }
+            
             //add isAdmin check for buttons :) 
         }
-        protected override void OnNavigatedTo(NavigationEventArgs e)
+        protected override async void OnNavigatedTo(NavigationEventArgs e)
         {
-            ProductViewModel.LoadAllAsync();
+            await ProductViewModel.LoadAllAsync();
             base.OnNavigatedTo(e);
         }
         private async void DeleteConfirmationButton_Click(object sender, RoutedEventArgs e)
@@ -50,8 +59,12 @@ namespace Coffee.Uwp.Views.Menu
         }
         private void EditButton_Click(object sender, RoutedEventArgs e)
         {
+            
             var product = (Product)productList.SelectedItem;
-            infoText.Text = product.Id + "x" + product.Name + "x" + product.Price;
+            if (product != null)
+            {
+                infoText.Text = product.Id + "x" + product.Name + "x" + product.Price;
+            }
         }
         private void AddButton_Click(object sender, RoutedEventArgs e)
         {

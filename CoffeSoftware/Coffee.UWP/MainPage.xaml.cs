@@ -13,7 +13,6 @@ using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 using Coffee.Uwp.Views.Cart;
-using Coffee.Uwp.Views.Catalog;
 using Coffee.Uwp.Views.Payment;
 using Coffee.Uwp.Views.Settings;
 using Coffee.Uwp.Views.Home;
@@ -74,7 +73,7 @@ namespace Coffee.Uwp
                         frame.Navigate(typeof(Payment));
                         break;
                     case "catalog":
-                        frame.Navigate(typeof(Catalog));
+                        //frame.Navigate(typeof(Catalog));
                         break;
                     case "saved":
                         frame.Navigate(typeof(Saved));
