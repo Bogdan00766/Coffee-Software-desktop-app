@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Coffe.Domain;
+using Coffe.Infrastructure;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -25,6 +27,20 @@ namespace Coffee.Uwp.Views.Catalog
         public AddProduct()
         {
             this.InitializeComponent();
+        }
+
+        private void addProductButton_Click(object sender, RoutedEventArgs e)
+        {
+            if (productNameText.Text == String.Empty) infoText.Text = "Name cannot be empty!";
+            else if (priceText.Text == String.Empty) infoText.Text = "Price cannot be empty!";
+            else if (categoryText.Text == String.Empty) infoText.Text = "Category cannot be empty!";
+            else if (shopNameText.Text == String.Empty) infoText.Text = "Shop name cannot be empty!";
+            else 
+            { 
+                IUnitOfWork uow = new UnitOfWork();
+                var category = uow.CategoryRepository.FindByNameAsync(categoryText.Text);
+            
+            }
         }
     }
 }

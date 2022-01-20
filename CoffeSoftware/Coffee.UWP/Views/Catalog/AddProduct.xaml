@@ -8,7 +8,22 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-    <Grid>
+    <Grid Margin="100"  VerticalAlignment="Center">
 
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <TextBox Grid.Row="0" Header="Enter product name:" PlaceholderText="Name" x:Name="productNameText"/>
+        <TextBox Grid.Row="1" Header="Enter product price:" PlaceholderText="Price" x:Name="priceText"/>
+        <TextBox Grid.Row="2" Header="Enter product category:" PlaceholderText="Category" x:Name="categoryText"/>
+        <TextBox Grid.Row="3" Header="Enter shop name" PlaceholderText="Shop name" x:Name="shopNameText"/>
+        <TextBlock Grid.Row="4" Text="" x:Name="infoText"/>
+        <Button Grid.Row ="5" Content="Add product" x:Name="addProductButton" Click="addProductButton_Click" />
     </Grid>
 </Page>
