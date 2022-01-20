@@ -3,6 +3,7 @@
 ﻿using Coffe.Domain;
 using Coffe.Domain.Models;
 using Coffe.Infrastructure;
+using Coffee.Uwp.Views.Payment;
 using Coffee.Uwp.ViewsModels;
 using System;
 using System.Collections.Generic;
@@ -63,6 +64,7 @@ namespace Coffee.Uwp.Views.Cart
 
         private void payButton_Click(object sender, RoutedEventArgs e)
         {
+            int sum = int.Parse(sumText.Text);
 
         }
 

@@ -21,9 +21,9 @@
         <TextBox Grid.Row="1" Header="Your Card Number:" PlaceholderText="Card Number" x:Name="cardNumberText"/>
         <TextBox Grid.Row="2" Header="Your CVV:" PlaceholderText="CVV" x:Name="CVVText"/>
         <TextBox Grid.Row="3" Header="Your Card Name:" PlaceholderText="Card Name" x:Name="cardNameText"/>
-        <TextBlock />
-        <TextBlock Grid.Row="4" Text="" x:Name="infoText"/>
-        <Button Grid.Row ="5" Content="Buy" x:Name="Buy" Click="BuyButton_Click" />
+        <TextBlock Grid.Row="4" Text=""  x:Name="Sum"/>
+        <TextBlock Grid.Row="5" Text="" x:Name="infoText"/>
+        <Button Grid.Row ="6" Content="Buy" x:Name="Buy" Click="BuyButton_Click" />
 
     </Grid>
 </Page>

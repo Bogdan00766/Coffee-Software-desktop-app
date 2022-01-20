@@ -25,9 +25,10 @@ namespace Coffee.Uwp.Views.Payment
     /// </summary>
     public sealed partial class Card : Page
     {
-        public Card()
+        public Card(int sum)
         {
             this.InitializeComponent();
+            Sum.Text = sum.ToString();
         }
 
         private async void BuyButton_Click(object sender, RoutedEventArgs e)

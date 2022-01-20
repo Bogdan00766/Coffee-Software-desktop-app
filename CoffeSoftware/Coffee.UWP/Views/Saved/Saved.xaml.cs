@@ -14,6 +14,7 @@ using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
+using Coffe.Domain;
 
 // The Blank Page item template is documented at https://go.microsoft.com/fwlink/?LinkId=234238
 
@@ -32,10 +33,10 @@ namespace Coffee.Uwp.Views.Saved
             SavedViewModel = new SavedViewModel();
         }
 
-      
         protected override async void OnNavigatedTo(NavigationEventArgs e)
         {
-            await SavedViewModel.LoadAllAsync();
+            await SavedViewModel.FindAllFavoriteAsync(CurrentUser.Id);
+            base.OnNavigatedTo(e);
         }
     }
 }

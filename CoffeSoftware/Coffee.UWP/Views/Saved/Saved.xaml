@@ -12,10 +12,11 @@
         <StackPanel Margin="322,0,0,14">
             <ListView x:Name="listOfProducts" ItemsSource="{x:Bind SavedViewModel.Favorites}">
                 <ListView.ItemTemplate>
-                    <DataTemplate x:DataType="models:Favorite">
+                    <DataTemplate x:DataType="models:Product">
                         <VariableSizedWrapGrid>
-                            <TextBlock Text="{Binding UserId}" Width="600"/>
-                            <TextBlock Text="{Binding ProductId}" Width="600"/>
+                            <TextBlock Text="{Binding Name}" Width="600"/>
+                            <TextBlock Text="{Binding Price}" Width="600"/>
+                            <TextBlock Text="{Binding ImagePath}" Width="600"/>
                         </VariableSizedWrapGrid>
                     </DataTemplate>
                 </ListView.ItemTemplate>

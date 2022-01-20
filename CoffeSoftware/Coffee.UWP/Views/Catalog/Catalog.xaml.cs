@@ -96,7 +96,7 @@ namespace Coffee.Uwp.Views.Catalog
                     var obj = (Product)listOfProducts.SelectedItem;
 
                     Favorite favoriteProduct = new Favorite();
-                    favoriteProduct.User = user;
+                    favoriteProduct.UserId = user.Id;
                     favoriteProduct.ProductId = obj.Id;
                     uow.FavoriteRepository.Create(favoriteProduct);
                     await uow.SaveAsync();

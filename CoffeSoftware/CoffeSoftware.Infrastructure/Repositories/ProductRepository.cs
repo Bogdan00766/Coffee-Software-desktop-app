@@ -27,6 +27,19 @@ namespace Coffe.Infrastructure.Repositories
             }
             return Task.FromResult(productsList);
         }
+
+        public Task<List<Product>> FindAllFavoriteAsync(int id)
+        {
+            List<Product> AddProduct = new List<Product>();
+            var tmp = _dbContext.Favorite.Where(x => x.User.Id == id).ToList();
+            foreach (Favorite fav in tmp)
+            {
+                Product product = _dbContext.Product.Where(x => x.Id == fav.Id).FirstOrDefault();
+                AddProduct.Add(product);
+            }
+            return Task.FromResult(AddProduct);
+        } 
+
         public Task<bool> ClearAllForUserAsync(int id)
         {
             List<Product> productsList = new List<Product>();

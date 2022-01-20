@@ -17,7 +17,7 @@
             <RowDefinition Height="*"/>
             <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
-        
+
         <TextBlock HorizontalAlignment="Left" Margin="10,10,0,0" Text="Cart" TextWrapping="Wrap" FontSize="40" VerticalAlignment="Top"/>
 
         <Button Margin="0,20,20,0" x:Name="clearCart" HorizontalAlignment="Right" Grid.Column="0" Height="53" Width="70" Click="clearCart_Click" >
@@ -56,6 +56,6 @@
         </ListView>
 
         <TextBlock Grid.Row="3" Margin="0,0,15,15" FontSize="24" HorizontalAlignment="Right" VerticalAlignment="Bottom" x:Name="sumText" Text=""/>
-        <Button FontSize="24" Width="200" HorizontalAlignment="Right" Grid.Row="4" Content="PAY" Margin="0,0,15,15" x:Name="payButton" Click="payButton_Click"/>
+        <Button FontSize="24" Width="200" HorizontalAlignment="Right" Grid.Row="3" Content="Buy" Margin="0,761,55,0" x:Name="payButton" Click="payButton_Click" VerticalAlignment="Top"/>
     </Grid>
 </Page>
