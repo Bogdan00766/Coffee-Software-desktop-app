@@ -108,7 +108,7 @@ namespace Coffee.Uwp.Views.Catalog
 
         private void addProductButton_Click(object sender, RoutedEventArgs e)
         {
-
+            this.Frame.Navigate(typeof(AddProduct));
         }
 
         private void editProductButton_Click(object sender, RoutedEventArgs e)

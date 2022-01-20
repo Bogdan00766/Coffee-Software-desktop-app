@@ -1,4 +1,5 @@
 ﻿using Coffe.Domain;
+using Coffe.Domain.Models;
 using Coffe.Infrastructure;
 using System;
 using System.Collections.Generic;
@@ -29,7 +30,7 @@ namespace Coffee.Uwp.Views.Catalog
             this.InitializeComponent();
         }
 
-        private void addProductButton_Click(object sender, RoutedEventArgs e)
+        private async void addProductButton_Click(object sender, RoutedEventArgs e)
         {
             if (productNameText.Text == String.Empty) infoText.Text = "Name cannot be empty!";
             else if (priceText.Text == String.Empty) infoText.Text = "Price cannot be empty!";
@@ -38,8 +39,33 @@ namespace Coffee.Uwp.Views.Catalog
             else 
             { 
                 IUnitOfWork uow = new UnitOfWork();
-                var category = uow.CategoryRepository.FindByNameAsync(categoryText.Text);
-            
+                
+                Category cat = new Category();
+                cat.Name = categoryText.Text;
+                cat = uow.CategoryRepository.Create(cat);
+
+                Shop shop = new Shop();
+                shop.Name = shopNameText.Text;
+                shop = uow.ShopRepository.Create(shop);
+
+                Product product = new Product();
+                product.Name = productNameText.Text;
+                product.Price = float.Parse(priceText.Text);
+                product.Category = cat;
+                product.Shop = shop;
+
+                uow.ProductRepository.Create(product);
+                await uow.SaveAsync();
+
+                ContentDialog AddProductSuccessDialog = new ContentDialog()
+                {
+                    Title = "Add product Success!",
+                    Content = "Product created sucessfully!",
+                    CloseButtonText = "Ok!"
+                };
+
+                this.Frame.Navigate(typeof(Catalog));
+                await AddProductSuccessDialog.ShowAsync();
             }
         }
     }
