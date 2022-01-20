@@ -105,5 +105,30 @@ namespace Coffee.Uwp.Views.Catalog
             }
 
         }
+
+        private void addProductButton_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void editProductButton_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private async void deleteProductButton_Click(object sender, RoutedEventArgs e)
+        {
+            IUnitOfWork uow = new UnitOfWork();
+            var selected = (Product)listOfProducts.SelectedItem;
+            if (selected == null) infoText.Text = "Select item first";
+            else 
+            {
+                infoText.Text = "";
+                var product = await uow.ProductRepository.FindByIdAsync(selected.Id);
+                uow.ProductRepository.Delete(product);
+                await uow.SaveAsync();
+                this.Frame.Navigate(typeof(Catalog));
+            }
+        }
     }
 }
