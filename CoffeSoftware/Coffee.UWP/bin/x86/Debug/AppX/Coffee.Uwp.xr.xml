@@ -103,7 +103,7 @@
     <RootType FullName="Coffee.Uwp.Views.Login.Login" />
     <RootType FullName="Coffee.Uwp.Views.Login.Register" />
     <RootType FullName="Coffee.Uwp.Views.Menu.Menu" />
-    <RootType FullName="Coffee.Uwp.Views.Payment.Payment" />
+    <RootType FullName="Coffee.Uwp.Views.Payment.Card" />
     <RootType FullName="Coffee.Uwp.Views.Saved.Saved" />
     <RootType FullName="Coffee.Uwp.Views.Settings.ChangeEmail" />
     <RootType FullName="Coffee.Uwp.Views.Settings.ChangePassword" />

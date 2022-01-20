@@ -1,0 +1,30 @@
+﻿<Page
+    x:Class="Coffee.Uwp.Views.Payment.Card"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Coffee.Uwp.Views.Payment"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid Margin="100"  VerticalAlignment="Center">
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <TextBox x:ConnectionId='2' Grid.Row="1" Header="Your Card Number:" PlaceholderText="Card Number" x:Name="cardNumberText"/>
+        <TextBox x:ConnectionId='3' Grid.Row="2" Header="Your CVV:" PlaceholderText="CVV" x:Name="CVVText"/>
+        <TextBox x:ConnectionId='4' Grid.Row="3" Header="Your Card Name:" PlaceholderText="Card Name" x:Name="cardNameText"/>
+        <TextBlock />
+        <TextBlock x:ConnectionId='5' Grid.Row="4" Text="" x:Name="infoText"/>
+        <Button x:ConnectionId='6' Grid.Row ="5" Content="Buy" x:Name="Buy"                         />
+
+    </Grid>
+</Page>
+

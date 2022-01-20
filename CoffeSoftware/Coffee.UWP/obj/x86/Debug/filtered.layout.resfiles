@@ -16,7 +16,7 @@ Views\Home\Home.xbf
 Views\Login\Login.xbf
 Views\Login\Register.xbf
 Views\Menu\Menu.xbf
-Views\Payment\Payment.xbf
+Views\Payment\Card.xbf
 Views\Saved\Saved.xbf
 Views\Settings\ChangeEmail.xbf
 Views\Settings\ChangePassword.xbf

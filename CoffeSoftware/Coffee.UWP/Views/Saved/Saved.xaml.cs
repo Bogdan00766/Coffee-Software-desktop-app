@@ -1,4 +1,5 @@
 ﻿using Coffee.Uwp.ViewsModels;
+using Coffe.Domain.Models;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -31,6 +32,7 @@ namespace Coffee.Uwp.Views.Saved
             SavedViewModel = new SavedViewModel();
         }
 
+      
         protected override async void OnNavigatedTo(NavigationEventArgs e)
         {
             await SavedViewModel.LoadAllAsync();
