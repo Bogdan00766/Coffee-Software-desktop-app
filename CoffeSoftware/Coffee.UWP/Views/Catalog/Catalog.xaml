@@ -9,9 +9,15 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-    <Grid Background="Aqua">
-        <StackPanel Margin="322,0,0,14">
-            <ListView x:Name="listOfProducts" ItemsSource="{x:Bind ProductViewModel.Products}">
+    <Grid>
+        <Grid Margin="15,0,0,14">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            
+            <ListView Grid.Row="2" x:Name="listOfProducts" ItemsSource="{x:Bind ProductViewModel.Products}">
                 <ListView.ItemTemplate>
                     <DataTemplate x:DataType="models:Product">
                         <VariableSizedWrapGrid>
@@ -23,10 +29,15 @@
                     </DataTemplate>
                 </ListView.ItemTemplate>
             </ListView>
-            <TextBlock Text="" x:Name="infoText"/>
-            <Button Click="AddCartButton_Click">Add to cart</Button>
-            <Button Click="AddFacoriteButton_Click" Margin="0,20,21,32">Add to Favorite</Button>
-        </StackPanel>
-        
+            <TextBlock Grid.Row="1" Text="" x:Name="infoText"/>
+            <Grid Margin="0,10,0,0" Grid.Row="0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="auto"/>
+                    <ColumnDefinition Width="auto"/>
+                </Grid.ColumnDefinitions>
+                <Button Width="130" Margin="0" Grid.Column="0" Click="AddCartButton_Click">Add to cart</Button>
+                <Button Width="130" Margin="10" Grid.Column="1" Click="AddFacoriteButton_Click">Add to Favorite</Button>
+            </Grid>
+        </Grid>
     </Grid>
 </Page>

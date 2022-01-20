@@ -16,12 +16,14 @@
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
         <TextBlock Grid.Row="0" Text="Settings" FontSize="64" VerticalAlignment="Top" Margin="0, 10"/>
         <TextBlock Grid.Row="1" Text="" FontSize="32" x:Name="usernameText"/>
         <TextBlock Grid.Row="2" Text="" FontSize="32" x:Name="emailText"/>
         <Button Grid.Row="3" Content="Change password" Margin="0,10,0,0" x:Name="changePasswordButton" Click="changePasswordButton_Click"/>
         <Button Grid.Row="4" Content="Change email" Margin="0,10" x:Name="changeEmailButton" Click="changeEmailButton_Click"/>
+        <Button Grid.Row="5" Content="Make me admin" Margin="0,10" x:Name="makeAdminButton" Click="makeAdminButton_Click"/>
         <!--<TextBox Grid.Row="0" Header="Enter your e-mail:" PlaceholderText="Email" x:Name="emailText"/>
         <TextBox Grid.Row="1" Header="Enter your password:" PlaceholderText="Password" x:Name="passwordText"/>
         <TextBlock Grid.Row="2" Text="" x:Name="infoText"/>-->

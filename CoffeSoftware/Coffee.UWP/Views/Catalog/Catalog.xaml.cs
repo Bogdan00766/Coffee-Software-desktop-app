@@ -59,6 +59,7 @@ namespace Coffee.Uwp.Views.Catalog
                     
                     OrderList list = new OrderList();
                     var obj = (Product)listOfProducts.SelectedItem;
+                    if (obj == null) return;
                     list.Name = obj.Name;
                     list.CreationTime = "34";
                     list.User = user;
@@ -94,7 +95,7 @@ namespace Coffee.Uwp.Views.Catalog
                 {
                     var user = await uow.UserRepository.FindByEmailAsync(CurrentUser.Email);
                     var obj = (Product)listOfProducts.SelectedItem;
-
+                    if (obj == null) return;
                     Favorite favoriteProduct = new Favorite();
                     favoriteProduct.UserId = user.Id;
                     favoriteProduct.ProductId = obj.Id;
