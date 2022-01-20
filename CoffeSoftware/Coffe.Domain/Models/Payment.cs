@@ -20,7 +20,7 @@ namespace Coffe.Domain.Models
 
         public Payment(
             int cardNumber,
-            int cvv, 
+            int cvv,
             string cardName,
             int sum
            )

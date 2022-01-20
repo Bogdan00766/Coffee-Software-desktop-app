@@ -216,7 +216,6 @@ D:\for_visual_studio\ApplicationDevelopment\CoffeSoftware\Coffee.Uwp\bin\x86\Deb
 D:\for_visual_studio\ApplicationDevelopment\CoffeSoftware\Coffee.Uwp\bin\x86\Debug\Views\Login\Login.xbf
 D:\for_visual_studio\ApplicationDevelopment\CoffeSoftware\Coffee.Uwp\bin\x86\Debug\Views\Login\Register.xbf
 D:\for_visual_studio\ApplicationDevelopment\CoffeSoftware\Coffee.Uwp\bin\x86\Debug\Views\Menu\Menu.xbf
-D:\for_visual_studio\ApplicationDevelopment\CoffeSoftware\Coffee.Uwp\bin\x86\Debug\Views\Payment\Payment.xbf
 D:\for_visual_studio\ApplicationDevelopment\CoffeSoftware\Coffee.Uwp\bin\x86\Debug\Views\Saved\Saved.xbf
 D:\for_visual_studio\ApplicationDevelopment\CoffeSoftware\Coffee.Uwp\bin\x86\Debug\Views\Settings\ChangeEmail.xbf
 D:\for_visual_studio\ApplicationDevelopment\CoffeSoftware\Coffee.Uwp\bin\x86\Debug\Views\Settings\ChangePassword.xbf
@@ -276,8 +275,6 @@ D:\for_visual_studio\ApplicationDevelopment\CoffeSoftware\Coffee.Uwp\obj\x86\Deb
 D:\for_visual_studio\ApplicationDevelopment\CoffeSoftware\Coffee.Uwp\obj\x86\Debug\Views\Login\Register.g.cs
 D:\for_visual_studio\ApplicationDevelopment\CoffeSoftware\Coffee.Uwp\obj\x86\Debug\Views\Menu\Menu.g.i.cs
 D:\for_visual_studio\ApplicationDevelopment\CoffeSoftware\Coffee.Uwp\obj\x86\Debug\Views\Menu\Menu.g.cs
-D:\for_visual_studio\ApplicationDevelopment\CoffeSoftware\Coffee.Uwp\obj\x86\Debug\Views\Payment\Payment.g.i.cs
-D:\for_visual_studio\ApplicationDevelopment\CoffeSoftware\Coffee.Uwp\obj\x86\Debug\Views\Payment\Payment.g.cs
 D:\for_visual_studio\ApplicationDevelopment\CoffeSoftware\Coffee.Uwp\obj\x86\Debug\Views\Saved\Saved.g.i.cs
 D:\for_visual_studio\ApplicationDevelopment\CoffeSoftware\Coffee.Uwp\obj\x86\Debug\Views\Saved\Saved.g.cs
 D:\for_visual_studio\ApplicationDevelopment\CoffeSoftware\Coffee.Uwp\obj\x86\Debug\Views\Settings\ChangeEmail.g.i.cs
@@ -294,7 +291,6 @@ D:\for_visual_studio\ApplicationDevelopment\CoffeSoftware\Coffee.Uwp\obj\x86\Deb
 D:\for_visual_studio\ApplicationDevelopment\CoffeSoftware\Coffee.Uwp\obj\x86\Debug\Views\Login\Login.xaml
 D:\for_visual_studio\ApplicationDevelopment\CoffeSoftware\Coffee.Uwp\obj\x86\Debug\Views\Login\Register.xaml
 D:\for_visual_studio\ApplicationDevelopment\CoffeSoftware\Coffee.Uwp\obj\x86\Debug\Views\Menu\Menu.xaml
-D:\for_visual_studio\ApplicationDevelopment\CoffeSoftware\Coffee.Uwp\obj\x86\Debug\Views\Payment\Payment.xaml
 D:\for_visual_studio\ApplicationDevelopment\CoffeSoftware\Coffee.Uwp\obj\x86\Debug\Views\Saved\Saved.xaml
 D:\for_visual_studio\ApplicationDevelopment\CoffeSoftware\Coffee.Uwp\obj\x86\Debug\Views\Settings\ChangeEmail.xaml
 D:\for_visual_studio\ApplicationDevelopment\CoffeSoftware\Coffee.Uwp\obj\x86\Debug\Views\Settings\ChangePassword.xaml
@@ -306,7 +302,6 @@ D:\for_visual_studio\ApplicationDevelopment\CoffeSoftware\Coffee.Uwp\obj\x86\Deb
 D:\for_visual_studio\ApplicationDevelopment\CoffeSoftware\Coffee.Uwp\obj\x86\Debug\Views\Login\Login.xbf
 D:\for_visual_studio\ApplicationDevelopment\CoffeSoftware\Coffee.Uwp\obj\x86\Debug\Views\Login\Register.xbf
 D:\for_visual_studio\ApplicationDevelopment\CoffeSoftware\Coffee.Uwp\obj\x86\Debug\Views\Menu\Menu.xbf
-D:\for_visual_studio\ApplicationDevelopment\CoffeSoftware\Coffee.Uwp\obj\x86\Debug\Views\Payment\Payment.xbf
 D:\for_visual_studio\ApplicationDevelopment\CoffeSoftware\Coffee.Uwp\obj\x86\Debug\Views\Saved\Saved.xbf
 D:\for_visual_studio\ApplicationDevelopment\CoffeSoftware\Coffee.Uwp\obj\x86\Debug\Views\Settings\ChangeEmail.xbf
 D:\for_visual_studio\ApplicationDevelopment\CoffeSoftware\Coffee.Uwp\obj\x86\Debug\Views\Settings\ChangePassword.xbf
@@ -351,3 +346,8 @@ D:\for_visual_studio\ApplicationDevelopment\CoffeSoftware\Coffee.Uwp\obj\x86\Deb
 D:\for_visual_studio\ApplicationDevelopment\CoffeSoftware\Coffee.Uwp\obj\x86\Debug\Views\Catalog\Catalog.g.cs
 D:\for_visual_studio\ApplicationDevelopment\CoffeSoftware\Coffee.Uwp\obj\x86\Debug\Views\Catalog\Catalog.xaml
 D:\for_visual_studio\ApplicationDevelopment\CoffeSoftware\Coffee.Uwp\obj\x86\Debug\Views\Catalog\Catalog.xbf
+D:\for_visual_studio\ApplicationDevelopment\CoffeSoftware\Coffee.Uwp\obj\x86\Debug\Views\Payment\Card.g.i.cs
+D:\for_visual_studio\ApplicationDevelopment\CoffeSoftware\Coffee.Uwp\obj\x86\Debug\Views\Payment\Card.g.cs
+D:\for_visual_studio\ApplicationDevelopment\CoffeSoftware\Coffee.Uwp\obj\x86\Debug\Views\Payment\Card.xaml
+D:\for_visual_studio\ApplicationDevelopment\CoffeSoftware\Coffee.Uwp\obj\x86\Debug\Views\Payment\Card.xbf
+D:\for_visual_studio\ApplicationDevelopment\CoffeSoftware\Coffee.Uwp\bin\x86\Debug\Views\Payment\Card.xbf

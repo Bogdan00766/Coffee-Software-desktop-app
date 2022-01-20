@@ -70,8 +70,8 @@ namespace Coffee.Uwp
                     case "menu":
                         frame.Navigate(typeof(Menu));
                         break;
-                    case "payment":
-                        frame.Navigate(typeof(Payment));
+                    case "card":
+                        frame.Navigate(typeof(Card));
                         break;
                     case "catalog":
                         frame.Navigate(typeof(Catalog));

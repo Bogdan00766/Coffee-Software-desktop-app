@@ -145,8 +145,8 @@
     <Compile Include="Views\Menu\Menu.xaml.cs">
       <DependentUpon>Menu.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Views\Payment\Payment.xaml.cs">
-      <DependentUpon>Payment.xaml</DependentUpon>
+    <Compile Include="Views\Payment\Card.xaml.cs">
+      <DependentUpon>Card.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\Saved\Saved.xaml.cs">
       <DependentUpon>Saved.xaml</DependentUpon>
@@ -211,7 +211,7 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Views\Payment\Payment.xaml">
+    <Page Include="Views\Payment\Card.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

@@ -17,7 +17,7 @@
                 <NavigationViewItem Icon="AllApps" Content="Menu" Tag="menu"/>
                 <NavigationViewItem Icon="AllApps" Content="Catalog" Tag="catalog"/>
                 <NavigationViewItem Icon="Like" Content="Saved" Tag="saved"/>
-                <NavigationViewItem Icon="OpenPane" Content="Payment" Tag="payment"/>
+                <NavigationViewItem Icon="OpenPane" Content="Payment" Tag="card"/>
                 <NavigationViewItem Icon="Shop" Content="Cart" Tag="cart"/>
                 <NavigationViewItem Icon="Setting" Content="Settings" Tag="settings"/>
                 <NavigationViewItem Content="Login" Tag="login" x:Name="loginNav" />
