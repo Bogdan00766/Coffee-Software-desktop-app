@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "SGhTrO7SRLrXLbNI04yp4jKfQuRDShJj346cAeCoObNXLfRjo82xxrVjqJTn0ok2kVLZO4M0b8q1NBh4lv3l4w==",
+  "dgSpecHash": "caiXoARFc/T1zT4ES8Rkn6HcZXMmbYegWiRSaGVmp2vdVusLXtuQOZ98oYPKAcUWbMuVvzw9LTle+x72rScPdA==",
   "success": true,
-  "projectFilePath": "D:\\IPB\\AD\\Project\\CoffeSoftware\\ad-ei-project-group-04\\CoffeSoftware\\Coffe.Domain\\Coffe.Domain.csproj",
+  "projectFilePath": "D:\\for_visual_studio\\ApplicationDevelopment\\CoffeSoftware\\Coffe.Domain\\Coffe.Domain.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\pchud\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\pchud\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+    "C:\\Users\\dena_\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\dena_\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
   ],
   "logs": []
 }
