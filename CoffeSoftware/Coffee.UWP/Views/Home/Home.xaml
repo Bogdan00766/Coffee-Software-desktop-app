@@ -8,8 +8,58 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-    <Grid>
-        <TextBlock HorizontalAlignment="Center" Text="Home" TextWrapping="Wrap" VerticalAlignment="Center"/>
+        <Grid Background="#ECE5D8" >
+            <Grid.RowDefinitions>
+                <RowDefinition Height="50"/>
+                <RowDefinition Height="250"/>
+                <RowDefinition Height="100"/>
+                <RowDefinition Height="100"/>
+                <RowDefinition Height="50"/>
+                <RowDefinition Height="50"/>
+            </Grid.RowDefinitions>
 
-    </Grid>
+            <Grid>
+                <Grid HorizontalAlignment="Right" >
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="auto"/>
+                        <ColumnDefinition Width="auto"/>
+                    </Grid.ColumnDefinitions>
+                    <Button Margin="5">
+                        <TextBlock Text="SignIn" Foreground="White" FontWeight="SemiBold"/>
+                    </Button>
+                    <Button Grid.Column="1" Margin="5">
+                        <TextBlock Text="SignUp" Foreground="White" FontWeight="SemiBold"/>
+                    </Button>
+                </Grid>
+            </Grid>
+
+            <Grid Grid.Row="1" Margin="0,100,0,0">
+                <TextBlock Margin="100,35,0,15" Text="COFFEE SHOP" FontWeight="Bold" FontSize="60" Foreground="#C8492F" Grid.Row="0"/>
+            </Grid>
+            <Grid Grid.Row="2" >
+                <TextBlock Margin="100, 0, 0, 0" TextWrapping="Wrap" Width="250" Foreground="#704116" FontWeight="SemiBold" HorizontalAlignment="Left" Text="We are created with love for you because the world of coffee is a real paradise on Eath and the only thing that we have to do is to enjoy it. "/>
+            </Grid>
+            <Grid Grid.Row="3">
+                <Button Margin="100, 0, 0, 0" VerticalAlignment="Center" CornerRadius="9" Height="35" Width="110" Background="#C8492F">
+                    <TextBlock Text="Shop Now" Foreground="White" FontWeight="SemiBold"/>
+                </Button>
+            </Grid>
+            <Grid Grid.Row="4" Margin="100, 0, 0, 0" Height="50" VerticalAlignment="Top" >
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="30"/>
+                    <ColumnDefinition Width="auto"/>
+                </Grid.ColumnDefinitions>
+                <Image Source="/Assets/coffee.png" Height="32" Width="32"/>
+                <TextBlock Grid.Column="1" Margin="5,0,0,0" Foreground="#704116" FontWeight="SemiBold"  Text="100+ Exclusive tastes" TextWrapping="Wrap" Width="100" VerticalAlignment="Center" />
+            </Grid>
+            <Grid Grid.Row="5" Margin="100, 0, 0, 0" Height="50" VerticalAlignment="Top" >
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="30"/>
+                    <ColumnDefinition Width="auto"/>
+                </Grid.ColumnDefinitions>
+                <Image Source="/Assets/coffee1.png" Height="32" Width="32"/>
+                <TextBlock Grid.Column="1" Margin="5,0,0,0" Foreground="#704116" FontWeight="SemiBold" Text="50% LESS For you first order " TextWrapping="Wrap" Width="100" VerticalAlignment="Center" />
+            </Grid>
+        </Grid>
+
 </Page>
