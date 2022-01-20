@@ -53,7 +53,10 @@ namespace Coffee.Uwp.Views.Cart
             float sum = 0;
             foreach(Product prod in CartViewModel.ListProducts)
             {
-                sum += prod.Price;
+                if (prod != null)
+                {
+                    sum += prod.Price;
+                }
             }
             sumText.Text = "Full price: " + sum.ToString() + " €";
         }

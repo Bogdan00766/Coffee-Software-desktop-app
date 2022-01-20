@@ -9,6 +9,8 @@ namespace Coffe.Domain.Repositories
 {
     public interface IOrderListProductRepository : IRepository<OrderListProduct>
     {
-        
+        Task<int> AssignId();
+
+        Task<bool> CheckIfExist(int productId, int listId);
     }
 }

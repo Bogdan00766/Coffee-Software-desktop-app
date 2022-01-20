@@ -56,6 +56,7 @@ namespace Coffee.Uwp.Views.Catalog
                 if (isRegistered)
                 {
                     var user = await uow.UserRepository.FindByEmailAsync(CurrentUser.Email);
+                    
                     OrderList list = new OrderList();
                     var obj = (Product)listOfProducts.SelectedItem;
                     list.Name = obj.Name;
@@ -63,11 +64,16 @@ namespace Coffee.Uwp.Views.Catalog
                     list.User = user;
                     list = uow.OrderListRepository.Create(list);
                    
-                    OrderListProduct listProduct = new OrderListProduct();
-                    listProduct.OrderListId = list.Id;
-                    listProduct.ProductId = obj.Id;
-                    uow.OrderListProductRepository.Create(listProduct);
-                    await uow.SaveAsync();
+                    if (!(await uow.OrderListProductRepository.CheckIfExist(obj.Id, list.Id)))
+                    {
+                        OrderListProduct listProduct = new OrderListProduct();
+                        listProduct.OrderListId = list.Id;
+                        listProduct.ProductId = obj.Id;
+                        listProduct.Id = await uow.OrderListProductRepository.AssignId();
+                        uow.OrderListProductRepository.Create(listProduct);
+                        await uow.SaveAsync();
+                    }
+                    else uow.Dispose();
                 }
             }
         }
