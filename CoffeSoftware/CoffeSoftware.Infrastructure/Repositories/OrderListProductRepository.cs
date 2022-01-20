@@ -17,6 +17,32 @@ namespace Coffe.Infrastructure.Repositories
             _dbContext = dbContext;
         }
 
+        public Task<int> AssignId()
+        {
+            var lastRecord = _dbContext.OrderListProduct.OrderByDescending(x => x.Id).FirstOrDefault();
+            if (lastRecord != null)
+            {
+                return Task.FromResult(lastRecord.Id + 1);
+            }
+            else return Task.FromResult(1);
+        }
+
+        public Task<bool> CheckIfExist(int productId, int listId)
+        {
+            bool output = true;
+            try
+            {
+                _dbContext.OrderListProduct.Where(x => x.ProductId == productId).Where(y => y.OrderListId == listId).First();
+            }
+            catch(Exception e)
+            {
+                output = false;
+                return Task.FromResult(output); 
+
+            }
+            output = true;
+            return Task.FromResult(output);
+        }
     }
 }
 
