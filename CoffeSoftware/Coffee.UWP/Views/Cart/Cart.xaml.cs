@@ -1,5 +1,8 @@
 
-using Coffe.Domain;
+
+﻿using Coffe.Domain;
+using Coffe.Domain.Models;
+using Coffe.Infrastructure;
 using Coffee.Uwp.ViewsModels;
 using System;
 using System.Collections.Generic;
@@ -26,21 +29,53 @@ namespace Coffee.Uwp.Views.Cart
     public sealed partial class Cart : Page
     {
 
-        public OrderListProductViewModel OrderListProductViewModel { get; set; }
 
         public CartViewModel CartViewModel { get; set; }
 
         public Cart()
         {
-            OrderListProductViewModel = new OrderListProductViewModel();
+            //OrderListProductViewModel = new OrderListProductViewModel();
+            CartViewModel = new CartViewModel();
             this.InitializeComponent();
 
-            CartViewModel = new CartViewModel();
+            //CartViewModel = new CartViewModel();
         }
 
         protected override async void OnNavigatedTo(NavigationEventArgs e)
         {
-            await CartViewModel.LoadAllAsync();
+            await CartViewModel.LoadAllForUserAsync(CurrentUser.Id);
+            sum();
+            base.OnNavigatedTo(e);
         }
+
+        void sum()
+        {
+            float sum = 0;
+            foreach(Product prod in CartViewModel.ListProducts)
+            {
+                sum += prod.Price;
+            }
+            sumText.Text = "Full price: " + sum.ToString() + " €";
+        }
+
+        private void payButton_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private async void clearCart_Click(object sender, RoutedEventArgs e)
+        {
+            IUnitOfWork uow = new UnitOfWork();
+            await uow.ProductRepository.ClearAllForUserAsync(CurrentUser.Id);
+            await uow.SaveAsync();
+            this.Frame.Navigate(typeof(Cart));
+        }
+
+
+        //protected override async void OnNavigatedTo(NavigationEventArgs e)
+        //{
+        //    await OrderListProductViewModel.LoadAllForUserAsync(CurrentUser.Id);
+        //    base.OnNavigatedTo(e);
+        //}
     }
 }

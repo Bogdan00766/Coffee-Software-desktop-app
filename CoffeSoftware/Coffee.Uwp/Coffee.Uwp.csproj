@@ -119,6 +119,9 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+
+    <Compile Include="ViewsModels\OrderListProductViewModel.cs" />
+    <Compile Include="ViewsModels\CartViewModel.cs" />
     <Compile Include="ViewsModels\SavedViewModel.cs" />
     <Compile Include="ViewsModels\OrderListProductViewModel.cs" />
     <Compile Include="ViewsModels\CartViewModel.cs" />

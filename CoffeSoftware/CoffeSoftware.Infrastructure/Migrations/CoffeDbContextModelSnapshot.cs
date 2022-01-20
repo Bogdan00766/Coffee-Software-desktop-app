@@ -91,7 +91,8 @@ namespace Coffe.Infrastructure.Migrations
 
                     b.Property<int>("ProductId");
 
-                    b.Property<int>("Id");
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd();
 
                     b.HasKey("OrderListId", "ProductId");
 

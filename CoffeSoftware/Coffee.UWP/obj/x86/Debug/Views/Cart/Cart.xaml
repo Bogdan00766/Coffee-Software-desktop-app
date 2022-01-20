@@ -9,37 +9,54 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-        <ListView x:ConnectionId='2' x:Name="cartList" Grid.Row="1"                                                                   >
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        
+        <TextBlock HorizontalAlignment="Left" Margin="10,10,0,0" Text="Cart" TextWrapping="Wrap" FontSize="40" VerticalAlignment="Top"/>
+
+        <Button x:ConnectionId='2' Margin="0,20,20,0" x:Name="clearCart" HorizontalAlignment="Right" Grid.Column="0" Height="53" Width="70"                         >
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="27"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                </Grid.RowDefinitions>
+                <FontIcon Glyph="&#xE74D;"/>
+                <TextBlock Grid.Row="1" Text="Clear" FontSize="12" TextWrapping="WrapWholeWords" VerticalAlignment="Bottom"/>
+            </Grid>
+        </Button>
+
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="300"/>
+            </Grid.ColumnDefinitions>
+            <TextBlock FontWeight="Bold" Margin="10,10,0 ,0" FontSize="24" Text="Name:"/>
+            <TextBlock FontWeight="Bold" Margin="0,10,0,0" FontSize="24" HorizontalAlignment="Right" Text="Price"/>
+        </Grid>
+
+        <ListView x:ConnectionId='3' x:Name="cartList" Margin="0,15,0,0" HorizontalAlignment="Stretch" VerticalAlignment="Top" Grid.Row="2"                                                  >
             <ListView.ItemTemplate>
-                <DataTemplate x:Name="cartData"                            >
-                    <Grid x:ConnectionId='9'>
+                <DataTemplate x:Name="productData"                            >
+                    <Grid x:ConnectionId='7' HorizontalAlignment="Center">
                         <Grid.ColumnDefinitions>
-                            <ColumnDefinition Width="*"/>
-                            <ColumnDefinition Width="*"/>
-                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="300"/>
                         </Grid.ColumnDefinitions>
-                        <TextBlock x:ConnectionId='10'                      Grid.Column="0"/>
-                        <TextBlock x:ConnectionId='11'                       Grid.Column="1"/>
-                        <TextBlock x:ConnectionId='12'                          Grid.Column="2"/>
+                        <TextBlock x:ConnectionId='8' Margin="0,10" FontSize="24"                     />
+                        <TextBlock x:ConnectionId='9' Margin="0,10,20,0" FontSize="24" HorizontalAlignment="Right"                      />
+                        <TextBlock Margin="0,10" FontSize="24" HorizontalAlignment="Right" Text=" €"/>
                     </Grid>
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>
 
-        <TextBlock HorizontalAlignment="Left" Margin="1440,10,0,0" Text="Cart" TextWrapping="Wrap" VerticalAlignment="Top"/>
-        <StackPanel>
-            <ListView x:ConnectionId='3' x:Name="CartList"                                                  >
-                <ListView.ItemTemplate>
-                    <DataTemplate                                     >
-                        <VariableSizedWrapGrid>
-                            <TextBlock Text="{Binding ProductId}" Width="600"/>
-                            <TextBlock Text="{Binding OrderListId}" x:Name="productText" />
-                            <TextBlock Text="" x:Name="infoText"/>
-                        </VariableSizedWrapGrid>
-                    </DataTemplate>
-                </ListView.ItemTemplate>
-            </ListView>
-        </StackPanel>
+        <TextBlock x:ConnectionId='4' Grid.Row="3" Margin="0,0,15,15" FontSize="24" HorizontalAlignment="Right" VerticalAlignment="Bottom" x:Name="sumText" Text=""/>
+        <Button x:ConnectionId='5' FontSize="24" Width="200" HorizontalAlignment="Right" Grid.Row="4" Content="PAY" Margin="0,0,15,15" x:Name="payButton"                        />
     </Grid>
 </Page>
 
