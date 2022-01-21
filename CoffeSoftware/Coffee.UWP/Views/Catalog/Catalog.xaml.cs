@@ -113,7 +113,11 @@ namespace Coffee.Uwp.Views.Catalog
 
         private void editProductButton_Click(object sender, RoutedEventArgs e)
         {
-
+            var selected = (Product)listOfProducts.SelectedItem;
+            if (selected != null)
+            {
+                this.Frame.Navigate(typeof(AddProduct), selected);
+            }
         }
 
         private async void deleteProductButton_Click(object sender, RoutedEventArgs e)

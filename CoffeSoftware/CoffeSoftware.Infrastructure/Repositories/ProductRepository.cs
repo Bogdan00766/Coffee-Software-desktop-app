@@ -51,5 +51,13 @@ namespace Coffe.Infrastructure.Repositories
             }
             return Task.FromResult(true);
         }
+
+        public async Task<Product> FindByNameAsync(string name)
+        {
+            Product prod = _dbContext.Product.Where(x => x.Name == name).FirstOrDefault();
+            prod.Category = _dbContext.Category.Where(x => x.Products.Contains(prod)).FirstOrDefault();
+            prod.Shop = _dbContext.Shop.Where(x => x.Products.Contains(prod)).FirstOrDefault();
+            return await Task.FromResult(prod);
+        }
     }
 }

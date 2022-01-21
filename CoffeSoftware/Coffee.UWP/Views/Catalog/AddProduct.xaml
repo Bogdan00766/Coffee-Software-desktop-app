@@ -25,5 +25,6 @@
         <TextBox Grid.Row="3" Header="Enter shop name" PlaceholderText="Shop name" x:Name="shopNameText"/>
         <TextBlock Grid.Row="4" Text="" x:Name="infoText"/>
         <Button Grid.Row ="5" Content="Add product" x:Name="addProductButton" Click="addProductButton_Click" />
+        <Button Grid.Row ="5" Content="Update product" x:Name="updateProductButton" Click="updateProductButton_Click"  Visibility="Collapsed"/>
     </Grid>
 </Page>

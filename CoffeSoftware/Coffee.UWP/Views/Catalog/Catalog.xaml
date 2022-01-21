@@ -21,9 +21,10 @@
                 <ListView.ItemTemplate>
                     <DataTemplate x:DataType="models:Product">
                         <VariableSizedWrapGrid>
-                            <TextBlock Text="{Binding ImagePath}" Width="600"/>
                             <TextBlock Text="{Binding Name}" x:Name="productText" />
                             <TextBlock Text="{Binding Price}" />
+                            <TextBlock Text="{Binding Category.Name}" Width="600"/>
+                            <TextBlock Text="{Binding Shop.Name}" Width="600"/>
                             <TextBlock Text="" x:Name="infoText"/>
                         </VariableSizedWrapGrid>
                     </DataTemplate>
