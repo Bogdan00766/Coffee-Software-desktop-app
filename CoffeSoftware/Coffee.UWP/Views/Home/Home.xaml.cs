@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Coffe.Domain;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -25,11 +26,26 @@ namespace Coffee.Uwp.Views.Home
         public Home()
         {
             this.InitializeComponent();
+            if (!CurrentUser.isGuest)
+            {
+                loginButton.Visibility = Visibility.Collapsed;
+                registerButton.Visibility = Visibility.Collapsed;
+            }
         }
 
         private void shopButton_Click(object sender, RoutedEventArgs e)
         {
             this.Frame.Navigate(typeof(Views.Catalog.Catalog));
+        }
+
+        private void loginButton_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(Views.Login.Login));
+        }
+
+        private void registerButton_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(Views.Login.Register));
         }
     }
 }

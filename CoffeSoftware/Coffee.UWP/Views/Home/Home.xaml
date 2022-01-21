@@ -24,10 +24,10 @@
                         <ColumnDefinition Width="auto"/>
                         <ColumnDefinition Width="auto"/>
                     </Grid.ColumnDefinitions>
-                    <Button Margin="5">
+                    <Button Margin="5" x:Name="loginButton" Click="loginButton_Click">
                         <TextBlock Text="SignIn" Foreground="White" FontWeight="SemiBold"/>
                     </Button>
-                    <Button Grid.Column="1" Margin="5">
+                    <Button Grid.Column="1" Margin="5" x:Name="registerButton" Click="registerButton_Click">
                         <TextBlock Text="SignUp" Foreground="White" FontWeight="SemiBold"/>
                     </Button>
                 </Grid>
@@ -37,7 +37,7 @@
                 <TextBlock Margin="100,35,0,15" Text="COFFEE SHOP" FontWeight="Bold" FontSize="60" Foreground="#C8492F" Grid.Row="0"/>
             </Grid>
             <Grid Grid.Row="2" >
-                <TextBlock Margin="100, 0, 0, 0" TextWrapping="Wrap" Width="250" Foreground="#704116" FontWeight="SemiBold" HorizontalAlignment="Left" Text="We are created with love for you because the world of coffee is a real paradise on Eath and the only thing that we have to do is to enjoy it. "/>
+                <TextBlock Margin="100, 0, 0, 0" TextWrapping="WrapWholeWords" TextAlignment="Justify"  Width="250" Foreground="#704116" FontWeight="SemiBold" HorizontalAlignment="Left" Text="We are created with love for you because the world of coffee is a real paradise on Earth and the only thing that we have to do is to enjoy it. "/>
             </Grid>
             <Grid Grid.Row="3">
                 <Button Margin="100, 0, 0, 0" VerticalAlignment="Center" CornerRadius="9" Height="35" Width="110" Background="#C8492F" x:Name="shopButton" Click="shopButton_Click">
