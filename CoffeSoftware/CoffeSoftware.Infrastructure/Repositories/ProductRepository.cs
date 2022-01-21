@@ -36,7 +36,18 @@ namespace Coffe.Infrastructure.Repositories
             return await _dbContext.Product.Where(x => x.Name.ToLower().Contains(name.ToLower())).ToListAsync();
         }
 
-
+        public new async Task<List<Product>> FindAllAsync()
+        {
+            List<Product> output = new List<Product>();
+            List<Product> list = await _dbContext.Product.ToListAsync();
+            foreach(Product prod in list)
+            {
+                prod.Category = _dbContext.Category.Where(x => x.Products.Contains(prod)).FirstOrDefault();
+                prod.Shop = _dbContext.Shop.Where(x => x.Products.Contains(prod)).FirstOrDefault();
+                output.Add(prod);
+            }
+            return await Task.FromResult(output);
+        }
 
         public Task<List<Product>> FindAllFavoriteAsync(int id)
         {

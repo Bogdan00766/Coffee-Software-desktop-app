@@ -64,17 +64,15 @@ namespace Coffee.Uwp.Views.Catalog
                     list.CreationTime = "34";
                     list.User = user;
                     list = uow.OrderListRepository.Create(list);
-                   
-                    if (!await uow.OrderListProductRepository.CheckIfExist(obj.Id, list.Id))
-                    {
-                        OrderListProduct listProduct = new OrderListProduct();
-                        listProduct.OrderListId = list.Id;
-                        listProduct.ProductId = obj.Id;
-                        listProduct.Id = await uow.OrderListProductRepository.AssignId();
-                        uow.OrderListProductRepository.Create(listProduct);
-                        await uow.SaveAsync();
-                    }
-                    else uow.Dispose();
+                                    
+                    OrderListProduct listProduct = new OrderListProduct();
+                    listProduct.OrderListId = list.Id;
+                    listProduct.ProductId = obj.Id;
+                    listProduct.Id = await uow.OrderListProductRepository.AssignId();
+
+                    uow.OrderListProductRepository.Create(listProduct);
+                    await uow.SaveAsync();
+                    
                 }
             }
         }
@@ -97,7 +95,7 @@ namespace Coffee.Uwp.Views.Catalog
                     var obj = (Product)listOfProducts.SelectedItem;
                     if (obj == null) return;
                     Favorite favoriteProduct = new Favorite();
-                    favoriteProduct.UserId = user.Id;
+                    favoriteProduct.User = user;
                     favoriteProduct.ProductId = obj.Id;
                     uow.FavoriteRepository.Create(favoriteProduct);
                     await uow.SaveAsync();

@@ -43,6 +43,25 @@ namespace Coffe.Infrastructure.Repositories
             output = true;
             return Task.FromResult(output);
         }
+
+        public new OrderListProduct Create(OrderListProduct list)
+        {
+            var existinglist = _dbContext.OrderListProduct
+                .Where(x => x.OrderListId == list.OrderListId)
+                .Where(x => x.ProductId == list.ProductId)
+                .FirstOrDefault();
+            if (existinglist == null)
+            {
+                _dbContext.Add(list);
+                return list;
+            }
+            else
+            {
+                return existinglist;
+            }
+
+
+        }
     }
 }
 
