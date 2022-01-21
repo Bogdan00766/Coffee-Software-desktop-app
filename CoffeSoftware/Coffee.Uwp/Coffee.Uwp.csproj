@@ -146,9 +146,6 @@
     <Compile Include="Views\Login\Register.xaml.cs">
       <DependentUpon>Register.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Views\Menu\Menu.xaml.cs">
-      <DependentUpon>Menu.xaml</DependentUpon>
-    </Compile>
     <Compile Include="Views\Payment\Card.xaml.cs">
       <DependentUpon>Card.xaml</DependentUpon>
     </Compile>
@@ -212,10 +209,6 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Views\Login\Register.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Views\Menu\Menu.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
