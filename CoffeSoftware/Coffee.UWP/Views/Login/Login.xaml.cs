@@ -42,7 +42,7 @@ namespace Coffee.Uwp.Views.Login
             }
             else
             {
-                if (passwordText.Text == String.Empty)
+                if (passwordText.Password == String.Empty)
                 {
                     infoText.Text = "Password cannot be empty";
                 }
@@ -54,7 +54,7 @@ namespace Coffee.Uwp.Views.Login
                         {
 
                             infoText.Text = "";
-                            if (await uow.UserRepository.checkPasswordAsync(emailText.Text, passwordText.Text))
+                            if (await uow.UserRepository.checkPasswordAsync(emailText.Text, passwordText.Password))
                             {
                                 var uc = await uow.UserRepository.FindByEmailAsync(emailText.Text);
                                 CurrentUser.Login(uc);

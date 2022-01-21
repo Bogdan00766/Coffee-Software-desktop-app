@@ -53,8 +53,10 @@ namespace Coffee.Uwp.Views.Payment
                 if (isRegistered)
                 {
                     if (cardNumberText.Text == String.Empty) infoText.Text = "Card Number cannot be empty!";
-                        else if (CVVText.Text == String.Empty) infoText.Text = "String CVV cannot be empty!";
-                        else if (cardNameText.Text == String.Empty) infoText.Text = "Card Name cannot be empty!";
+                    else if (CVVText.Text == String.Empty) infoText.Text = "String CVV cannot be empty!";
+                    else if (cardNameText.Text == String.Empty) infoText.Text = "Card Name cannot be empty!";
+                    else if(!int.TryParse(cardNumberText.Text, out _)) infoText.Text = "Wrong card number!";
+                    else if (!int.TryParse(CVVText.Text, out _)) infoText.Text = "Wrong CVV number!";
                     else
                     {
                         var user = await uow.UserRepository.FindByEmailAsync(CurrentUser.Email);
@@ -63,6 +65,7 @@ namespace Coffee.Uwp.Views.Payment
                         card.CardNumber = int.Parse(cardNumberText.Text);
                         card.CVV = int.Parse(CVVText.Text);
                         card.CardName = cardNameText.Text;
+                        //////////
                         card.Sum = int.Parse(SumText.Text);
                         card.User = user;
                         uow.PaymentRepository.Create(card);
@@ -73,6 +76,7 @@ namespace Coffee.Uwp.Views.Payment
                             Content = "Congratulations! Your shopping success",
                             CloseButtonText = "Ok!"
                         };
+                        this.Frame.Navigate(typeof(Views.Cart.Cart));
                         await ShoppingSuccessDialog.ShowAsync();
                     }
                 }

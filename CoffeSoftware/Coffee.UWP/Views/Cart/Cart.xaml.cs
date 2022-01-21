@@ -45,26 +45,32 @@ namespace Coffee.Uwp.Views.Cart
         protected override async void OnNavigatedTo(NavigationEventArgs e)
         {
             await CartViewModel.LoadAllForUserAsync(CurrentUser.Id);
-            sum();
+            sumTextf();
             base.OnNavigatedTo(e);
         }
 
-        void sum()
+        float summary()
         {
             float sum = 0;
-            foreach(Product prod in CartViewModel.ListProducts)
+            foreach (Product prod in CartViewModel.ListProducts)
             {
                 if (prod != null)
                 {
                     sum += prod.Price;
                 }
             }
+            return sum;
+        }
+
+        void sumTextf()
+        {
+            float sum = summary();
             sumText.Text = "Full price: " + sum.ToString() + " €";
         }
 
         private void payButton_Click(object sender, RoutedEventArgs e)
         {
-            DataBank.Text = sumText.Text;
+            DataBank.Text = summary().ToString();
             this.Frame.Navigate(typeof(Card));
         }
 
