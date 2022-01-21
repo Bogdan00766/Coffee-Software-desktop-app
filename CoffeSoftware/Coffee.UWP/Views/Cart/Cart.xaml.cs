@@ -64,8 +64,8 @@ namespace Coffee.Uwp.Views.Cart
 
         private void payButton_Click(object sender, RoutedEventArgs e)
         {
-            int sum = int.Parse(sumText.Text);
-
+            DataBank.Text = sumText.Text;
+            this.Frame.Navigate(typeof(Card));
         }
 
         private async void clearCart_Click(object sender, RoutedEventArgs e)

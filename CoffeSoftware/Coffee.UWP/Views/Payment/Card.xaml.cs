@@ -15,6 +15,7 @@ using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
+using Coffee.Uwp.ViewsModels;
 
 // The Blank Page item template is documented at https://go.microsoft.com/fwlink/?LinkId=234238
 
@@ -25,10 +26,16 @@ namespace Coffee.Uwp.Views.Payment
     /// </summary>
     public sealed partial class Card : Page
     {
-        public Card(int sum)
+        public Card()
         {
             this.InitializeComponent();
-            Sum.Text = sum.ToString();
+        }
+
+        protected override void OnNavigatedTo(NavigationEventArgs e)
+        {
+            base.OnNavigatedTo(e);
+            SumText.Text = DataBank.Text;
+
         }
 
         private async void BuyButton_Click(object sender, RoutedEventArgs e)
@@ -56,7 +63,7 @@ namespace Coffee.Uwp.Views.Payment
                         card.CardNumber = int.Parse(cardNumberText.Text);
                         card.CVV = int.Parse(CVVText.Text);
                         card.CardName = cardNameText.Text;
-                        card.Sum = 45;
+                        card.Sum = int.Parse(SumText.Text);
                         card.User = user;
                         uow.PaymentRepository.Create(card);
                         await uow.SaveAsync();
