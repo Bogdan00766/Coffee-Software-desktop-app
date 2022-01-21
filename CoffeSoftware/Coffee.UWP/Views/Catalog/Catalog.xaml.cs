@@ -82,6 +82,7 @@ namespace Coffee.Uwp.Views.Catalog
                     OrderList list = new OrderList();
                     var obj = (Product)listOfProducts.SelectedItem;
                     if (obj == null) return;
+
                     list.Name = obj.Name;
                     list.CreationTime = "34";
                     list.User = user;

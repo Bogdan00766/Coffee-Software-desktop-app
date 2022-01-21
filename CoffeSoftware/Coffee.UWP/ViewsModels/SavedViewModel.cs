@@ -40,7 +40,10 @@ namespace Coffee.Uwp.ViewsModels
                 Favorites.Clear();
                 foreach (Product f in fav)
                 {
-                    Favorites.Add(f);
+                    if (f != null)
+                    {
+                        Favorites.Add(f);
+                    }
                 }
             }
         }
