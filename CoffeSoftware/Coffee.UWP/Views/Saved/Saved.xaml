@@ -12,7 +12,7 @@
         <Grid.RowDefinitions>
             <RowDefinition Height="auto"/>
             <RowDefinition Height="auto"/>
-            <RowDefinition Height="auto"/>
+            <RowDefinition Height="70"/>
             <RowDefinition Height="100"/>
             <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
@@ -32,11 +32,11 @@
                     <DataTemplate x:DataType="models:Product">
                         <Grid HorizontalAlignment="Center">
                             <Grid.ColumnDefinitions>
-                                <ColumnDefinition Width="300"/>
+                                <ColumnDefinition/>
                             </Grid.ColumnDefinitions>
-                            <TextBlock Text="{Binding Name}"/>
-                            <TextBlock Text="{Binding Price}"/>
-                            <TextBlock Text="{Binding ImagePath}"/>
+                            <TextBlock Margin="0,0,0,0" Text="{Binding Name}"/>
+                            <TextBlock Margin="200,0,0,0" Text="{Binding Price}"/>
+                            <TextBlock Margin="410,0,0,60" Text="{Binding ImagePath}"/>
                         </Grid>
                     </DataTemplate>
                 </ListView.ItemTemplate>
