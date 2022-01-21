@@ -24,10 +24,10 @@
                         <ColumnDefinition Width="auto"/>
                         <ColumnDefinition Width="auto"/>
                     </Grid.ColumnDefinitions>
-                    <Button Margin="5">
+                    <Button Margin="5" Click="SignInButton_Click">
                         <TextBlock Text="SignIn" Foreground="White" FontWeight="SemiBold"/>
                     </Button>
-                    <Button Grid.Column="1" Margin="5">
+                <Button Grid.Column="1" Margin="5" Click="SignUpButton_Click">
                         <TextBlock Text="SignUp" Foreground="White" FontWeight="SemiBold"/>
                     </Button>
                 </Grid>

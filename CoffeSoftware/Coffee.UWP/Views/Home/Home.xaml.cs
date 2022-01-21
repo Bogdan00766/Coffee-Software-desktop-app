@@ -31,5 +31,15 @@ namespace Coffee.Uwp.Views.Home
         {
             this.Frame.Navigate(typeof(Views.Catalog.Catalog));
         }
+
+        private void SignInButton_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(Views.Login.Login));
+        }
+
+        private void SignUpButton_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(Views.Login.Register));
+        }
     }
 }
