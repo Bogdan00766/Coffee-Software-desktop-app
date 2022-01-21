@@ -1,4 +1,5 @@
 ﻿using Coffe.Domain;
+using Coffe.Infrastructure;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -38,6 +39,7 @@ namespace Coffee.Uwp.Views.Settings
                 emailText.Text = "Email: " + CurrentUser.Email;
                 changePasswordButton.Visibility = Visibility.Visible;
                 changeEmailButton.Visibility = Visibility.Visible;
+                makeAdminButton.Visibility = Visibility.Visible;
             }
             else
             {
@@ -45,8 +47,13 @@ namespace Coffee.Uwp.Views.Settings
                 emailText.Visibility = 0;
                 changePasswordButton.Visibility = Visibility.Collapsed;
                 changeEmailButton.Visibility = Visibility.Collapsed;
-
+                makeAdminButton.Visibility = Visibility.Collapsed;
             }
+            if(CurrentUser.IsAdmin == true)
+            {
+                makeAdminButton.Visibility = Visibility.Collapsed;
+            }
+
         }
 
         private void changePasswordButton_Click(object sender, RoutedEventArgs e)
@@ -57,6 +64,15 @@ namespace Coffee.Uwp.Views.Settings
         private void changeEmailButton_Click(object sender, RoutedEventArgs e)
         {
             this.Frame.Navigate(typeof(ChangeEmail));
+        }
+
+        private void makeAdminButton_Click(object sender, RoutedEventArgs e)
+        {
+            using (IUnitOfWork uow = new UnitOfWork())
+            {
+                uow.UserRepository.MakeAdmin(CurrentUser.Id);
+            }
+            CurrentUser.IsAdmin = true;
         }
     }
 }

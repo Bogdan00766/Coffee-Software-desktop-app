@@ -34,5 +34,13 @@ namespace Coffe.Infrastructure.Repositories
             if (user != null) return Task.FromResult(true);
             else return Task.FromResult(false);
         }
+
+        public async Task<User> MakeAdmin(int user_id)
+        {
+            var user = _dbContext.User.Where(x => x.Id == user_id).FirstOrDefault();
+            user.IsAdmin = true;
+            await _dbContext.SaveChangesAsync();
+            return await Task.FromResult(user);
+        }
     }
 }
