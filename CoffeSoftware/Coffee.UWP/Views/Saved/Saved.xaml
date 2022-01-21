@@ -36,7 +36,6 @@
                             </Grid.ColumnDefinitions>
                             <TextBlock Text="{Binding Name}"/>
                             <TextBlock Text="{Binding Price}"/>
-                            <TextBlock Text="{Binding ImagePath}"/>
                         </Grid>
                     </DataTemplate>
                 </ListView.ItemTemplate>

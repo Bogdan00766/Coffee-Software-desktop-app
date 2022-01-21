@@ -9,8 +9,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Coffe.Infrastructure.Migrations
 {
     [DbContext(typeof(CoffeDbContext))]
-    [Migration("20220120113232_mig6")]
-    partial class mig6
+    [Migration("20220121174558_mig8")]
+    partial class mig8
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -63,8 +63,7 @@ namespace Coffe.Infrastructure.Migrations
 
                     b.HasIndex("ProductId");
 
-                    b.HasIndex("UserId")
-                        .IsUnique();
+                    b.HasIndex("UserId");
 
                     b.ToTable("Favorite");
                 });
@@ -93,8 +92,7 @@ namespace Coffe.Infrastructure.Migrations
 
                     b.Property<int>("ProductId");
 
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd();
+                    b.Property<int>("Id");
 
                     b.HasKey("OrderListId", "ProductId");
 
@@ -132,8 +130,6 @@ namespace Coffe.Infrastructure.Migrations
 
                     b.Property<int?>("CategoryId");
 
-                    b.Property<byte[]>("ImagePath");
-
                     b.Property<string>("Name");
 
                     b.Property<float>("Price");
@@ -154,11 +150,7 @@ namespace Coffe.Infrastructure.Migrations
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd();
 
-                    b.Property<byte[]>("ImagePath");
-
                     b.Property<string>("Name");
-
-                    b.Property<float>("Price");
 
                     b.HasKey("Id");
 
@@ -195,8 +187,8 @@ namespace Coffe.Infrastructure.Migrations
                         .OnDelete(DeleteBehavior.Cascade);
 
                     b.HasOne("Coffe.Domain.Models.User", "User")
-                        .WithOne("Favorite")
-                        .HasForeignKey("Coffe.Domain.Models.Favorite", "UserId")
+                        .WithMany("Favorites")
+                        .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade);
                 });
 

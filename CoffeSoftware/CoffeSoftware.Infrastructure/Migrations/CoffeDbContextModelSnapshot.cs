@@ -90,8 +90,7 @@ namespace Coffe.Infrastructure.Migrations
 
                     b.Property<int>("ProductId");
 
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd();
+                    b.Property<int>("Id");
 
                     b.HasKey("OrderListId", "ProductId");
 
@@ -129,8 +128,6 @@ namespace Coffe.Infrastructure.Migrations
 
                     b.Property<int?>("CategoryId");
 
-                    b.Property<byte[]>("ImagePath");
-
                     b.Property<string>("Name");
 
                     b.Property<float>("Price");
@@ -151,11 +148,7 @@ namespace Coffe.Infrastructure.Migrations
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd();
 
-                    b.Property<byte[]>("ImagePath");
-
                     b.Property<string>("Name");
-
-                    b.Property<float>("Price");
 
                     b.HasKey("Id");
 
