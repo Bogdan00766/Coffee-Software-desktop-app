@@ -64,7 +64,7 @@ namespace Coffee.Uwp.Views.Catalog
                     list.User = user;
                     list = uow.OrderListRepository.Create(list);
                    
-                    if (!(await uow.OrderListProductRepository.CheckIfExist(obj.Id, list.Id)))
+                    if (!await uow.OrderListProductRepository.CheckIfExist(obj.Id, list.Id))
                     {
                         OrderListProduct listProduct = new OrderListProduct();
                         listProduct.OrderListId = list.Id;

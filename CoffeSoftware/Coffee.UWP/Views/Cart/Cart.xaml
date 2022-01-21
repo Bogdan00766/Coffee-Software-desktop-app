@@ -56,6 +56,6 @@
         </ListView>
 
         <TextBlock Grid.Row="3" Margin="0,0,15,15" FontSize="24" HorizontalAlignment="Right" VerticalAlignment="Bottom" x:Name="sumText" Text=""/>
-        <Button FontSize="24" Width="200" HorizontalAlignment="Right" Grid.Row="3" Content="Buy" Margin="0,761,55,0" x:Name="payButton" Click="payButton_Click" VerticalAlignment="Top"/>
+        <Button FontSize="24" Width="200" HorizontalAlignment="Right" Grid.Row="3" Content="Buy" Margin="0,530,15,0" x:Name="payButton" Click="payButton_Click" VerticalAlignment="Top"/>
     </Grid>
 </Page>

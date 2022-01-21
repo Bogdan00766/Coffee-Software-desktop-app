@@ -12,7 +12,7 @@ namespace Coffe.Domain.Models
         public string Password { get; set; }
         public bool IsAdmin { get; set; }
         public Address Address { get; set; }
-        public Favorite Favorite { get; set; }
+        public List<Favorite> Favorites { get; set; }
         public List<OrderList> OrderLists { get; set; }
         public List<Payment> Payments { get; set; }
 
