@@ -41,7 +41,7 @@ namespace Coffee.Uwp
             else currentUserText.Text = "You are: " + CurrentUser.Username;
         }
 
-        void UpdateButtons()
+        public void UpdateButtons()
         {
             if (CurrentUser.isGuest == true)
             {
