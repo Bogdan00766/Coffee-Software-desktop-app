@@ -39,6 +39,28 @@ namespace Coffee.Uwp.Views.Catalog
         protected override async void OnNavigatedTo(NavigationEventArgs e)
         {
             await ProductViewModel.LoadAllAsync();
+            if (CurrentUser.isGuest)
+            {
+                addCartButton.Visibility = Visibility.Collapsed;
+                addFavoriteButton.Visibility = Visibility.Collapsed;
+            }
+            else
+            {
+                addCartButton.Visibility = Visibility.Visible;
+                addFavoriteButton.Visibility = Visibility.Visible;
+            }
+            if (!CurrentUser.IsAdmin)
+            {
+                addProductButton.Visibility = Visibility.Collapsed;
+                editProductButton.Visibility = Visibility.Collapsed;
+                deleteProductButton.Visibility = Visibility.Collapsed;
+            }
+            else
+            {
+                addProductButton.Visibility = Visibility.Visible;
+                editProductButton.Visibility = Visibility.Visible;
+                deleteProductButton.Visibility = Visibility.Visible;
+            }
         }
 
         private async void AddCartButton_Click(object sender, RoutedEventArgs e)
@@ -60,21 +82,20 @@ namespace Coffee.Uwp.Views.Catalog
                     OrderList list = new OrderList();
                     var obj = (Product)listOfProducts.SelectedItem;
                     if (obj == null) return;
+
                     list.Name = obj.Name;
                     list.CreationTime = "34";
                     list.User = user;
                     list = uow.OrderListRepository.Create(list);
-                   
-                    if (!await uow.OrderListProductRepository.CheckIfExist(obj.Id, list.Id))
-                    {
-                        OrderListProduct listProduct = new OrderListProduct();
-                        listProduct.OrderListId = list.Id;
-                        listProduct.ProductId = obj.Id;
-                        listProduct.Id = await uow.OrderListProductRepository.AssignId();
-                        uow.OrderListProductRepository.Create(listProduct);
-                        await uow.SaveAsync();
-                    }
-                    else uow.Dispose();
+                                    
+                    OrderListProduct listProduct = new OrderListProduct();
+                    listProduct.OrderListId = list.Id;
+                    listProduct.ProductId = obj.Id;
+                    listProduct.Id = await uow.OrderListProductRepository.AssignId();
+
+                    uow.OrderListProductRepository.Create(listProduct);
+                    await uow.SaveAsync();
+                    
                 }
             }
         }
@@ -138,6 +159,7 @@ namespace Coffee.Uwp.Views.Catalog
         private async void SearchButton_Click(object sender, RoutedEventArgs e)
         {
             await ProductViewModel.SearchAsync(textBlock1.Text);
+            //this.Frame.Navigate(typeof(Catalog));
         }
 
     }

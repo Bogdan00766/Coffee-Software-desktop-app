@@ -37,9 +37,9 @@ namespace Coffe.Infrastructure
                 .HasOne(olp => olp.Product)
                 .WithMany(ol => ol.OrderListProducts)
                 .HasForeignKey(olp => olp.ProductId);
-            modelBuilder.Entity<OrderListProduct>()
-            .Property(f => f.Id)
-            .ValueGeneratedOnAdd();
+            //modelBuilder.Entity<OrderListProduct>()
+            //.Property(f => f.Id)
+            //.ValueGeneratedOnAdd();
         }
 
         

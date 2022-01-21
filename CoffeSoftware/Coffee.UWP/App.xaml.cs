@@ -30,6 +30,7 @@ namespace Coffee.Uwp
         {
             this.InitializeComponent();
             this.Suspending += OnSuspending;
+            
         }
 
         /// <summary>

@@ -40,7 +40,7 @@
                 <TextBlock Margin="100, 0, 0, 0" TextWrapping="Wrap" Width="250" Foreground="#704116" FontWeight="SemiBold" HorizontalAlignment="Left" Text="We are created with love for you because the world of coffee is a real paradise on Eath and the only thing that we have to do is to enjoy it. "/>
             </Grid>
             <Grid Grid.Row="3">
-                <Button Margin="100, 0, 0, 0" VerticalAlignment="Center" CornerRadius="9" Height="35" Width="110" Background="#C8492F">
+                <Button Margin="100, 0, 0, 0" VerticalAlignment="Center" CornerRadius="9" Height="35" Width="110" Background="#C8492F" x:Name="shopButton" Click="shopButton_Click">
                     <TextBlock Text="Shop Now" Foreground="White" FontWeight="SemiBold"/>
                 </Button>
             </Grid>

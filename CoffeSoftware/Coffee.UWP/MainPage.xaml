@@ -10,18 +10,16 @@
 
     <Grid>
         
-        <NavigationView ItemInvoked="NavigationView_ItemInvoked" PaneDisplayMode="Left">
+        <NavigationView ItemInvoked="NavigationView_ItemInvoked" PaneDisplayMode="Left" IsBackButtonVisible="Collapsed" IsSettingsVisible="false" IsPaneToggleButtonVisible="False">
             <NavigationView.MenuItems>
-                
+
                 <NavigationViewItem Icon="Home" Content="Home" Tag="home"/>
-                <NavigationViewItem Icon="AllApps" Content="Menu" Tag="menu"/>
                 <NavigationViewItem Icon="AllApps" Content="Catalog" Tag="catalog"/>
-                <NavigationViewItem Icon="Like" Content="Saved" Tag="saved"/>
-                <NavigationViewItem Icon="OpenPane" Content="Payment" Tag="card"/>
-                <NavigationViewItem Icon="Shop" Content="Cart" Tag="cart"/>
-                <NavigationViewItem Icon="Setting" Content="Settings" Tag="settings"/>
-                <NavigationViewItem Content="Login" Tag="login" x:Name="loginNav" />
-                <NavigationViewItem Content="Logout" Tag="logout" x:Name="logoutNav"  />
+                <NavigationViewItem Icon="Like" Content="Saved" Tag="saved" x:Name="savedNav"/>
+                <NavigationViewItem Icon="Shop" Content="Cart" Tag="cart" x:Name="cartNav"/>
+                <NavigationViewItem Icon="Setting" Content="Settings" Tag="settings" x:Name="settingsNav"/>
+                <NavigationViewItem Icon="OpenPane" Content="Login" Tag="login" x:Name="loginNav" />
+                <NavigationViewItem Icon="OpenPane" Content="Logout" Tag="logout" x:Name="logoutNav"  />
             </NavigationView.MenuItems>
         </NavigationView>
         <TextBlock HorizontalAlignment="Right" VerticalAlignment="Bottom" Text="You are: Guest" x:Name="currentUserText"/>

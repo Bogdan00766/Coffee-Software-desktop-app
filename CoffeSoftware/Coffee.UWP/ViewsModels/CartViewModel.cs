@@ -29,7 +29,10 @@ namespace Coffee.Uwp.ViewsModels
                 ListProducts.Clear();
                 foreach (Product c in list)
                 {
-                    ListProducts.Add(c);
+                    if (c != null)
+                    {
+                        ListProducts.Add(c);
+                    }
                 }
             }
         }

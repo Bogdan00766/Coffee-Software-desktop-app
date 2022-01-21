@@ -120,10 +120,8 @@
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
     <Compile Include="ViewsModels\DataBank.cs" />
-    <Compile Include="ViewsModels\OrderListProductViewModel.cs" />
     <Compile Include="ViewsModels\CartViewModel.cs" />
     <Compile Include="ViewsModels\SavedViewModel.cs" />
-    <Compile Include="ViewsModels\OrderListProductViewModel.cs" />
     <Compile Include="ViewsModels\CartViewModel.cs" />
     <Compile Include="ViewsModels\ProductViewModel.cs" />
     <Compile Include="Views\Cart\Cart.xaml.cs">
@@ -147,9 +145,6 @@
     </Compile>
     <Compile Include="Views\Login\Register.xaml.cs">
       <DependentUpon>Register.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Views\Menu\Menu.xaml.cs">
-      <DependentUpon>Menu.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\Payment\Card.xaml.cs">
       <DependentUpon>Card.xaml</DependentUpon>
@@ -214,10 +209,6 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Views\Login\Register.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Views\Menu\Menu.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
