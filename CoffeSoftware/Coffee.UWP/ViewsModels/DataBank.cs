@@ -8,6 +8,6 @@ namespace Coffee.Uwp.ViewsModels
 {
     static class DataBank
     {
-        public static string Text;
+        public static string Text = "0";
     }
 }
