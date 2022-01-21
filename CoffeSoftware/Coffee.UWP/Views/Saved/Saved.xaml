@@ -9,19 +9,39 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-        <Button Margin="0,20,20,0" x:Name="clearSaved" HorizontalAlignment="Right" Content="Clear" Height="53" Width="70" Click="clearSaved_Click" />
-        <StackPanel Margin="322,0,0,14">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="100"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <TextBlock Grid.Row="0" HorizontalAlignment="Left" Margin="10,10,0,0" Text="Saved" TextWrapping="Wrap" FontSize="40" VerticalAlignment="Top" />
+        <Button Grid.Row="0" Margin="0,10,50,10" x:Name="clearSaved" VerticalAlignment="Center" HorizontalAlignment="Right" Content="Clear" Height="53" Width="70" Click="clearSaved_Click" />
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="500"/>
+            </Grid.ColumnDefinitions>
+            <TextBlock FontWeight="Bold" Margin="10,10,0 ,0" FontSize="24" Text="Name:"/>
+            <TextBlock FontWeight="Bold" Margin="0,10,0,0" FontSize="24" HorizontalAlignment="Center" Text="Price"/>
+            <TextBlock FontWeight="Bold" Margin="0,10,0,0" FontSize="24" HorizontalAlignment="Right" Text="Image"/>
+        </Grid>
+        <StackPanel Margin="10,20,0,14" Grid.Row="2">
             <ListView x:Name="listOfProducts" ItemsSource="{x:Bind SavedViewModel.Favorites}">
                 <ListView.ItemTemplate>
                     <DataTemplate x:DataType="models:Product">
-                        <VariableSizedWrapGrid>
-                            <TextBlock Text="{Binding Name}" Width="600"/>
-                            <TextBlock Text="{Binding Price}" Width="600"/>
-                            <TextBlock Text="{Binding ImagePath}" Width="600"/>
-                        </VariableSizedWrapGrid>
+                        <Grid HorizontalAlignment="Center">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="300"/>
+                            </Grid.ColumnDefinitions>
+                            <TextBlock Text="{Binding Name}"/>
+                            <TextBlock Text="{Binding Price}"/>
+                            <TextBlock Text="{Binding ImagePath}"/>
+                        </Grid>
                     </DataTemplate>
                 </ListView.ItemTemplate>
             </ListView>
         </StackPanel>
+        
     </Grid>
 </Page>

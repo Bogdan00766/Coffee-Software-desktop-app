@@ -36,22 +36,13 @@ namespace Coffee.Uwp.ViewsModels
             {
             using (IUnitOfWork uow = new UnitOfWork())
             {
-                 List<Product> fav = await uow.ProductRepository.FindAllFavoriteAsync(id);
+                List<Product> fav = await uow.ProductRepository.FindAllFavoriteAsync(id);
                 Favorites.Clear();
-                 foreach (Product f in fav)
-                 {
+                foreach (Product f in fav)
+                {
                     Favorites.Add(f);
-                 }
-            }
                 }
-                ////////////////////////////////////////////////////////////////////////////////////////////
-                //foreach (OrderListProduct p in db.OrderListProduct.Include(p => p.Product))
-                //{
-                //    foreach (OrderListProduct ol in db.OrderListProduct.Include(ol => ol.OrderList))
-                //    {
-                //        ListProducts.Add(p);
-                //        ListProducts.Add(ol);
-                //    }
-                //}
+            }
+        }
     }
 }
