@@ -14,9 +14,12 @@
             <Grid.RowDefinitions>
                 <RowDefinition Height="auto"/>
                 <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
                 <RowDefinition Height="*"/>
             </Grid.RowDefinitions>
-            
+            <TextBox Grid.Row="3" x:Name="textBlock1" Text="fdFFFFFFFFFFFFFFFFFv" />
+            <Button Grid.Row="4" Click="SearchButton_Click" Content="Search" />
             <ListView Grid.Row="2" x:Name="listOfProducts" ItemsSource="{x:Bind ProductViewModel.Products}">
                 <ListView.ItemTemplate>
                     <DataTemplate x:DataType="models:Product">

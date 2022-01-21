@@ -33,5 +33,18 @@ namespace Coffee.Uwp.ViewsModels
                 }
             }
         }
+
+        public async Task SearchAsync(string name)
+        {
+            using (IUnitOfWork uow = new UnitOfWork())
+            {
+                List<Product> list = await uow.ProductRepository.SearchAllAsync(name);
+                Products.Clear();
+                foreach (Product c in list)
+                {
+                    Products.Add(c);
+                }
+            }
+        }
     }
 }
