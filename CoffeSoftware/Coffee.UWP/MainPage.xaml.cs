@@ -16,7 +16,6 @@ using Coffee.Uwp.Views.Cart;
 using Coffee.Uwp.Views.Payment;
 using Coffee.Uwp.Views.Settings;
 using Coffee.Uwp.Views.Home;
-using Coffee.Uwp.Views.Menu;
 using Coffee.Uwp.Views.Saved;
 using Coffee.Uwp.Views.Login;
 using Coffe.Domain;
@@ -33,6 +32,7 @@ namespace Coffee.Uwp
         {
             this.InitializeComponent();
             UpdateButtons();
+            frame.Navigate(typeof(Home));
         }
 
         public void UpdateUserInfo()
@@ -47,11 +47,22 @@ namespace Coffee.Uwp
             {
                 loginNav.Visibility = Visibility.Visible;
                 logoutNav.Visibility = Visibility.Collapsed;
+
+                savedNav.Visibility = Visibility.Collapsed;
+                paymentNav.Visibility = Visibility.Collapsed;
+                cartNav.Visibility = Visibility.Collapsed;
+                settingsNav.Visibility = Visibility.Collapsed;
+
+
             }
             else
             {
                 loginNav.Visibility = Visibility.Collapsed;
                 logoutNav.Visibility = Visibility.Visible;
+                savedNav.Visibility = Visibility.Visible;
+                paymentNav.Visibility = Visibility.Visible;
+                cartNav.Visibility = Visibility.Visible;
+                settingsNav.Visibility = Visibility.Visible;
             }
         }
 
@@ -66,10 +77,7 @@ namespace Coffee.Uwp
                 {
                     case "home":
                         frame.Navigate(typeof(Home));
-                        break;
-                    case "menu":
-                        frame.Navigate(typeof(Menu));
-                        break;
+                        break;                   
                     case "card":
                         frame.Navigate(typeof(Card));
                         break;

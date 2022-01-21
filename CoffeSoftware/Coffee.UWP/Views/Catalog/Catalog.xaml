@@ -39,10 +39,10 @@
                     <ColumnDefinition Width="auto"/>
                     <ColumnDefinition Width="auto"/>
                 </Grid.ColumnDefinitions>
-                <Button Width="130" Margin="0" Grid.Column="0" Click="AddCartButton_Click">Add to cart</Button>
-                <Button Width="130" Margin="10" Grid.Column="1" Click="AddFacoriteButton_Click">Add to Favorite</Button>
+                <Button Width="130" Margin="0" Grid.Column="0" Click="AddCartButton_Click" x:Name="addCartButton">Add to cart</Button>
+                <Button Width="130" Margin="10" Grid.Column="1" Click="AddFacoriteButton_Click" x:Name="addFavoriteButton">Add to Favorite</Button>
             </Grid>
-            <Grid Margin="0,10,0,0" Grid.Row="0" HorizontalAlignment="Right">
+            <Grid Margin="0,10,0,0" Grid.Row="1" HorizontalAlignment="Right">
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="auto"/>
                     <ColumnDefinition Width="auto"/>
