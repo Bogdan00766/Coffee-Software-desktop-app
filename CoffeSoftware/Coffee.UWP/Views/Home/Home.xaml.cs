@@ -26,5 +26,10 @@ namespace Coffee.Uwp.Views.Home
         {
             this.InitializeComponent();
         }
+
+        private void shopButton_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(Views.Catalog.Catalog));
+        }
     }
 }

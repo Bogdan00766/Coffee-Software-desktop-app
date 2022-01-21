@@ -47,9 +47,7 @@ namespace Coffee.Uwp
             {
                 loginNav.Visibility = Visibility.Visible;
                 logoutNav.Visibility = Visibility.Collapsed;
-
-                savedNav.Visibility = Visibility.Collapsed;
-                paymentNav.Visibility = Visibility.Collapsed;
+                savedNav.Visibility = Visibility.Collapsed;             
                 cartNav.Visibility = Visibility.Collapsed;
                 settingsNav.Visibility = Visibility.Collapsed;
 
@@ -59,8 +57,7 @@ namespace Coffee.Uwp
             {
                 loginNav.Visibility = Visibility.Collapsed;
                 logoutNav.Visibility = Visibility.Visible;
-                savedNav.Visibility = Visibility.Visible;
-                paymentNav.Visibility = Visibility.Visible;
+                savedNav.Visibility = Visibility.Visible;               
                 cartNav.Visibility = Visibility.Visible;
                 settingsNav.Visibility = Visibility.Visible;
             }
