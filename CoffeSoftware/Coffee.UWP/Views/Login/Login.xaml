@@ -21,7 +21,7 @@
         <TextBox Grid.Row="0" Header="Enter your e-mail:" PlaceholderText="Email" x:Name="emailText"/>
         <TextBox Grid.Row="1" Header="Enter your password:" PlaceholderText="Password" x:Name="passwordText"/>
         <TextBlock Grid.Row="2" Text="" x:Name="infoText"/>
-        <Button Grid.Row ="3" Margin="0, 15" Content="Login" x:Name="loginButton" Click="loginButton_Click" />
+        <Button Grid.Row ="3" Margin="0, 15" Content="Login" x:Name="loginButton" Click="loginButton_Click"/>
         <Button Grid.Row ="4" Content="Register" x:Name="registerButton" Click="registerButton_Click" />
 
 

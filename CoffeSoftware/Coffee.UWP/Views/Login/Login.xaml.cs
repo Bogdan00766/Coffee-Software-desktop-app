@@ -66,7 +66,7 @@ namespace Coffee.Uwp.Views.Login
                                     CloseButtonText = "Ok!"
                                 };
 
-                                this.Frame.Navigate(typeof(Views.Home.Home)); ;
+                                this.Frame.Navigate(typeof(Views.Home.Home));
                                 await LoginSuccessDialog.ShowAsync();
 
                             }

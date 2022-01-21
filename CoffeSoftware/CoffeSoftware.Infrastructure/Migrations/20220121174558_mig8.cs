@@ -1,9 +1,8 @@
-﻿using System;
-using Microsoft.EntityFrameworkCore.Migrations;
+﻿using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace Coffe.Infrastructure.Migrations
 {
-    public partial class mig6 : Migration
+    public partial class mig8 : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -43,9 +42,7 @@ namespace Coffe.Infrastructure.Migrations
                 {
                     Id = table.Column<int>(nullable: false)
                         .Annotation("Sqlite:Autoincrement", true),
-                    Name = table.Column<string>(nullable: true),
-                    ImagePath = table.Column<byte[]>(nullable: true),
-                    Price = table.Column<float>(nullable: false)
+                    Name = table.Column<string>(nullable: true)
                 },
                 constraints: table =>
                 {
@@ -83,7 +80,6 @@ namespace Coffe.Infrastructure.Migrations
                         .Annotation("Sqlite:Autoincrement", true),
                     Name = table.Column<string>(nullable: true),
                     Price = table.Column<float>(nullable: false),
-                    ImagePath = table.Column<byte[]>(nullable: true),
                     CategoryId = table.Column<int>(nullable: true),
                     ShopId = table.Column<int>(nullable: true)
                 },
@@ -181,7 +177,6 @@ namespace Coffe.Infrastructure.Migrations
                     OrderListId = table.Column<int>(nullable: false),
                     ProductId = table.Column<int>(nullable: false),
                     Id = table.Column<int>(nullable: false)
-                        .Annotation("Sqlite:Autoincrement", true)
                 },
                 constraints: table =>
                 {
@@ -208,8 +203,7 @@ namespace Coffe.Infrastructure.Migrations
             migrationBuilder.CreateIndex(
                 name: "IX_Favorite_UserId",
                 table: "Favorite",
-                column: "UserId",
-                unique: true);
+                column: "UserId");
 
             migrationBuilder.CreateIndex(
                 name: "IX_OrderList_UserId",

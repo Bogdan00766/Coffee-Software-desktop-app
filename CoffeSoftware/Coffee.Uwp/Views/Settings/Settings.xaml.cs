@@ -73,6 +73,7 @@ namespace Coffee.Uwp.Views.Settings
                 uow.UserRepository.MakeAdmin(CurrentUser.Id);
             }
             CurrentUser.IsAdmin = true;
+            infoText.Text = "You are admin now";
         }
     }
 }

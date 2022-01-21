@@ -8,8 +8,6 @@ namespace Coffe.Domain.Models
     public class Shop : Entity
     {
         public string Name { get; set; }
-        public byte[] ImagePath { get; set; }
-        public float Price { get; set; }
         public List<Product> Products { get; set; }
 
         public Shop()
@@ -17,14 +15,9 @@ namespace Coffe.Domain.Models
 
         }
 
-        public Shop(string name, 
-            byte[] imagePath, 
-            float price 
-            )
+        public Shop(string name)
         {
             Name = name;
-            ImagePath = imagePath;
-            Price = price;
         }
     }
 }
