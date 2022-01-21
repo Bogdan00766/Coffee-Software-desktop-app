@@ -9,6 +9,7 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
+        <Button Margin="0,20,20,0" x:Name="clearSaved" HorizontalAlignment="Right" Content="Clear" Height="53" Width="70" Click="clearSaved_Click" />
         <StackPanel Margin="322,0,0,14">
             <ListView x:Name="listOfProducts" ItemsSource="{x:Bind SavedViewModel.Favorites}">
                 <ListView.ItemTemplate>

@@ -134,5 +134,11 @@ namespace Coffee.Uwp.Views.Catalog
                 this.Frame.Navigate(typeof(Catalog));
             }
         }
+
+        private async void SearchButton_Click(object sender, RoutedEventArgs e)
+        {
+            await ProductViewModel.SearchAsync(textBlock1.Text);
+        }
+
     }
 }

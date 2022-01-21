@@ -13,5 +13,7 @@ namespace Coffe.Domain.Repositories
         Task<bool> ClearAllForUserAsync(int id);
         Task<List<Product>> FindAllFavoriteAsync(int id);
         Task<Product> FindByNameAsync(string name);
+        Task<bool> ClearAllFavoriteAsync(int id);
+        Task<List<Product>> SearchAllAsync(string name);
     }
 }

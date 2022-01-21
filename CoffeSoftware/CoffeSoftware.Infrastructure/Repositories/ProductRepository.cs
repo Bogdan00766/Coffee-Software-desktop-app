@@ -1,5 +1,6 @@
 ﻿using Coffe.Domain.Models;
 using Coffe.Domain.Repositories;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -28,6 +29,15 @@ namespace Coffe.Infrastructure.Repositories
             return Task.FromResult(productsList);
         }
 
+
+
+        public async Task<List<Product>> SearchAllAsync(string name)
+        {
+            return await _dbContext.Product.Where(x => x.Name.ToLower().Contains(name.ToLower())).ToListAsync();
+        }
+
+
+
         public Task<List<Product>> FindAllFavoriteAsync(int id)
         {
             List<Product> AddProduct = new List<Product>();
@@ -38,7 +48,18 @@ namespace Coffe.Infrastructure.Repositories
                 AddProduct.Add(product);
             }
             return Task.FromResult(AddProduct);
-        } 
+        }
+
+        public Task<bool> ClearAllFavoriteAsync(int id)
+        {
+            List<Product> AddProduct = new List<Product>();
+            var tmp = _dbContext.Favorite.Where(x => x.User.Id == id).ToList();
+            foreach (Favorite fav in tmp)
+            {
+                _dbContext.Favorite.Remove(fav);
+            }
+            return Task.FromResult(true);
+        }
 
         public Task<bool> ClearAllForUserAsync(int id)
         {
